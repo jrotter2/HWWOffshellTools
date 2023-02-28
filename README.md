@@ -26,4 +26,5 @@ The script can be run using,
 cd merging-procedure
 python preprocessing_samples.py
 ```
+Histograms after each step in the procedure will be stored in `output_preprocessing.root`, 2d plots will be stored in `output_preprocessing.pdf`, and all computed weights will be stored in `output_preprocessing.json` to be used in the Latinos Module. 
 
