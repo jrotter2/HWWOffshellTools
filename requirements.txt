@@ -1,0 +1,11 @@
+hist
+mplhep
+matplotlib
+numpy
+scipy
+uproot
+scikit-learn
+boost-histogram
+awkward1
+tqdm
+xrootd
