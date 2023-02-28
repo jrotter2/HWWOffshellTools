@@ -12,7 +12,7 @@ cd CMSSW_10_6_19_patch2/src
 git clone git@github.com:jrotter2/HWWOffshellTools.git
 cd HWWOffshellTools
 
-pip3 install -r requirements.txt --user
+pip install -r requirements.txt --user
 ```
 
 ### Configurations
