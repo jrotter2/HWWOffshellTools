@@ -370,7 +370,7 @@ def makeOutputJSON(SIG_cutoffs_by_sample, CONT_cutoffs_by_sample, SIGplusCONT_cu
                        "COMB_WGTS": combine_wgts_by_sample[i], "RENORM_WGT":scalefactor_wgt_by_sample[i]}
         output_data[SAMPLE_PREFIX[sample_index] + str(SAMPLES[i])] = SAMPLE_DATA
     output_json = json.dumps(output_data, indent=4)
-    with open(OUTJSON_NAME, "w") as outfile:
+    with open(str(SAMPLE_TYPE[sample_type]) + "_" + OUTJSON_NAME, "w") as outfile:
         outfile.write(output_json)
 
 def flatten_2d(arr):
