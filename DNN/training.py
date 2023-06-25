@@ -2,20 +2,20 @@ import uproot
 import pandas
 import json
 import numpy as np
-#from keras.models import Sequential
-#from keras.layers import Dense
-#from keras.wrappers.scikit_learn import KerasClassifier
-#from keras.utils import np_utils
-#from sklearn.model_selection import cross_val_score
-#from sklearn.model_selection import KFold
-#from sklearn.preprocessing import LabelEncoder
-#from sklearn.pipeline import Pipeline
+from keras.models import Sequential
+from keras.layers import Dense
+from keras.wrappers.scikit_learn import KerasClassifier
+from keras.utils import np_utils
+from sklearn.model_selection import cross_val_score
+from sklearn.model_selection import KFold
+from sklearn.preprocessing import LabelEncoder
+from sklearn.pipeline import Pipeline
 
-
-MAX_EVENTS_PER_CATEGORY = 1000
+MAX_EVENTS_PER_CATEGORY = 10000
 
 CATEGORIES = ["VBF", "ggH", "top", "WW"] #Titles for categories
 CAT_CONFIG_IDS = ["VBF", "ggH", "top", "WW"] #For now are the same as titles but may include versioning later
+ENCODING = {"VBF_2018v7" : [1,0,0,0], "ggH_2018v7" : [0,1,0,0], "top_2018v7": [0,0,1,0], "WW_2018v7":[0,0,0,1]}
 
 CAT_CONFIG_IDS = ["VBF_2018v7", "ggH_2018v7", "top_2018v7", "WW_2018v7"]
 
@@ -74,11 +74,21 @@ def baseline_model():
     model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
     return model
 
-X = loadVariables()
-print(len(X["WW_2018v7"]))
-#estimator = KerasClassifier(build_fn=baseline_model, epochs=200, batch_size=10, verbose=0)
-#kfold = KFold(n_splits=10, shuffle=True)
-#results = cross_val_score(estimator, X, Y, cv=kfold)
-#print(results)
-#print("Baseline: %.2f%% (%.2f%%)" % (results.mean()*100, results.std()*100))
+X_mixed = loadVariables()
+
+X = []
+Y = []
+
+for category in CAT_CONFIG_IDS:
+    for arr in X_mixed[category]:
+        X.append(arr)
+        Y.append(ENCODING[category])
+
+print("X:" + str(len(X)) + ", " + str(len(X[0])), "Y:" + str(len(Y)) + ", " + str(len(Y[0])))
+
+estimator = KerasClassifier(build_fn=baseline_model, epochs=200, batch_size=1000, verbose=0)
+kfold = KFold(n_splits=10, shuffle=True)
+results = cross_val_score(estimator, X, Y, cv=kfold)
+print(results)
+print("Baseline: %.2f%% (%.2f%%)" % (results.mean()*100, results.std()*100))
 
