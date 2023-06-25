@@ -1,0 +1,293 @@
+{
+    "HM_900": {
+        "files": [
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M900__part0.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M900__part1.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M900__part10.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M900__part11.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M900__part12.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M900__part13.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M900__part14.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M900__part15.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M900__part16.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M900__part17.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M900__part2.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M900__part3.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M900__part4.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M900__part5.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M900__part6.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M900__part7.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M900__part8.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M900__part9.root"
+        ]
+    }, 
+    "HM_2000": {
+        "files": [
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M2000__part1.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M2000__part11.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M2000__part12.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M2000__part13.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M2000__part15.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M2000__part16.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M2000__part17.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M2000__part19.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M2000__part4.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M2000__part5.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M2000__part6.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M2000__part7.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M2000__part8.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M2000__part9.root"
+        ]
+    }, 
+    "HM_350": {
+        "files": [
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M350__part0.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M350__part1.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M350__part10.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M350__part11.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M350__part12.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M350__part13.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M350__part14.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M350__part15.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M350__part16.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M350__part17.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M350__part18.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M350__part19.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M350__part2.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M350__part3.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M350__part4.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M350__part5.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M350__part6.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M350__part7.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M350__part8.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M350__part9.root"
+        ]
+    }, 
+    "HM_1000": {
+        "files": [
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M1000__part0.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M1000__part1.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M1000__part10.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M1000__part11.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M1000__part12.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M1000__part13.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M1000__part14.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M1000__part15.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M1000__part16.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M1000__part2.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M1000__part3.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M1000__part4.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M1000__part5.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M1000__part6.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M1000__part7.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M1000__part8.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M1000__part9.root"
+        ]
+    }, 
+    "HM_800": {
+        "files": [
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M800__part0.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M800__part1.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M800__part10.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M800__part11.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M800__part12.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M800__part13.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M800__part14.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M800__part15.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M800__part2.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M800__part3.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M800__part4.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M800__part5.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M800__part6.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M800__part7.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M800__part8.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M800__part9.root"
+        ]
+    }, 
+    "HM_600": {
+        "files": [
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M600__part0.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M600__part1.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M600__part2.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M600__part3.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M600__part4.root"
+        ]
+    }, 
+    "HM_210": {
+        "files": [
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M210__part0.root"
+        ]
+    }, 
+    "HM_190": {
+        "files": [
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M190__part0.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M190__part1.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M190__part2.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M190__part3.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M190__part4.root"
+        ]
+    }, 
+    "HM_700": {
+        "files": [
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M700__part0.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M700__part1.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M700__part2.root"
+        ]
+    }, 
+    "HM_450": {
+        "files": [
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M450__part0.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M450__part1.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M450__part2.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M450__part3.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M450__part4.root"
+        ]
+    }, 
+    "HM_270": {
+        "files": [
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M270__part0.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M270__part1.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M270__part2.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M270__part3.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M270__part4.root"
+        ]
+    }, 
+    "HM_3000": {
+        "files": [
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M3000__part0.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M3000__part1.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M3000__part2.root"
+        ]
+    }, 
+    "HM_230": {
+        "files": [
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M230__part0.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M230__part1.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M230__part2.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M230__part3.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M230__part4.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M230__part5.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M230__part6.root"
+        ]
+    }, 
+    "HM_170": {
+        "files": [
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M170__part0.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M170__part1.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M170__part2.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M170__part3.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M170__part4.root"
+        ]
+    }, 
+    "HM_250": {
+        "files": [
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M250__part0.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M250__part1.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M250__part2.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M250__part3.root"
+        ]
+    }, 
+    "HM_1500": {
+        "files": [
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M1500__part0.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M1500__part1.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M1500__part2.root"
+        ]
+    }, 
+    "HM_400": {
+        "files": [
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M400__part0.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M400__part1.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M400__part10.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M400__part11.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M400__part12.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M400__part13.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M400__part14.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M400__part15.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M400__part16.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M400__part2.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M400__part3.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M400__part4.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M400__part5.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M400__part6.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M400__part7.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M400__part8.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M400__part9.root"
+        ]
+    }, 
+    "HM_180": {
+        "files": [
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M180__part0.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M180__part1.root"
+        ]
+    }, 
+    "HM_500": {
+        "files": [
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M500__part0.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M500__part1.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M500__part10.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M500__part11.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M500__part12.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M500__part13.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M500__part14.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M500__part15.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M500__part16.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M500__part17.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M500__part18.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M500__part19.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M500__part2.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M500__part3.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M500__part4.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M500__part5.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M500__part6.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M500__part7.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M500__part8.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M500__part9.root"
+        ]
+    }, 
+    "HM_2500": {
+        "files": [
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M2500__part0.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M2500__part1.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M2500__part10.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M2500__part11.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M2500__part2.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M2500__part3.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M2500__part4.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M2500__part5.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M2500__part6.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M2500__part7.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M2500__part8.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M2500__part9.root"
+        ]
+    }, 
+    "HM_200": {
+        "files": [
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M200__part0.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M200__part1.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M200__part2.root"
+        ]
+    }, 
+    "HM_300": {
+        "files": [
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M300__part0.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M300__part1.root"
+        ]
+    }, 
+    "HM_125": {
+        "files": [
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M125__part0.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M125__part1.root"
+        ]
+    }, 
+    "HM_550": {
+        "files": [
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M550__part0.root"
+        ]
+    }, 
+    "HM_160": {
+        "files": [
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v2/nanoLatino_GluGluHToWWTo2L2Nu_M160__part0.root"
+        ]
+    }
+}

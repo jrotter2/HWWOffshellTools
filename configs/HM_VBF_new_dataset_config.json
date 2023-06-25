@@ -1,0 +1,373 @@
+{
+    "HM_VBF_new_1500": {
+        "files": [
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M1500__part0.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M1500__part1.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M1500__part10.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M1500__part2.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M1500__part3.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M1500__part4.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M1500__part5.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M1500__part6.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M1500__part7.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M1500__part8.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M1500__part9.root"
+        ]
+    }, 
+    "HM_VBF_new_190": {
+        "files": [
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M190__part0.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M190__part1.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M190__part10.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M190__part2.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M190__part3.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M190__part4.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M190__part5.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M190__part6.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M190__part7.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M190__part8.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M190__part9.root"
+        ]
+    }, 
+    "HM_VBF_new_900": {
+        "files": [
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M900__part0.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M900__part1.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M900__part2.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M900__part3.root"
+        ]
+    }, 
+    "HM_VBF_new_1000": {
+        "files": [
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M1000__part0.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M1000__part1.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M1000__part10.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M1000__part11.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M1000__part12.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M1000__part13.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M1000__part14.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M1000__part15.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M1000__part16.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M1000__part17.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M1000__part2.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M1000__part3.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M1000__part4.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M1000__part5.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M1000__part6.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M1000__part7.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M1000__part8.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M1000__part9.root"
+        ]
+    }, 
+    "HM_VBF_new_800": {
+        "files": [
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M800__part0.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M800__part1.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M800__part10.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M800__part2.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M800__part3.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M800__part4.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M800__part5.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M800__part6.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M800__part7.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M800__part8.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M800__part9.root"
+        ]
+    }, 
+    "HM_VBF_new_200": {
+        "files": [
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M200__part0.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M200__part1.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M200__part2.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M200__part3.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M200__part4.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M200__part5.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M200__part6.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M200__part7.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M200__part8.root"
+        ]
+    }, 
+    "HM_VBF_new_3000": {
+        "files": [
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M3000__part0.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M3000__part1.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M3000__part2.root"
+        ]
+    }, 
+    "HM_VBF_new_160": {
+        "files": [
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M160__part0.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M160__part1.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M160__part2.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M160__part3.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M160__part4.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M160__part5.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M160__part6.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M160__part7.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M160__part8.root"
+        ]
+    }, 
+    "HM_VBF_new_125": {
+        "files": [
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M125__part0.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M125__part1.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M125__part10.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M125__part11.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M125__part12.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M125__part2.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M125__part3.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M125__part4.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M125__part5.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M125__part6.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M125__part7.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M125__part8.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M125__part9.root"
+        ]
+    }, 
+    "HM_VBF_new_350": {
+        "files": [
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M350__part0.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M350__part1.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M350__part10.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M350__part2.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M350__part3.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M350__part4.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M350__part5.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M350__part6.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M350__part7.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M350__part8.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M350__part9.root"
+        ]
+    }, 
+    "HM_VBF_new_550": {
+        "files": [
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M550__part0.root"
+        ]
+    }, 
+    "HM_VBF_new_450": {
+        "files": [
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M450__part0.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M450__part1.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M450__part10.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M450__part11.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M450__part12.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M450__part13.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M450__part2.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M450__part3.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M450__part4.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M450__part5.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M450__part6.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M450__part7.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M450__part8.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M450__part9.root"
+        ]
+    }, 
+    "HM_VBF_new_2000": {
+        "files": [
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M2000__part0.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M2000__part1.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M2000__part10.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M2000__part11.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M2000__part12.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M2000__part13.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M2000__part14.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M2000__part15.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M2000__part2.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M2000__part3.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M2000__part4.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M2000__part5.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M2000__part6.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M2000__part7.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M2000__part8.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M2000__part9.root"
+        ]
+    }, 
+    "HM_VBF_new_180": {
+        "files": [
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M180__part0.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M180__part1.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M180__part10.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M180__part11.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M180__part12.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M180__part13.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M180__part14.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M180__part2.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M180__part3.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M180__part4.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M180__part5.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M180__part6.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M180__part7.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M180__part8.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M180__part9.root"
+        ]
+    }, 
+    "HM_VBF_new_700": {
+        "files": [
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M700__part0.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M700__part1.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M700__part10.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M700__part11.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M700__part12.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M700__part13.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M700__part14.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M700__part2.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M700__part3.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M700__part4.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M700__part5.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M700__part6.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M700__part7.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M700__part8.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M700__part9.root"
+        ]
+    }, 
+    "HM_VBF_new_2500": {
+        "files": [
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M2500__part0.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M2500__part1.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M2500__part10.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M2500__part11.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M2500__part12.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M2500__part13.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M2500__part14.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M2500__part15.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M2500__part2.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M2500__part3.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M2500__part4.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M2500__part5.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M2500__part6.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M2500__part7.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M2500__part8.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M2500__part9.root"
+        ]
+    }, 
+    "HM_VBF_new_600": {
+        "files": [
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M600__part0.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M600__part1.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M600__part10.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M600__part11.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M600__part12.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M600__part13.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M600__part14.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M600__part15.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M600__part16.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M600__part17.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M600__part2.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M600__part3.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M600__part4.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M600__part5.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M600__part6.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M600__part7.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M600__part8.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M600__part9.root"
+        ]
+    }, 
+    "HM_VBF_new_210": {
+        "files": [
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M210__part0.root"
+        ]
+    }, 
+    "HM_VBF_new_230": {
+        "files": [
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M230__part0.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M230__part1.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M230__part2.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M230__part3.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M230__part4.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M230__part5.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M230__part6.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M230__part7.root"
+        ]
+    }, 
+    "HM_VBF_new_170": {
+        "files": [
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M170__part0.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M170__part1.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M170__part10.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M170__part11.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M170__part12.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M170__part13.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M170__part14.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M170__part15.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M170__part2.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M170__part3.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M170__part4.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M170__part5.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M170__part6.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M170__part7.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M170__part8.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M170__part9.root"
+        ]
+    }, 
+    "HM_VBF_new_500": {
+        "files": [
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M500__part10.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M500__part11.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M500__part12.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M500__part13.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M500__part14.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M500__part15.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M500__part16.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M500__part2.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M500__part3.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M500__part4.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M500__part5.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M500__part6.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M500__part7.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M500__part8.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M500__part9.root"
+        ]
+    }, 
+    "HM_VBF_new_250": {
+        "files": [
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M250__part10.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M250__part11.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M250__part12.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M250__part2.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M250__part3.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M250__part4.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M250__part5.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M250__part6.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M250__part7.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M250__part8.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M250__part9.root"
+        ]
+    }, 
+    "HM_VBF_new_400": {
+        "files": [
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M400__part0.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M400__part1.root"
+        ]
+    }, 
+    "HM_VBF_new_270": {
+        "files": [
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M270__part0.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M270__part1.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M270__part2.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M270__part3.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M270__part4.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M270__part5.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M270__part6.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M270__part7.root"
+        ]
+    }, 
+    "HM_VBF_new_300": {
+        "files": [
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M300__part0.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M300__part1.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M300__part10.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M300__part11.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M300__part12.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M300__part13.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M300__part14.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M300__part2.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M300__part3.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M300__part4.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M300__part5.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M300__part6.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M300__part7.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M300__part8.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7__AddLHE_MEs/nanoLatino_VBFHToWWTo2L2Nu_M300__part9.root"
+        ]
+    }
+}
