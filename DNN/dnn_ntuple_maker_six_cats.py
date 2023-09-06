@@ -42,7 +42,7 @@ CONFIG = json.loads(CONFIG_FILE_CONTENTS)
 def convert_onehot(Y_to_convert):
     Y_cat = []
     for i in range(0, len(Y_to_convert)):
-        for j in range(0, len(ENCODING["VBF_2018v7"])):
+        for j in range(0, len(ENCODING["VBF_2018v7_OFF"])):
             if(Y_to_convert[i][j] == 1):
                 Y_cat.append(j)
     return Y_cat
@@ -160,7 +160,8 @@ def loadVariables():
                             nEvents_added += 1
                 for i, wgt in enumerate(full_wgts):
                     if(evt_mask[i]):
-                        W[category].append(wgt)
+                        if(CleanJet_pt[i][0] > 30 and CleanJet_pt[i][1] > 30):
+                            W[category].append(wgt)
                 current_nEvents_per_subcategory = current_nEvents_per_subcategory + nEvents_added # nEvents_for_file
     return X, W
 
