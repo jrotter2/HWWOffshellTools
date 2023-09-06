@@ -15,28 +15,34 @@ import copy
 #CONFIG_FILE_PATH = "../configs/HM_VBF_new_dataset_config.json" #<-- VBF
 #CONFIG_FILE_PATH = "../configs/HM_dataset_config_COMBINED_minSel.json"
 
-CONFIG_FILE_PATH = "../configs/HM_dataset_config_includeLowerHMassSamples.json" #<-- ggH includes 130, 140, 150
-CONFIG_FILE_PATH = "../configs/HM_VBF_new_dataset_config_VBF_includeLowerHMassSamples.json" #<-- VBF includes 130, 140, 150
+PRODUCTION = "Summer20UL17_106x_nAODv9_Full2017v9" # Summer20UL16_106x_nAODv9_HIPM_Full2016v9(COMPLETE) Summer20UL16_106x_nAODv9_noHIPM_Full2016v9(COMPLETE) Summer20UL17_106x_nAODv9_Full2017v9 Summer20UL18_106x_nAODv9_Full2018v9 (COMPLETE)
+SAMPLE_TYPE = "ggH"
+
+#CONFIG_FILE_PATH = "../configs/HM_dataset_config_includeLowerHMassSamples.json" #<-- ggH includes 130, 140, 150
+#CONFIG_FILE_PATH = "../configs/HM_VBF_new_dataset_config_VBF_includeLowerHMassSamples.json" #<-- VBF includes 130, 140, 150
+CONFIG_FILE_PATH = "../configs/HM_ggHdataset_config_" + PRODUCTION + "_" + SAMPLE_TYPE + ".json"
 CONFIG_FILE = open(CONFIG_FILE_PATH, "r")
 CONFIG_FILE_CONTENTS = CONFIG_FILE.read()
 CONFIG = json.loads(CONFIG_FILE_CONTENTS)
 
 # List of sample LHEHiggsCand masses
-SAMPLES = [125,130,140,150,160,170,180,190,200,210,230,250,270,300,350,400,450,500,550,600,700,800,900,1000,1500,2000,2500,3000]
+#SAMPLES = [125,130,140,150,160,170,180,190,200,210,230,250,270,300,350,400,450,500,550,600,700,800,900,1000,1500,2000,2500,3000]
+SAMPLES = [125,160,170,180,190,200,210,230,250,270,300,350,400,450,500,550,600,700,800,900,1000,1500,2000,2500,3000]
 
 # Mass window edges described in AN2021_149
-MASS_WINDOW_EDGES = [0,127.5,135,145,155,165,175,185,195,205,220,240,260,285,325,375,425,475,525,575,650,750,850,950,1250,1750,2250,2750,14000]
+#MASS_WINDOW_EDGES = [0,127.5,135,145,155,165,175,185,195,205,220,240,260,285,325,375,425,475,525,575,650,750,850,950,1250,1750,2250,2750,14000]
+MASS_WINDOW_EDGES = [0,136.7,148.3,175,185,195,205,220,240,260,285,325,375,425,475,525,575,650,750,850,950,1250,1750,2250,2750,14000]
 
-# Prefixes for ggH->HM_ and for VBF->HM_VBF_new
-SAMPLE_PREFIX = ["HM_", "HM_VBF_new_"]
+# Prefixes for ggH->HM_ and for VBF->HM_VBF_new, ggH->HM_ggH
+SAMPLE_PREFIX = ["HM_ggH", "HM_VBF_new_"]
 
 # Sample types, can be expanded to include WH, ZH, etc.
 SAMPLE_TYPES = ["ggH", "VBF"]
 
 # Output file names - may be useful to include an option to change these using ArgParser
-OUTFILE_NAME = "output_preprocessing_includeLowerHMassSamples_VBF.root"
-OUTPDF_NAME = "output_preprocessing_includeLowerHMassSamples_VBF.pdf"
-OUTJSON_NAME = "output_preprocessing_includeLowerHMassSamples_VBF.json"
+OUTFILE_NAME = "output_preprocessing_test" + PRODUCTION + "_" + SAMPLE_TYPE + ".root"
+OUTPDF_NAME = "output_preprocessing_test" + PRODUCTION + "_" + SAMPLE_TYPE + ".pdf"
+OUTJSON_NAME = "output_preprocessing_test" + PRODUCTION + "_" + SAMPLE_TYPE + ".json"
 OUTFILE = uproot.recreate("./" + OUTFILE_NAME)
 
 
@@ -81,7 +87,7 @@ def make_mass_bins(dataset, sample_type):
             H_mask = ((H_mass > MASS_WINDOW_EDGES[i]) & (H_mass < MASS_WINDOW_EDGES[i+1]))
             m_ww[i] = np.concatenate((m_ww[i], H_mass[H_mask]), axis=0)
             SIG_wgts[i] = np.concatenate((SIG_wgts[i], np.multiply(rootFile["Events/" + SIG_wgt_name].array(), reWgt)[H_mask]), axis=0)
-            CONT_wgts[i] = np.concatenate((CONT_wgts[i], np.multiply(rootFile["Events/" + CONT_wgt_name].array(), reWgt)[H_mask]), axis=0)
+            CONT_wgts[i] = np.concatenate((CONT_wgts[i], np.multiply(rootFile["Events/" + SIG_wgt_name].array(), np.multiply(rootFile["Events/" + CONT_wgt_name].array(), reWgt))[H_mask]), axis=0)
             SIGplusCONT_wgts[i] = np.concatenate((SIGplusCONT_wgts[i], np.multiply(rootFile["Events/" + SIGplusCONT_wgt_name].array(), reWgt)[H_mask]), axis=0)
             LHE_wgts[i] = np.concatenate((LHE_wgts[i], rootFile["Events/" + LHE_wgt_name].array()[H_mask]), axis=0)
 
@@ -438,7 +444,7 @@ def flatten_2d(arr):
 # Sample Index
 # 0 - ggH
 # 1 - VBF
-sample_index = 1 #ggH
+sample_index = 0 #ggH
 
 # Initializing variables by sample in big 3D array...
 m_ww_by_sample = [[[] for j in range(0, len(MASS_WINDOW_EDGES)-1)] for i in range(0, len(SAMPLES))]

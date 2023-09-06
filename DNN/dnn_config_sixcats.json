@@ -456,7 +456,7 @@
 	]
 },
 
-"VBF_2018v7": {
+"VBF_2018v7_OFF": {
         "basepath" : "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v3__MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7/",
         "subpaths" : [
          {
@@ -941,7 +941,7 @@
     }
     ]
 },
-"ggH_2018v7": {
+"ggH_2018v7_OFF": {
 	"basepath" : "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v3__MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7/",
         "subpaths" : [
 		{
@@ -1282,6 +1282,838 @@
             "name" : "HM_160",
             "weights" : ["XSWeight", "p_Gen_GG_SIG_kappaTopBot_1_ghz1_1_MCFM", "p_Gen_CPStoBWPropRewgt", "HWWOffshell_combineWgt"],
             "custom_weights" : ["OFFSHELL_HIGGS"],
+            "files" : [
+            "nanoLatino_GluGluHToWWTo2L2Nu_M160__part0.root"
+        ]
+    }
+    ]
+},
+"VBF_2018v7_ON": {
+        "basepath" : "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v3__MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7/",
+        "subpaths" : [
+         {
+        "name":  "VBF_HM125",
+        "weights" : ["XSWeight", "p_Gen_JJEW_SIG_ghv1_1_MCFM", "p_Gen_CPStoBWPropRewgt", "HWWOffshell_combineWgt"],
+        "custom_weights" : ["ONSHELL_HIGGS"],
+        "files" : [
+            "nanoLatino_VBFHToWWTo2L2Nu_M125__part0.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M125__part1.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M125__part10.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M125__part11.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M125__part12.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M125__part2.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M125__part3.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M125__part4.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M125__part5.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M125__part6.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M125__part7.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M125__part8.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M125__part9.root"
+        ]
+    },{
+        "name":  "VBF_HM130",
+        "weights" : ["XSWeight", "p_Gen_JJEW_SIG_ghv1_1_MCFM", "p_Gen_CPStoBWPropRewgt", "HWWOffshell_combineWgt"],
+        "custom_weights" : ["ONSHELL_HIGGS"],
+        "files" : [
+            "nanoLatino_VBFHToWWTo2L2Nu_M130__part0.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M130__part1.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M130__part10.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M130__part2.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M130__part3.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M130__part4.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M130__part5.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M130__part6.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M130__part7.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M130__part8.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M130__part9.root"
+        ]
+    },{
+        "name":  "VBF_HM140",
+        "weights" : ["XSWeight", "p_Gen_JJEW_SIG_ghv1_1_MCFM", "p_Gen_CPStoBWPropRewgt", "HWWOffshell_combineWgt"],
+        "custom_weights" : ["ONSHELL_HIGGS"],
+        "files" : [
+            "nanoLatino_VBFHToWWTo2L2Nu_M140__part0.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M140__part1.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M140__part10.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M140__part11.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M140__part12.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M140__part13.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M140__part14.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M140__part2.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M140__part3.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M140__part4.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M140__part5.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M140__part6.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M140__part7.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M140__part8.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M140__part9.root"
+        ]
+    },{
+        "name":  "VBF_HM150",
+        "weights" : ["XSWeight", "p_Gen_JJEW_SIG_ghv1_1_MCFM", "p_Gen_CPStoBWPropRewgt", "HWWOffshell_combineWgt"],
+        "custom_weights" : ["ONSHELL_HIGGS"],
+        "files" : [
+            "nanoLatino_VBFHToWWTo2L2Nu_M150__part0.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M150__part1.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M150__part10.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M150__part2.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M150__part3.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M150__part4.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M150__part5.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M150__part6.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M150__part7.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M150__part8.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M150__part9.root"
+        ]
+    },{
+        "name":  "VBF_HM160",
+        "weights" : ["XSWeight", "p_Gen_JJEW_SIG_ghv1_1_MCFM", "p_Gen_CPStoBWPropRewgt", "HWWOffshell_combineWgt"],
+        "custom_weights" : ["ONSHELL_HIGGS"],
+        "files" : [
+            "nanoLatino_VBFHToWWTo2L2Nu_M160__part0.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M160__part1.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M160__part2.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M160__part3.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M160__part4.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M160__part5.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M160__part6.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M160__part7.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M160__part8.root"
+        ]
+    },{
+        "name":  "VBF_HM170",
+        "weights" : ["XSWeight", "p_Gen_JJEW_SIG_ghv1_1_MCFM", "p_Gen_CPStoBWPropRewgt", "HWWOffshell_combineWgt"],
+        "custom_weights" : ["ONSHELL_HIGGS"],
+        "files" : [
+            "nanoLatino_VBFHToWWTo2L2Nu_M170__part0.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M170__part1.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M170__part10.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M170__part11.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M170__part12.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M170__part13.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M170__part14.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M170__part15.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M170__part2.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M170__part3.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M170__part4.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M170__part5.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M170__part6.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M170__part7.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M170__part8.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M170__part9.root"
+        ]
+    },{
+        "name":  "VBF_HM180",
+        "weights" : ["XSWeight", "p_Gen_JJEW_SIG_ghv1_1_MCFM", "p_Gen_CPStoBWPropRewgt", "HWWOffshell_combineWgt"],
+        "custom_weights" : ["ONSHELL_HIGGS"],
+        "files" : [
+            "nanoLatino_VBFHToWWTo2L2Nu_M180__part0.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M180__part1.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M180__part10.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M180__part11.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M180__part12.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M180__part13.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M180__part14.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M180__part2.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M180__part3.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M180__part4.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M180__part5.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M180__part6.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M180__part7.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M180__part8.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M180__part9.root"
+        ]
+    },{
+        "name":  "VBF_HM190",
+        "weights" : ["XSWeight", "p_Gen_JJEW_SIG_ghv1_1_MCFM", "p_Gen_CPStoBWPropRewgt", "HWWOffshell_combineWgt"],
+        "custom_weights" : ["ONSHELL_HIGGS"],
+        "files" : [
+            "nanoLatino_VBFHToWWTo2L2Nu_M190__part0.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M190__part1.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M190__part10.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M190__part2.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M190__part3.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M190__part4.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M190__part5.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M190__part6.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M190__part7.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M190__part8.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M190__part9.root"
+        ]
+    },{
+        "name":  "VBF_HM200",
+        "weights" : ["XSWeight", "p_Gen_JJEW_SIG_ghv1_1_MCFM", "p_Gen_CPStoBWPropRewgt", "HWWOffshell_combineWgt"],
+        "custom_weights" : ["ONSHELL_HIGGS"],
+        "files" : [
+            "nanoLatino_VBFHToWWTo2L2Nu_M200__part0.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M200__part1.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M200__part2.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M200__part3.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M200__part4.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M200__part5.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M200__part6.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M200__part7.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M200__part8.root"
+        ]
+    },{
+        "name":  "VBF_HM210",
+        "weights" : ["XSWeight", "p_Gen_JJEW_SIG_ghv1_1_MCFM", "p_Gen_CPStoBWPropRewgt", "HWWOffshell_combineWgt"],
+        "custom_weights" : ["ONSHELL_HIGGS"],
+        "files" : [
+            "nanoLatino_VBFHToWWTo2L2Nu_M210__part0.root"
+        ]
+    },{
+        "name":  "VBF_HM230",
+        "weights" : ["XSWeight", "p_Gen_JJEW_SIG_ghv1_1_MCFM", "p_Gen_CPStoBWPropRewgt", "HWWOffshell_combineWgt"],
+        "custom_weights" : ["ONSHELL_HIGGS"],
+        "files" : [
+            "nanoLatino_VBFHToWWTo2L2Nu_M230__part0.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M230__part1.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M230__part2.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M230__part3.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M230__part4.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M230__part5.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M230__part6.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M230__part7.root"
+        ]
+    },{
+        "name":  "VBF_HM250",
+        "weights" : ["XSWeight", "p_Gen_JJEW_SIG_ghv1_1_MCFM", "p_Gen_CPStoBWPropRewgt", "HWWOffshell_combineWgt"],
+        "custom_weights" : ["ONSHELL_HIGGS"],
+        "files" : [
+            "nanoLatino_VBFHToWWTo2L2Nu_M250__part0.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M250__part1.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M250__part10.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M250__part11.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M250__part12.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M250__part2.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M250__part3.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M250__part4.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M250__part5.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M250__part6.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M250__part7.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M250__part8.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M250__part9.root"
+        ]
+    },{
+        "name":  "VBF_HM270",
+        "weights" : ["XSWeight", "p_Gen_JJEW_SIG_ghv1_1_MCFM", "p_Gen_CPStoBWPropRewgt", "HWWOffshell_combineWgt"],
+        "custom_weights" : ["ONSHELL_HIGGS"],
+        "files" : [
+            "nanoLatino_VBFHToWWTo2L2Nu_M270__part0.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M270__part1.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M270__part2.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M270__part3.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M270__part4.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M270__part5.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M270__part6.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M270__part7.root"
+        ]
+    },{
+        "name":  "VBF_HM300",
+        "weights" : ["XSWeight", "p_Gen_JJEW_SIG_ghv1_1_MCFM", "p_Gen_CPStoBWPropRewgt", "HWWOffshell_combineWgt"],
+        "custom_weights" : ["ONSHELL_HIGGS"],
+        "files" : [
+            "nanoLatino_VBFHToWWTo2L2Nu_M300__part0.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M300__part1.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M300__part10.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M300__part11.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M300__part12.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M300__part13.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M300__part14.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M300__part2.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M300__part3.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M300__part4.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M300__part5.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M300__part6.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M300__part7.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M300__part8.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M300__part9.root"
+        ]
+    },{
+        "name":  "VBF_HM350",
+        "weights" : ["XSWeight", "p_Gen_JJEW_SIG_ghv1_1_MCFM", "p_Gen_CPStoBWPropRewgt", "HWWOffshell_combineWgt"],
+        "custom_weights" : ["ONSHELL_HIGGS"],
+        "files" : [
+            "nanoLatino_VBFHToWWTo2L2Nu_M350__part0.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M350__part1.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M350__part10.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M350__part2.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M350__part4.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M350__part5.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M350__part6.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M350__part7.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M350__part8.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M350__part9.root"
+        ]
+    },{
+        "name":  "VBF_HM400",
+        "weights" : ["XSWeight", "p_Gen_JJEW_SIG_ghv1_1_MCFM", "p_Gen_CPStoBWPropRewgt", "HWWOffshell_combineWgt"],
+        "custom_weights" : ["ONSHELL_HIGGS"],
+        "files" : [
+            "nanoLatino_VBFHToWWTo2L2Nu_M400__part0.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M400__part1.root"
+        ]
+    },{
+        "name":  "VBF_HM450",
+        "weights" : ["XSWeight", "p_Gen_JJEW_SIG_ghv1_1_MCFM", "p_Gen_CPStoBWPropRewgt", "HWWOffshell_combineWgt"],
+        "custom_weights" : ["ONSHELL_HIGGS"],
+        "files" : [
+            "nanoLatino_VBFHToWWTo2L2Nu_M450__part0.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M450__part1.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M450__part10.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M450__part11.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M450__part12.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M450__part13.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M450__part2.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M450__part3.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M450__part4.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M450__part5.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M450__part6.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M450__part7.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M450__part8.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M450__part9.root"
+        ]
+    },{
+        "name":  "VBF_HM500",
+        "weights" : ["XSWeight", "p_Gen_JJEW_SIG_ghv1_1_MCFM", "p_Gen_CPStoBWPropRewgt", "HWWOffshell_combineWgt"],
+        "custom_weights" : ["ONSHELL_HIGGS"],
+        "files" : [
+            "nanoLatino_VBFHToWWTo2L2Nu_M500__part0.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M500__part1.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M500__part10.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M500__part11.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M500__part12.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M500__part13.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M500__part14.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M500__part15.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M500__part16.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M500__part2.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M500__part3.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M500__part4.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M500__part5.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M500__part6.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M500__part7.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M500__part8.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M500__part9.root"
+        ]
+    },{
+        "name":  "VBF_HM550",
+        "weights" : ["XSWeight", "p_Gen_JJEW_SIG_ghv1_1_MCFM", "p_Gen_CPStoBWPropRewgt", "HWWOffshell_combineWgt"],
+        "custom_weights" : ["ONSHELL_HIGGS"],
+        "files" : [
+            "nanoLatino_VBFHToWWTo2L2Nu_M550__part0.root"
+        ]
+    },{
+        "name":  "VBF_HM600",
+        "weights" : ["XSWeight", "p_Gen_JJEW_SIG_ghv1_1_MCFM", "p_Gen_CPStoBWPropRewgt", "HWWOffshell_combineWgt"],
+        "custom_weights" : ["ONSHELL_HIGGS"],
+        "files" : [
+            "nanoLatino_VBFHToWWTo2L2Nu_M600__part0.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M600__part1.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M600__part10.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M600__part11.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M600__part12.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M600__part13.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M600__part14.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M600__part15.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M600__part16.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M600__part17.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M600__part2.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M600__part3.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M600__part4.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M600__part5.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M600__part6.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M600__part7.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M600__part8.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M600__part9.root"
+        ]
+    },{
+        "name":  "VBF_HM700",
+        "weights" : ["XSWeight", "p_Gen_JJEW_SIG_ghv1_1_MCFM", "p_Gen_CPStoBWPropRewgt", "HWWOffshell_combineWgt"],
+        "custom_weights" : ["ONSHELL_HIGGS"],
+        "files" : [
+            "nanoLatino_VBFHToWWTo2L2Nu_M700__part0.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M700__part1.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M700__part10.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M700__part11.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M700__part12.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M700__part13.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M700__part14.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M700__part2.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M700__part3.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M700__part4.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M700__part5.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M700__part6.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M700__part7.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M700__part8.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M700__part9.root"
+        ]
+    },{
+        "name":  "VBF_HM800",
+        "weights" : ["XSWeight", "p_Gen_JJEW_SIG_ghv1_1_MCFM", "p_Gen_CPStoBWPropRewgt", "HWWOffshell_combineWgt"],
+        "custom_weights" : ["ONSHELL_HIGGS"],
+        "files" : [
+            "nanoLatino_VBFHToWWTo2L2Nu_M800__part0.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M800__part1.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M800__part10.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M800__part2.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M800__part3.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M800__part4.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M800__part5.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M800__part6.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M800__part7.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M800__part8.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M800__part9.root"
+        ]
+    },{
+        "name":  "VBF_HM900",
+        "weights" : ["XSWeight", "p_Gen_JJEW_SIG_ghv1_1_MCFM", "p_Gen_CPStoBWPropRewgt", "HWWOffshell_combineWgt"],
+        "custom_weights" : ["ONSHELL_HIGGS"],
+        "files" : [
+            "nanoLatino_VBFHToWWTo2L2Nu_M900__part0.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M900__part1.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M900__part2.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M900__part3.root"
+        ]
+    },{
+        "name":  "VBF_HM1000",
+        "weights" : ["XSWeight", "p_Gen_JJEW_SIG_ghv1_1_MCFM", "p_Gen_CPStoBWPropRewgt", "HWWOffshell_combineWgt"],
+        "custom_weights" : ["ONSHELL_HIGGS"],
+        "files" : [
+            "nanoLatino_VBFHToWWTo2L2Nu_M1000__part0.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M1000__part1.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M1000__part10.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M1000__part11.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M1000__part12.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M1000__part13.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M1000__part14.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M1000__part15.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M1000__part16.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M1000__part17.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M1000__part2.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M1000__part3.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M1000__part4.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M1000__part5.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M1000__part6.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M1000__part7.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M1000__part8.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M1000__part9.root"
+        ]
+    },{
+        "name":  "VBF_HM1500",
+        "weights" : ["XSWeight", "p_Gen_JJEW_SIG_ghv1_1_MCFM", "p_Gen_CPStoBWPropRewgt", "HWWOffshell_combineWgt"],
+        "custom_weights" : ["ONSHELL_HIGGS"],
+        "files" : [
+            "nanoLatino_VBFHToWWTo2L2Nu_M1500__part0.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M1500__part1.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M1500__part10.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M1500__part2.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M1500__part3.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M1500__part4.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M1500__part5.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M1500__part6.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M1500__part7.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M1500__part8.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M1500__part9.root"
+        ]
+    },{
+        "name":  "VBF_HM2000",
+        "weights" : ["XSWeight", "p_Gen_JJEW_SIG_ghv1_1_MCFM", "p_Gen_CPStoBWPropRewgt", "HWWOffshell_combineWgt"],
+        "custom_weights" : ["ONSHELL_HIGGS"],
+        "files" : [
+            "nanoLatino_VBFHToWWTo2L2Nu_M2000__part0.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M2000__part1.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M2000__part10.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M2000__part11.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M2000__part12.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M2000__part13.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M2000__part14.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M2000__part15.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M2000__part2.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M2000__part3.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M2000__part4.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M2000__part5.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M2000__part6.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M2000__part7.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M2000__part8.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M2000__part9.root"
+        ]
+    },{
+        "name":  "VBF_HM2500",
+        "weights" : ["XSWeight", "p_Gen_JJEW_SIG_ghv1_1_MCFM", "p_Gen_CPStoBWPropRewgt", "HWWOffshell_combineWgt"],
+        "custom_weights" : ["ONSHELL_HIGGS"],
+        "files" : [
+            "nanoLatino_VBFHToWWTo2L2Nu_M2500__part0.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M2500__part1.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M2500__part10.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M2500__part11.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M2500__part12.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M2500__part13.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M2500__part14.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M2500__part15.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M2500__part2.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M2500__part3.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M2500__part4.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M2500__part5.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M2500__part6.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M2500__part7.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M2500__part8.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M2500__part9.root"
+        ]
+    },{
+        "name":  "VBF_HM3000",
+        "weights" : ["XSWeight", "p_Gen_JJEW_SIG_ghv1_1_MCFM", "p_Gen_CPStoBWPropRewgt", "HWWOffshell_combineWgt"],
+        "custom_weights" : ["ONSHELL_HIGGS"],
+        "files" : [
+            "nanoLatino_VBFHToWWTo2L2Nu_M3000__part0.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M3000__part1.root",
+            "nanoLatino_VBFHToWWTo2L2Nu_M3000__part2.root"
+        ]
+    }
+    ]
+},
+"ggH_2018v7_ON": {
+	"basepath" : "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Autumn18_102X_nAODv7_Full2018v7/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts_v3__MCl1loose2018v7__MCCorr2018v7__l2loose__l2tightOR2018v7/",
+        "subpaths" : [
+		{
+            "name" : "HM_900",
+            "weights" : ["XSWeight", "p_Gen_GG_SIG_kappaTopBot_1_ghz1_1_MCFM", "p_Gen_CPStoBWPropRewgt", "HWWOffshell_combineWgt"],
+            "custom_weights" : ["ONSHELL_HIGGS"],
+            "files" : [
+            "nanoLatino_GluGluHToWWTo2L2Nu_M900__part0.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M900__part1.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M900__part10.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M900__part11.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M900__part12.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M900__part13.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M900__part14.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M900__part15.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M900__part16.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M900__part17.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M900__part2.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M900__part3.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M900__part4.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M900__part5.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M900__part6.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M900__part7.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M900__part8.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M900__part9.root"
+        ]
+    },{ 
+            "name" : "HM_2000",
+            "weights" : ["XSWeight", "p_Gen_GG_SIG_kappaTopBot_1_ghz1_1_MCFM", "p_Gen_CPStoBWPropRewgt", "HWWOffshell_combineWgt"],
+            "custom_weights" : ["ONSHELL_HIGGS"],
+            "files" : [
+            "nanoLatino_GluGluHToWWTo2L2Nu_M2000__part1.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M2000__part11.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M2000__part12.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M2000__part13.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M2000__part15.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M2000__part16.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M2000__part17.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M2000__part19.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M2000__part4.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M2000__part5.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M2000__part6.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M2000__part7.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M2000__part8.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M2000__part9.root"
+        ]
+    },{ 
+            "name" : "HM_350",
+            "weights" : ["XSWeight", "p_Gen_GG_SIG_kappaTopBot_1_ghz1_1_MCFM", "p_Gen_CPStoBWPropRewgt", "HWWOffshell_combineWgt"],
+            "custom_weights" : ["ONSHELL_HIGGS"],
+            "files" : [
+            "nanoLatino_GluGluHToWWTo2L2Nu_M350__part0.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M350__part1.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M350__part10.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M350__part11.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M350__part12.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M350__part13.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M350__part14.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M350__part15.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M350__part16.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M350__part17.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M350__part18.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M350__part19.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M350__part2.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M350__part3.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M350__part4.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M350__part5.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M350__part6.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M350__part7.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M350__part8.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M350__part9.root"
+        ]
+    },{ 
+            "name" : "HM_1000",
+            "weights" : ["XSWeight", "p_Gen_GG_SIG_kappaTopBot_1_ghz1_1_MCFM", "p_Gen_CPStoBWPropRewgt", "HWWOffshell_combineWgt"],
+            "custom_weights" : ["ONSHELL_HIGGS"],
+            "files" : [
+            "nanoLatino_GluGluHToWWTo2L2Nu_M1000__part0.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M1000__part1.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M1000__part10.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M1000__part11.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M1000__part12.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M1000__part13.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M1000__part14.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M1000__part15.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M1000__part16.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M1000__part2.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M1000__part3.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M1000__part4.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M1000__part5.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M1000__part6.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M1000__part7.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M1000__part8.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M1000__part9.root"
+        ]
+    },{ 
+            "name" : "HM_800",
+            "weights" : ["XSWeight", "p_Gen_GG_SIG_kappaTopBot_1_ghz1_1_MCFM", "p_Gen_CPStoBWPropRewgt", "HWWOffshell_combineWgt"],
+            "custom_weights" : ["ONSHELL_HIGGS"],
+            "files" : [
+            "nanoLatino_GluGluHToWWTo2L2Nu_M800__part0.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M800__part1.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M800__part10.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M800__part11.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M800__part12.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M800__part13.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M800__part14.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M800__part15.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M800__part2.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M800__part3.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M800__part4.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M800__part5.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M800__part6.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M800__part7.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M800__part8.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M800__part9.root"
+        ]
+    },{ 
+            "name" : "HM_600",
+            "weights" : ["XSWeight", "p_Gen_GG_SIG_kappaTopBot_1_ghz1_1_MCFM", "p_Gen_CPStoBWPropRewgt", "HWWOffshell_combineWgt"],
+            "custom_weights" : ["ONSHELL_HIGGS"],
+            "files" : [
+            "nanoLatino_GluGluHToWWTo2L2Nu_M600__part0.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M600__part1.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M600__part2.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M600__part3.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M600__part4.root"
+        ]
+    },{ 
+            "name" : "HM_210",
+            "weights" : ["XSWeight", "p_Gen_GG_SIG_kappaTopBot_1_ghz1_1_MCFM", "p_Gen_CPStoBWPropRewgt", "HWWOffshell_combineWgt"],
+            "custom_weights" : ["ONSHELL_HIGGS"],
+            "files" : [
+            "nanoLatino_GluGluHToWWTo2L2Nu_M210__part0.root"
+        ]
+    },{ 
+            "name" : "HM_190",
+            "weights" : ["XSWeight", "p_Gen_GG_SIG_kappaTopBot_1_ghz1_1_MCFM", "p_Gen_CPStoBWPropRewgt", "HWWOffshell_combineWgt"],
+            "custom_weights" : ["ONSHELL_HIGGS"],
+            "files" : [
+            "nanoLatino_GluGluHToWWTo2L2Nu_M190__part0.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M190__part1.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M190__part2.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M190__part3.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M190__part4.root"
+        ]
+    },{ 
+            "name" : "HM_700",
+            "weights" : ["XSWeight", "p_Gen_GG_SIG_kappaTopBot_1_ghz1_1_MCFM", "p_Gen_CPStoBWPropRewgt", "HWWOffshell_combineWgt"],
+            "custom_weights" : ["ONSHELL_HIGGS"],
+            "files" : [
+            "nanoLatino_GluGluHToWWTo2L2Nu_M700__part0.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M700__part1.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M700__part2.root"
+        ]
+    },{ 
+            "name" : "HM_450",
+            "weights" : ["XSWeight", "p_Gen_GG_SIG_kappaTopBot_1_ghz1_1_MCFM", "p_Gen_CPStoBWPropRewgt", "HWWOffshell_combineWgt"],
+            "custom_weights" : ["ONSHELL_HIGGS"],
+            "files" : [
+            "nanoLatino_GluGluHToWWTo2L2Nu_M450__part0.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M450__part1.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M450__part2.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M450__part3.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M450__part4.root"
+        ]
+    },{ 
+            "name" : "HM_270",
+            "weights" : ["XSWeight", "p_Gen_GG_SIG_kappaTopBot_1_ghz1_1_MCFM", "p_Gen_CPStoBWPropRewgt", "HWWOffshell_combineWgt"],
+            "custom_weights" : ["ONSHELL_HIGGS"],
+            "files" : [
+            "nanoLatino_GluGluHToWWTo2L2Nu_M270__part0.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M270__part1.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M270__part2.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M270__part3.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M270__part4.root"
+        ]
+    },{ 
+            "name" : "HM_3000",
+            "weights" : ["XSWeight", "p_Gen_GG_SIG_kappaTopBot_1_ghz1_1_MCFM", "p_Gen_CPStoBWPropRewgt", "HWWOffshell_combineWgt"],
+            "custom_weights" : ["ONSHELL_HIGGS"],
+            "files" : [
+            "nanoLatino_GluGluHToWWTo2L2Nu_M3000__part0.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M3000__part1.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M3000__part2.root"
+        ]
+    },{ 
+            "name" : "HM_230",
+            "weights" : ["XSWeight", "p_Gen_GG_SIG_kappaTopBot_1_ghz1_1_MCFM", "p_Gen_CPStoBWPropRewgt", "HWWOffshell_combineWgt"],
+            "custom_weights" : ["ONSHELL_HIGGS"],
+            "files" : [
+            "nanoLatino_GluGluHToWWTo2L2Nu_M230__part0.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M230__part1.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M230__part2.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M230__part3.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M230__part4.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M230__part5.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M230__part6.root"
+        ]
+    },{ 
+            "name" : "HM_170",
+            "weights" : ["XSWeight", "p_Gen_GG_SIG_kappaTopBot_1_ghz1_1_MCFM", "p_Gen_CPStoBWPropRewgt", "HWWOffshell_combineWgt"],
+            "custom_weights" : ["ONSHELL_HIGGS"],
+            "files" : [
+            "nanoLatino_GluGluHToWWTo2L2Nu_M170__part0.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M170__part1.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M170__part2.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M170__part3.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M170__part4.root"
+        ]
+    },{ 
+            "name" : "HM_250",
+            "weights" : ["XSWeight", "p_Gen_GG_SIG_kappaTopBot_1_ghz1_1_MCFM", "p_Gen_CPStoBWPropRewgt", "HWWOffshell_combineWgt"],
+            "custom_weights" : ["ONSHELL_HIGGS"],
+            "files" : [
+            "nanoLatino_GluGluHToWWTo2L2Nu_M250__part0.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M250__part1.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M250__part2.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M250__part3.root"
+        ]
+    },{ 
+            "name" : "HM_1500",
+            "weights" : ["XSWeight", "p_Gen_GG_SIG_kappaTopBot_1_ghz1_1_MCFM", "p_Gen_CPStoBWPropRewgt", "HWWOffshell_combineWgt"],
+            "custom_weights" : ["ONSHELL_HIGGS"],
+            "files" : [
+            "nanoLatino_GluGluHToWWTo2L2Nu_M1500__part0.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M1500__part1.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M1500__part2.root"
+        ]
+    },{ 
+            "name" : "HM_400",
+            "weights" : ["XSWeight", "p_Gen_GG_SIG_kappaTopBot_1_ghz1_1_MCFM", "p_Gen_CPStoBWPropRewgt", "HWWOffshell_combineWgt"],
+            "custom_weights" : ["ONSHELL_HIGGS"],
+            "files" : [
+            "nanoLatino_GluGluHToWWTo2L2Nu_M400__part0.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M400__part1.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M400__part10.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M400__part11.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M400__part12.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M400__part13.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M400__part14.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M400__part15.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M400__part16.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M400__part2.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M400__part3.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M400__part4.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M400__part5.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M400__part6.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M400__part7.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M400__part8.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M400__part9.root"
+        ]
+    },{ 
+            "name" : "HM_180",
+            "weights" : ["XSWeight", "p_Gen_GG_SIG_kappaTopBot_1_ghz1_1_MCFM", "p_Gen_CPStoBWPropRewgt", "HWWOffshell_combineWgt"],
+            "custom_weights" : ["ONSHELL_HIGGS"],
+            "files" : [
+            "nanoLatino_GluGluHToWWTo2L2Nu_M180__part0.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M180__part1.root"
+        ]
+    },{ 
+            "name" : "HM_500",
+            "weights" : ["XSWeight", "p_Gen_GG_SIG_kappaTopBot_1_ghz1_1_MCFM", "p_Gen_CPStoBWPropRewgt", "HWWOffshell_combineWgt"],
+            "custom_weights" : ["ONSHELL_HIGGS"],
+            "files" : [
+            "nanoLatino_GluGluHToWWTo2L2Nu_M500__part0.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M500__part1.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M500__part10.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M500__part11.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M500__part12.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M500__part13.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M500__part14.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M500__part15.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M500__part16.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M500__part17.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M500__part18.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M500__part19.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M500__part2.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M500__part3.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M500__part4.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M500__part5.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M500__part6.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M500__part7.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M500__part8.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M500__part9.root"
+        ]
+    },{ 
+            "name" : "HM_2500",
+            "weights" : ["XSWeight", "p_Gen_GG_SIG_kappaTopBot_1_ghz1_1_MCFM", "p_Gen_CPStoBWPropRewgt", "HWWOffshell_combineWgt"],
+            "custom_weights" : ["ONSHELL_HIGGS"],
+            "files" : [
+            "nanoLatino_GluGluHToWWTo2L2Nu_M2500__part0.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M2500__part1.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M2500__part10.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M2500__part11.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M2500__part2.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M2500__part3.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M2500__part4.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M2500__part5.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M2500__part6.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M2500__part7.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M2500__part8.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M2500__part9.root"
+        ]
+    },{ 
+            "name" : "HM_200",
+            "weights" : ["XSWeight", "p_Gen_GG_SIG_kappaTopBot_1_ghz1_1_MCFM", "p_Gen_CPStoBWPropRewgt", "HWWOffshell_combineWgt"],
+            "custom_weights" : ["ONSHELL_HIGGS"],
+            "files" : [
+            "nanoLatino_GluGluHToWWTo2L2Nu_M200__part0.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M200__part1.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M200__part2.root"
+        ]
+    },{ 
+            "name" : "HM_300",
+            "weights" : ["XSWeight", "p_Gen_GG_SIG_kappaTopBot_1_ghz1_1_MCFM", "p_Gen_CPStoBWPropRewgt", "HWWOffshell_combineWgt"],
+            "custom_weights" : ["ONSHELL_HIGGS"],
+            "files" : [
+            "nanoLatino_GluGluHToWWTo2L2Nu_M300__part0.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M300__part1.root"
+        ]
+    },{ 
+            "name" : "HM_125",
+            "weights" : ["XSWeight", "p_Gen_GG_SIG_kappaTopBot_1_ghz1_1_MCFM", "p_Gen_CPStoBWPropRewgt", "HWWOffshell_combineWgt"],
+            "custom_weights" : ["ONSHELL_HIGGS"],
+            "files" : [
+            "nanoLatino_GluGluHToWWTo2L2Nu_M125__part0.root", 
+            "nanoLatino_GluGluHToWWTo2L2Nu_M125__part1.root"
+        ]
+    },{ 
+            "name" : "HM_550",
+            "weights" : ["XSWeight", "p_Gen_GG_SIG_kappaTopBot_1_ghz1_1_MCFM", "p_Gen_CPStoBWPropRewgt", "HWWOffshell_combineWgt"],
+            "custom_weights" : ["ONSHELL_HIGGS"],
+            "files" : [
+            "nanoLatino_GluGluHToWWTo2L2Nu_M550__part0.root"
+        ]
+    },{ 
+            "name" : "HM_160",
+            "weights" : ["XSWeight", "p_Gen_GG_SIG_kappaTopBot_1_ghz1_1_MCFM", "p_Gen_CPStoBWPropRewgt", "HWWOffshell_combineWgt"],
+            "custom_weights" : ["ONSHELL_HIGGS"],
             "files" : [
             "nanoLatino_GluGluHToWWTo2L2Nu_M160__part0.root"
         ]

@@ -1,0 +1,140 @@
+{
+    "HM_ggH2000": {
+        "files": [
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Summer20UL16_106x_nAODv9_noHIPM_Full2016v9/AddLHE_MEs__AddMC_baseW/nanoLatino_GluGluHToWWTo2L2Nu_M2000__part0.root"
+        ]
+    }, 
+    "HM_ggH3000": {
+        "files": [
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Summer20UL16_106x_nAODv9_noHIPM_Full2016v9/AddLHE_MEs__AddMC_baseW/nanoLatino_GluGluHToWWTo2L2Nu_M3000__part0.root"
+        ]
+    }, 
+    "HM_ggH500": {
+        "files": [
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Summer20UL16_106x_nAODv9_noHIPM_Full2016v9/AddLHE_MEs__AddMC_baseW/nanoLatino_GluGluHToWWTo2L2Nu_M500__part0.root"
+        ]
+    }, 
+    "HM_ggH180": {
+        "files": [
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Summer20UL16_106x_nAODv9_noHIPM_Full2016v9/AddLHE_MEs__AddMC_baseW/nanoLatino_GluGluHToWWTo2L2Nu_M180__part0.root"
+        ]
+    }, 
+    "HM_ggH350": {
+        "files": [
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Summer20UL16_106x_nAODv9_noHIPM_Full2016v9/AddLHE_MEs__AddMC_baseW/nanoLatino_GluGluHToWWTo2L2Nu_M350__part0.root"
+        ]
+    }, 
+    "HM_ggH270": {
+        "files": [
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Summer20UL16_106x_nAODv9_noHIPM_Full2016v9/AddLHE_MEs__AddMC_baseW/nanoLatino_GluGluHToWWTo2L2Nu_M270__part0.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Summer20UL16_106x_nAODv9_noHIPM_Full2016v9/AddLHE_MEs__AddMC_baseW/nanoLatino_GluGluHToWWTo2L2Nu_M270__part1.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Summer20UL16_106x_nAODv9_noHIPM_Full2016v9/AddLHE_MEs__AddMC_baseW/nanoLatino_GluGluHToWWTo2L2Nu_M270__part2.root"
+        ]
+    }, 
+    "HM_ggH400": {
+        "files": [
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Summer20UL16_106x_nAODv9_noHIPM_Full2016v9/AddLHE_MEs__AddMC_baseW/nanoLatino_GluGluHToWWTo2L2Nu_M400__part0.root"
+        ]
+    }, 
+    "HM_ggH230": {
+        "files": [
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Summer20UL16_106x_nAODv9_noHIPM_Full2016v9/AddLHE_MEs__AddMC_baseW/nanoLatino_GluGluHToWWTo2L2Nu_M230__part0.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Summer20UL16_106x_nAODv9_noHIPM_Full2016v9/AddLHE_MEs__AddMC_baseW/nanoLatino_GluGluHToWWTo2L2Nu_M230__part1.root"
+        ]
+    }, 
+    "HM_ggH700": {
+        "files": [
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Summer20UL16_106x_nAODv9_noHIPM_Full2016v9/AddLHE_MEs__AddMC_baseW/nanoLatino_GluGluHToWWTo2L2Nu_M700__part0.root"
+        ]
+    }, 
+    "HM_ggH250": {
+        "files": [
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Summer20UL16_106x_nAODv9_noHIPM_Full2016v9/AddLHE_MEs__AddMC_baseW/nanoLatino_GluGluHToWWTo2L2Nu_M250__part0.root"
+        ]
+    }, 
+    "HM_ggH210": {
+        "files": [
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Summer20UL16_106x_nAODv9_noHIPM_Full2016v9/AddLHE_MEs__AddMC_baseW/nanoLatino_GluGluHToWWTo2L2Nu_M210__part0.root"
+        ]
+    }, 
+    "HM_ggH600": {
+        "files": [
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Summer20UL16_106x_nAODv9_noHIPM_Full2016v9/AddLHE_MEs__AddMC_baseW/nanoLatino_GluGluHToWWTo2L2Nu_M600__part0.root", 
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Summer20UL16_106x_nAODv9_noHIPM_Full2016v9/AddLHE_MEs__AddMC_baseW/nanoLatino_GluGluHToWWTo2L2Nu_M600__part1.root"
+        ]
+    }, 
+    "HM_ggH140": {
+        "files": []
+    }, 
+    "HM_ggH160": {
+        "files": [
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Summer20UL16_106x_nAODv9_noHIPM_Full2016v9/AddLHE_MEs__AddMC_baseW/nanoLatino_GluGluHToWWTo2L2Nu_M160__part0.root"
+        ]
+    }, 
+    "HM_ggH900": {
+        "files": [
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Summer20UL16_106x_nAODv9_noHIPM_Full2016v9/AddLHE_MEs__AddMC_baseW/nanoLatino_GluGluHToWWTo2L2Nu_M900__part0.root"
+        ]
+    }, 
+    "HM_ggH800": {
+        "files": [
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Summer20UL16_106x_nAODv9_noHIPM_Full2016v9/AddLHE_MEs__AddMC_baseW/nanoLatino_GluGluHToWWTo2L2Nu_M800__part0.root"
+        ]
+    }, 
+    "HM_ggH2500": {
+        "files": [
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Summer20UL16_106x_nAODv9_noHIPM_Full2016v9/AddLHE_MEs__AddMC_baseW/nanoLatino_GluGluHToWWTo2L2Nu_M2500__part0.root"
+        ]
+    }, 
+    "HM_ggH450": {
+        "files": [
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Summer20UL16_106x_nAODv9_noHIPM_Full2016v9/AddLHE_MEs__AddMC_baseW/nanoLatino_GluGluHToWWTo2L2Nu_M450__part0.root"
+        ]
+    }, 
+    "HM_ggH550": {
+        "files": [
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Summer20UL16_106x_nAODv9_noHIPM_Full2016v9/AddLHE_MEs__AddMC_baseW/nanoLatino_GluGluHToWWTo2L2Nu_M550__part0.root"
+        ]
+    }, 
+    "HM_ggH300": {
+        "files": [
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Summer20UL16_106x_nAODv9_noHIPM_Full2016v9/AddLHE_MEs__AddMC_baseW/nanoLatino_GluGluHToWWTo2L2Nu_M300__part0.root"
+        ]
+    }, 
+    "HM_ggH170": {
+        "files": [
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Summer20UL16_106x_nAODv9_noHIPM_Full2016v9/AddLHE_MEs__AddMC_baseW/nanoLatino_GluGluHToWWTo2L2Nu_M170__part0.root"
+        ]
+    }, 
+    "HM_ggH125": {
+        "files": [
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Summer20UL16_106x_nAODv9_noHIPM_Full2016v9/AddLHE_MEs__AddMC_baseW/nanoLatino_GluGluHToWWTo2L2Nu_M125__part0.root"
+        ]
+    }, 
+    "HM_ggH200": {
+        "files": [
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Summer20UL16_106x_nAODv9_noHIPM_Full2016v9/AddLHE_MEs__AddMC_baseW/nanoLatino_GluGluHToWWTo2L2Nu_M200__part0.root"
+        ]
+    }, 
+    "HM_ggH150": {
+        "files": []
+    }, 
+    "HM_ggH190": {
+        "files": [
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Summer20UL16_106x_nAODv9_noHIPM_Full2016v9/AddLHE_MEs__AddMC_baseW/nanoLatino_GluGluHToWWTo2L2Nu_M190__part0.root"
+        ]
+    }, 
+    "HM_ggH130": {
+        "files": []
+    }, 
+    "HM_ggH1000": {
+        "files": [
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Summer20UL16_106x_nAODv9_noHIPM_Full2016v9/AddLHE_MEs__AddMC_baseW/nanoLatino_GluGluHToWWTo2L2Nu_M1000__part0.root"
+        ]
+    }, 
+    "HM_ggH1500": {
+        "files": [
+            "/eos/user/t/tcarnaha/Summer_2022/HWW_Ntuples/Summer20UL16_106x_nAODv9_noHIPM_Full2016v9/AddLHE_MEs__AddMC_baseW/nanoLatino_GluGluHToWWTo2L2Nu_M1500__part0.root"
+        ]
+    }
+}
