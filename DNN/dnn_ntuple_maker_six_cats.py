@@ -17,7 +17,7 @@ import random
 
 MAX_EVENTS_PER_CATEGORY = 500000
 
-OUTFILE = uproot3.recreate("/eos/user/j/jrotter/HWW_DNN_Ntuples/HWW_DNN_Ntuple_v2_six_cats.root")
+OUTFILE = uproot3.recreate("/eos/user/j/jrotter/HWW_DNN_Ntuples/HWW_DNN_Ntuple_v3_six_cats.root")
 # FILE VERSIONING:
 # v1 -> {"mll","dphill","detall","ptll","drll","pt1","pt2","mth","mjj","detajj","dphijj","PuppiMET_pt","dphillmet","mcollWW"}
 
@@ -140,9 +140,9 @@ def loadVariables():
                 CleanJet_pt =  np.array(rootFile["Events/" + "CleanJet_pt"].array()[:nEvents_for_file])
 
                 shell_mask = []
-                if("OFFSHELL" in custom_weights):
+                if("OFFSHELL_HIGGS" in custom_weights):
                     shell_mask = np.array(rootFile["Events/" + "LHECandMass"].array()[:nEvents_for_file]) >= 160
-                elif("ONSHELL" in custom_weights):
+                elif("ONSHELL_HIGGS" in custom_weights):
                     shell_mask = np.array(rootFile["Events/" + "LHECandMass"].array()[:nEvents_for_file]) < 160
                 else:
                     shell_mask = np.array([True for i in range(0, nEvents_for_file)])
