@@ -14,13 +14,21 @@ import copy
 #CONFIG_FILE_PATH = "../configs/dataset_config.txt" #<-- ggH
 #CONFIG_FILE_PATH = "../configs/HM_VBF_new_dataset_config.json" #<-- VBF
 #CONFIG_FILE_PATH = "../configs/HM_dataset_config_COMBINED_minSel.json"
+PRODUCTIONS = ["Summer20UL16_106x_nAODv9_HIPM_Full2016v9", "Summer20UL16_106x_nAODv9_noHIPM_Full2016v9",  "Summer20UL17_106x_nAODv9_Full2017v9", "Summer20UL18_106x_nAODv9_Full2018v9"]
+PRODUCTION_INDEX = 2
 
-PRODUCTION = "Summer20UL17_106x_nAODv9_Full2017v9" # Summer20UL16_106x_nAODv9_HIPM_Full2016v9(COMPLETE) Summer20UL16_106x_nAODv9_noHIPM_Full2016v9(COMPLETE) Summer20UL17_106x_nAODv9_Full2017v9 Summer20UL18_106x_nAODv9_Full2018v9 (COMPLETE)
-SAMPLE_TYPE = "ggH"
+
+
+PRODUCTION = PRODUCTIONS[PRODUCTION_INDEX]
+#PRODUCTION = "Autumn2018v7"
+# VBF: Summer20UL16_106x_nAODv9_HIPM_Full2016v9 (RUNNING) Summer20UL16_106x_nAODv9_noHIPM_Full2016v9 (RUNNING) Summer20UL17_106x_nAODv9_Full2017v9 (RUNNING) Summer20UL18_106x_nAODv9_Full2018v9 (RUNNING)
+# ggH : Summer20UL16_106x_nAODv9_HIPM_Full2016v9(COMPLETE) Summer20UL16_106x_nAODv9_noHIPM_Full2016v9(COMPLETE) Summer20UL17_106x_nAODv9_Full2017v9 Summer20UL18_106x_nAODv9_Full2018v9 (COMPLETE)
+
+SAMPLE_TYPE = "VBF"
 
 #CONFIG_FILE_PATH = "../configs/HM_dataset_config_includeLowerHMassSamples.json" #<-- ggH includes 130, 140, 150
 #CONFIG_FILE_PATH = "../configs/HM_VBF_new_dataset_config_VBF_includeLowerHMassSamples.json" #<-- VBF includes 130, 140, 150
-CONFIG_FILE_PATH = "../configs/HM_ggHdataset_config_" + PRODUCTION + "_" + SAMPLE_TYPE + ".json"
+CONFIG_FILE_PATH = "../configs/HM_VBF_new_dataset_config_" + PRODUCTION + "_" + SAMPLE_TYPE + ".json"
 CONFIG_FILE = open(CONFIG_FILE_PATH, "r")
 CONFIG_FILE_CONTENTS = CONFIG_FILE.read()
 CONFIG = json.loads(CONFIG_FILE_CONTENTS)
@@ -40,9 +48,9 @@ SAMPLE_PREFIX = ["HM_ggH", "HM_VBF_new_"]
 SAMPLE_TYPES = ["ggH", "VBF"]
 
 # Output file names - may be useful to include an option to change these using ArgParser
-OUTFILE_NAME = "output_preprocessing_test" + PRODUCTION + "_" + SAMPLE_TYPE + ".root"
-OUTPDF_NAME = "output_preprocessing_test" + PRODUCTION + "_" + SAMPLE_TYPE + ".pdf"
-OUTJSON_NAME = "output_preprocessing_test" + PRODUCTION + "_" + SAMPLE_TYPE + ".json"
+OUTFILE_NAME = "output_preprocessing_" + PRODUCTION + "_" + SAMPLE_TYPE + ".root"
+OUTPDF_NAME = "output_preprocessing_" + PRODUCTION + "_" + SAMPLE_TYPE + ".pdf"
+OUTJSON_NAME = "output_preprocessing_" + PRODUCTION + "_" + SAMPLE_TYPE + ".json"
 OUTFILE = uproot.recreate("./" + OUTFILE_NAME)
 
 
@@ -82,12 +90,14 @@ def make_mass_bins(dataset, sample_type):
         baseW = rootFile["Events/baseW"].array()
         XSwgt = np.multiply(rootFile["Events/genWeight"].array(), baseW)
         reWgt = np.multiply(rootFile["Events/p_Gen_CPStoBWPropRewgt"].array(), XSwgt)
+        #reWgt = np.absolute(reWgt)
         # Looping over all mass windows
         for i in range(0, len(MASS_WINDOW_EDGES)-1):
             H_mask = ((H_mass > MASS_WINDOW_EDGES[i]) & (H_mass < MASS_WINDOW_EDGES[i+1]))
             m_ww[i] = np.concatenate((m_ww[i], H_mass[H_mask]), axis=0)
             SIG_wgts[i] = np.concatenate((SIG_wgts[i], np.multiply(rootFile["Events/" + SIG_wgt_name].array(), reWgt)[H_mask]), axis=0)
-            CONT_wgts[i] = np.concatenate((CONT_wgts[i], np.multiply(rootFile["Events/" + SIG_wgt_name].array(), np.multiply(rootFile["Events/" + CONT_wgt_name].array(), reWgt))[H_mask]), axis=0)
+            CONT_wgts[i] = np.concatenate((CONT_wgts[i], np.multiply(rootFile["Events/" + CONT_wgt_name].array(), reWgt)[H_mask]), axis=0)
+            #CONT_wgts[i] = np.concatenate((CONT_wgts[i], np.multiply(rootFile["Events/" + SIG_wgt_name].array(), np.multiply(rootFile["Events/" + CONT_wgt_name].array(), reWgt))[H_mask]), axis=0)
             SIGplusCONT_wgts[i] = np.concatenate((SIGplusCONT_wgts[i], np.multiply(rootFile["Events/" + SIGplusCONT_wgt_name].array(), reWgt)[H_mask]), axis=0)
             LHE_wgts[i] = np.concatenate((LHE_wgts[i], rootFile["Events/" + LHE_wgt_name].array()[H_mask]), axis=0)
 
@@ -95,7 +105,7 @@ def make_mass_bins(dataset, sample_type):
     for i in range(0, len(MASS_WINDOW_EDGES)-1):
         sum_mass_w[i] = np.sum(LHE_wgts[i])
 
-    print(len(SIG_wgts[0]), len(CONT_wgts[0]), len(m_ww[0]))
+    #print(len(SIG_wgts[0]), len(CONT_wgts[0]), len(m_ww[0]))
 
     return SIG_wgts, CONT_wgts, SIGplusCONT_wgts, LHE_wgts, sum_mass_w, m_ww
 
@@ -124,9 +134,9 @@ def remove_large_wgts(SIG_wgts, CONT_wgts, SIGplusCONT_wgts, LHE_wgts, sum_mass_
 
     # VBF quantile fractions 
     if(sample_type == "VBF"):
-        quantile_fraction_SIG = .0005
-        quantile_fraction_CONT = .001
-        quantile_fraction_SIGplusCONT = .001
+        quantile_fraction_SIG = .005 #.005
+        quantile_fraction_CONT = .001 #.001
+        quantile_fraction_SIGplusCONT = .001 #.001
 
     # Looping over all mass windows
     for i in range(0, len(SIG_wgts)):
@@ -325,7 +335,6 @@ def scale_factor(combine_wgts_by_sample, wgts_by_sample):
         running_scale_factor[i] = running_scale_factor[i-1] * scale_factor[i]
     return running_scale_factor
 
-
 def write_to_file(location, data):
     """
         Writing data to branch in root file at location.
@@ -412,8 +421,8 @@ def makeXSecHistogram(m_ww, wgt):
         for j in range(0, len(m_ww[i])):
             m_ww_unbinned.append(m_ww[i][j])
             wgts_unbinned.append(wgt[i][j])
-            if(wgt[i][j] < 0):
-                print("NEGATIVE WGT")
+            #if(wgt[i][j] < 0):
+                #print("NEGATIVE WGT")
     print("X-LEN:" + str(len(m_ww_unbinned)) + " , Y-LEN:" + str(len(wgts_unbinned)))
     return np.histogram(m_ww_unbinned, 100, (0,1000),  weights=wgts_unbinned)
 
@@ -444,7 +453,7 @@ def flatten_2d(arr):
 # Sample Index
 # 0 - ggH
 # 1 - VBF
-sample_index = 0 #ggH
+sample_index = 1 #VBF
 
 # Initializing variables by sample in big 3D array...
 m_ww_by_sample = [[[] for j in range(0, len(MASS_WINDOW_EDGES)-1)] for i in range(0, len(SAMPLES))]
@@ -472,13 +481,14 @@ for i in range(0, len(SAMPLES)):
      write_to_file("HW_" + str(SAMPLES[i]) + "_SIG_wgts_init", makeXSecHistogram(m_ww_by_sample[i], SIG_wgts_by_sample[i]))
      write_to_file("HW_" + str(SAMPLES[i]) + "_CONT_wgts_init", makeXSecHistogram(m_ww_by_sample[i], CONT_wgts_by_sample[i])) 
      write_to_file("HW_" + str(SAMPLES[i]) + "_SIGplusCONT_wgts_init", makeXSecHistogram(m_ww_by_sample[i], SIGplusCONT_wgts_by_sample[i])) 
-     print("Before Large Weight Removal: " + str(len(SIG_wgts_by_sample[i])))
+     print("Before Large Weight Removal: " + str([len(sample) for sample in SIG_wgts_by_sample[i]]))
      SIG_wgt_cutoffs_by_sample[i], CONT_wgt_cutoffs_by_sample[i], SIGplusCONT_wgt_cutoffs_by_sample[i], loss_comp_by_sample[i], SIG_wgts_by_sample[i], CONT_wgts_by_sample[i], SIGplusCONT_wgts_by_sample[i], m_ww_by_sample[i], LHE_wgts, sum_mass_w = remove_large_wgts(SIG_wgts_by_sample[i], CONT_wgts_by_sample[i], SIGplusCONT_wgts_by_sample[i], LHE_wgts, sum_mass_w, m_ww_by_sample[i], SAMPLE_TYPES[sample_index])
-     print("Before Zero Weight Removal: " + str(len(SIG_wgts_by_sample[i])))
+
+     print("Before Zero Weight Removal: " + str([len(sample) for sample in SIG_wgts_by_sample[i]]))
      ratio_lossZeroWgts, SIG_wgts_by_sample[i], CONT_wgts_by_sample[i], SIGplusCONT_wgts_by_sample[i], m_ww_by_sample[i] =  remove_zero_wgts(SIG_wgts_by_sample[i], CONT_wgts_by_sample[i], SIGplusCONT_wgts_by_sample[i], m_ww_by_sample[i], LHE_wgts, sum_mass_w)
      for j in range(0, len(MASS_WINDOW_EDGES)-1):
          loss_comp_by_sample[i][j] = loss_comp_by_sample[i][j] * ratio_lossZeroWgts[j]
-     print("After Bad Weight Removal: " + str(len(SIG_wgts_by_sample[i])))
+     print("After Bad Weight Removal: " + str([len(sample) for sample in SIG_wgts_by_sample[i]]))
      print(len(SIG_wgts_by_sample[i]))
      write_to_file("HW_" + str(SAMPLES[i]) + "_SIG_wgts_slimmed", makeXSecHistogram(m_ww_by_sample[i], SIG_wgts_by_sample[i])) 
      write_to_file("HW_" + str(SAMPLES[i]) + "_CONT_wgts_slimmed", makeXSecHistogram(m_ww_by_sample[i], CONT_wgts_by_sample[i]))

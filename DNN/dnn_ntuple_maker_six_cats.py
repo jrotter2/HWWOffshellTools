@@ -17,7 +17,7 @@ import random
 
 MAX_EVENTS_PER_CATEGORY = 500000
 
-OUTFILE = uproot3.recreate("/eos/user/j/jrotter/HWW_DNN_Ntuples/HWW_DNN_Ntuple_v3_six_cats.root")
+OUTFILE = uproot3.recreate("/eos/user/j/jrotter/HWW_DNN_Ntuples/HWW_DNN_Ntuple_v3_six_cats_improvedGGH_improvedW.root")
 # FILE VERSIONING:
 # v1 -> {"mll","dphill","detall","ptll","drll","pt1","pt2","mth","mjj","detajj","dphijj","PuppiMET_pt","dphillmet","mcollWW"}
 
@@ -115,8 +115,8 @@ def loadVariables():
                 full_wgts = np.ones(nEvents_for_file)
                 
                 for wgt in weights:
-                    if(wgt == "XSWeight"): ## REMOVING SO ALL CATEGORIES ARE EQUALLY TRAINED
-                        continue
+                   # if(wgt == "XSWeight"): ## REMOVING SO ALL CATEGORIES ARE EQUALLY TRAINED
+                   #     continue
                     full_wgts = np.multiply(rootFile["Events/" + wgt].array()[:nEvents_for_file], full_wgts)
 
                 input_vars = []
