@@ -6,6 +6,9 @@ import ROOT
 #import mplhep as hep
 #plt.style.use(hep.style.CMS)
 import numpy as np
+from scipy.optimize import curve_fit
+
+import math
 
 import matplotlib
 matplotlib.use('Agg')
@@ -94,10 +97,16 @@ for sample_type in ggWW_sampleTypes:
             mWW.append(WW_vector.M())
 
         baseW = rootFile["Events/baseW"].array()
-        XSwgt = np.multiply(rootFile["Events/genWeight"].array(), baseW)
+        XSwgt = np.multiply(rootFile["Events/genWeight"].array(), baseW) * (1.53/1.4)
 
         ggWW_mww = np.concatenate((mWW, ggWW_mww), axis=0)
         ggWW_wgt = np.concatenate((XSwgt, ggWW_wgt), axis=0)
+
+def poly_expo_paramsarray(x, params):
+    return (params[0]+params[1]*x+params[2]*x**2+params[3]*x**3) * params[4]*np.exp(-params[5] * x) + params[6]
+
+def poly_expo(x, p0,p1,p2,p3,e1,e2,e3):
+    return (p0+p1*x+p2*x**2+p3*x**3) * e1*np.exp(-e2 * x) + e3
 
 def getRunningAverage(values_binned, window_size):
     new_values_binned = [0 for value in values_binned]
@@ -117,6 +126,7 @@ def getRunningAverage(values_binned, window_size):
         current_average = current_average / current_num_points
         new_values_binned[i] = current_average
     return new_values_binned
+
 def getRatioHist(num_binned, den_binned, num_binned_err, den_binned_err):
 
     ratio_binned = np.array([])
@@ -238,6 +248,7 @@ running_average_binned_10 = getRunningAverage(gg_ratio_binned, 10)
 
 
 for i in range(0, 30):
+    break
     fig, ax = plt.subplots() #plt.subplots(2, gridspec_kw={'height_ratios': [2, 1]})
     ax.errorbar(bins[:-1], gg_ratio_binned, linestyle="",  xerr=xerr_bins[:-1], yerr=0, label="ratio")
     ax.errorbar(bins[:-1], running_average_binned_3, linestyle="",  xerr=xerr_bins[:-1], yerr=0, label="$<x>_3$")
@@ -256,9 +267,250 @@ for i in range(0, 30):
     pdf_pages.savefig(fig, bbox_inches='tight', pad_inches=1)
 
 
+good_bins = bins[:-1][np.array(bins[:-1]) < 800]
+good_ratio = gg_ratio_binned[np.array(bins[:-1]) < 800]
+
+filtered_bins_scaled = [bin_x / 1000 for bin_x in np.array(good_bins)[np.array(good_ratio) != 0]]
+filtered_ratio_logged = [math.log(ratio) for ratio in np.array(good_ratio)[np.array(good_ratio) != 0]]
+filtered_bins_averaged_5 = [bin_x / 1000 for bin_x in np.array(bins[:-1])[np.array(running_average_binned_5) != 0]]
+filtered_ratio_averaged_5 = [math.log(ratio) for ratio in np.array(running_average_binned_5)[np.array(running_average_binned_5) != 0]]
+
+
+coeff_fit = np.polyfit(filtered_bins_scaled, filtered_ratio_logged, 7)
+p_fit = [math.e**(np.sum([coeff_fit[i] * (x/1000)**(len(coeff_fit) - i - 1) for i in range(0, len(coeff_fit))])) for x in bins[:-1]]
+
+coeff_fit_avg_5 = np.polyfit(filtered_bins_averaged_5, filtered_ratio_averaged_5, 7)
+p_fit_avg_5 = [math.e**(np.sum([coeff_fit_avg_5[i] * (x/1000)**(len(coeff_fit_avg_5) - i - 1) for i in range(0, len(coeff_fit_avg_5))])) for x in bins[:-1]]
+
+print("Poly:")
+print(coeff_fit)
+
+fig, ax = plt.subplots() #plt.subplots(2, gridspec_kw={'height_ratios': [2, 1]})
+ax.errorbar(bins[:-1], gg_ratio_binned, linestyle="",  xerr=xerr_bins[:-1], yerr=0, label="ratio")
+ax.plot(bins[:-1], p_fit, label="fit")
+ax.plot(bins[:-1], p_fit_avg_5, label="avg_5 fit")
+ax.set_title("RAW/ggWW vs. $m_{WW}$",loc="left", fontsize=15, pad=20)
+ax.set_ylabel("RAW/ggWW")
+ax.set_xlabel("$m_{WW}$")
+ax.axhline(y=1, color='r', linewidth=.5, linestyle='--')
+ax.set_xlim([0,3000])
+ax.set_ylim([10**(-3),10**2])
+ax.set_yscale('log')
+ax.legend(prop = {"size": 12 })
+for item in ([ax.title, ax.xaxis.label, ax.yaxis.label] + ax.get_xticklabels() + ax.get_yticklabels()):
+    item.set_fontsize(15)
+fig.set_size_inches(6,6)
+pdf_pages.savefig(fig, bbox_inches='tight', pad_inches=1)
+
+
+
+new_ggH_weights_multiplied = [ggH_signal_wgt[j]* math.e**(np.sum([coeff_fit[i] * (ggH_mww[j]/1000)**(len(coeff_fit) - i - 1) for i in range(0, len(coeff_fit))])) for j in range(0, len(ggH_signal_wgt))]
+ggH_new_values, bins = np.histogram(ggH_mww, 300, (0,3000), weights=new_ggH_weights_multiplied)
+
+fig, ax = plt.subplots() #plt.subplots(2, gridspec_kw={'height_ratios': [2, 1]})
+ax.errorbar(bins[:-1], ggH_new_values, linestyle="",  xerr=xerr_bins[:-1], yerr=0, label="ggH*SF")
+ax.errorbar(bins[:-1], ggWW_values, linestyle="", xerr=xerr_bins[:-1], yerr=0, label="ggWW")
+ax.set_title("$d\sigma/dE$ vs. $m_{WW}$",loc="left", fontsize=15, pad=20)
+ax.set_ylabel("$d\sigma/dE$ (a.u.)")
+ax.set_xlabel("$m_{WW}$")
+ax.set_yscale('log')
+ax.set_xlim([0,3000])
+ax.set_ylim([10**(-5),10**(3)])
+ax.legend(prop = {"size": 12 })
+for item in ([ax.title, ax.xaxis.label, ax.yaxis.label] + ax.get_xticklabels() + ax.get_yticklabels()):
+    item.set_fontsize(15)
+fig.set_size_inches(6,6)
+pdf_pages.savefig(fig, bbox_inches='tight', pad_inches=1)
+
+#filtered_bins_scaled = [bin_x / 1000 for bin_x in np.array(good_bins)[np.array(good_ratio) != 0]]
+#filtered_ratio_logged = [math.log(ratio) for ratio in np.array(good_ratio)[np.array(good_ratio) != 0]]
+popt, pcov = curve_fit(poly_expo, filtered_bins_scaled, filtered_ratio_logged)
+p_fit_poly_expo = [math.e**(poly_expo_paramsarray(x/1000, popt)) for x in bins[:-1]]
+
+print("Poly Expo:")
+print(popt)
+
+fig, ax = plt.subplots() #plt.subplots(2, gridspec_kw={'height_ratios': [2, 1]})
+ax.errorbar(bins[:-1], gg_ratio_binned, linestyle="",  xerr=xerr_bins[:-1], yerr=0, label="ratio")
+ax.plot(bins[:-1], p_fit_poly_expo, label="fit")
+ax.set_title("RAW/ggWW vs. $m_{WW}$",loc="left", fontsize=15, pad=20)
+ax.set_ylabel("RAW/ggWW")
+ax.set_xlabel("$m_{WW}$")
+ax.axhline(y=1, color='r', linewidth=.5, linestyle='--')
+ax.set_xlim([0,3000])
+ax.set_ylim([10**(-3),10**2])
+ax.set_yscale('log')
+ax.legend(prop = {"size": 12 })
+for item in ([ax.title, ax.xaxis.label, ax.yaxis.label] + ax.get_xticklabels() + ax.get_yticklabels()):
+    item.set_fontsize(15)
+fig.set_size_inches(6,6)
+pdf_pages.savefig(fig, bbox_inches='tight', pad_inches=1)
+
+
+new_ggH_weights_multiplied = [ggH_signal_wgt[j] * math.e**(poly_expo_paramsarray((ggH_mww[j]/1000), popt)) for j in range(0, len(ggH_signal_wgt))]
+ggH_new_values, bins = np.histogram(ggH_mww, 300, (0,3000), weights=new_ggH_weights_multiplied)
+
+fig, ax = plt.subplots() #plt.subplots(2, gridspec_kw={'height_ratios': [2, 1]})
+ax.errorbar(bins[:-1], ggH_new_values, linestyle="",  xerr=xerr_bins[:-1], yerr=0, label="ggH*SF_{p_3*exp}")
+ax.errorbar(bins[:-1], ggWW_values, linestyle="", xerr=xerr_bins[:-1], yerr=0, label="ggWW")
+ax.set_title("$d\sigma/dE$ vs. $m_{WW}$",loc="left", fontsize=15, pad=20)
+ax.set_ylabel("$d\sigma/dE$ (a.u.)")
+ax.set_xlabel("$m_{WW}$")
+ax.set_yscale('log')
+ax.set_xlim([0,3000])
+ax.set_ylim([10**(-5),10**(3)])
+ax.legend(prop = {"size": 12 })
+for item in ([ax.title, ax.xaxis.label, ax.yaxis.label] + ax.get_xticklabels() + ax.get_yticklabels()):
+    item.set_fontsize(15)
+fig.set_size_inches(6,6)
+pdf_pages.savefig(fig, bbox_inches='tight', pad_inches=1)
+
+
+good_bins = bins[:-1]
+good_ratio = []
+for i in range(0, len(bins[:-1])):
+    if(bins[i] <= 800):
+        good_ratio.append(gg_ratio_binned[i])
+    else:
+        good_ratio.append(running_average_binned_5[i])
+
+
+filtered_bins_scaled = [bin_x / 1000 for bin_x in np.array(good_bins)[np.array(good_ratio) != 0]]
+filtered_ratio_logged = [math.log(ratio) for ratio in np.array(good_ratio)[np.array(good_ratio) != 0]]
+
+popt, pcov = curve_fit(poly_expo, filtered_bins_scaled, filtered_ratio_logged)
+p_fit_poly_expo = [math.e**(poly_expo_paramsarray(x/1000, popt)) for x in bins[:-1]]
+
+print("Poly Expo + avg_5:")
+print(popt)
+
+new_ggH_weights_multiplied = [ggH_signal_wgt[j] * math.e**(poly_expo_paramsarray((ggH_mww[j]/1000), popt)) for j in range(0, len(ggH_signal_wgt))]
+ggH_new_values, bins = np.histogram(ggH_mww, 300, (0,3000), weights=new_ggH_weights_multiplied)
+
+fig, ax = plt.subplots() #plt.subplots(2, gridspec_kw={'height_ratios': [2, 1]})
+ax.errorbar(bins[:-1], ggH_new_values, linestyle="",  xerr=xerr_bins[:-1], yerr=0, label="ggH*SF_{p_3*exp} imp")
+ax.errorbar(bins[:-1], ggWW_values, linestyle="", xerr=xerr_bins[:-1], yerr=0, label="ggWW")
+ax.set_title("$d\sigma/dE$ vs. $m_{WW}$",loc="left", fontsize=15, pad=20)
+ax.set_ylabel("$d\sigma/dE$ (a.u.)")
+ax.set_xlabel("$m_{WW}$")
+ax.set_yscale('log')
+ax.set_xlim([0,3000])
+ax.set_ylim([10**(-5),10**(3)])
+ax.legend(prop = {"size": 12 })
+for item in ([ax.title, ax.xaxis.label, ax.yaxis.label] + ax.get_xticklabels() + ax.get_yticklabels()):
+    item.set_fontsize(15)
+fig.set_size_inches(6,6)
+pdf_pages.savefig(fig, bbox_inches='tight', pad_inches=1)
+
+ggH_new_values_zoomed, bins = np.histogram(ggH_mww, 500, (0,1000), weights=new_ggH_weights_multiplied)
+ggWW_values_zoomed, bins = np.histogram(ggWW_mww, 500, (0,1000), weights=ggWW_wgt)
+xerr_bins = [(bins[1]-bins[0])/2 for i in range(0,len(bins))]
+
+
+fig, ax = plt.subplots() #plt.subplots(2, gridspec_kw={'height_ratios': [2, 1]})
+ax.errorbar(bins[:-1], ggH_new_values_zoomed, linestyle="",  xerr=xerr_bins[:-1], yerr=0, label="ggH*SF_{p_3*exp} imp")
+ax.errorbar(bins[:-1], ggWW_values_zoomed, linestyle="", xerr=xerr_bins[:-1], yerr=0, label="ggWW")
+ax.set_title("$d\sigma/dE$ vs. $m_{WW}$",loc="left", fontsize=15, pad=20)
+ax.set_ylabel("$d\sigma/dE$ (a.u.)")
+ax.set_xlabel("$m_{WW}$")
+ax.set_yscale('log')
+ax.set_xlim([0,1000])
+ax.set_ylim([10**(-5),10**(3)])
+ax.legend(prop = {"size": 12 })
+for item in ([ax.title, ax.xaxis.label, ax.yaxis.label] + ax.get_xticklabels() + ax.get_yticklabels()):
+    item.set_fontsize(15)
+fig.set_size_inches(6,6)
+pdf_pages.savefig(fig, bbox_inches='tight', pad_inches=1)
+
+
+
+new_computed_ggH_BKG = [ggH_signal_wgt[j] * math.e**(poly_expo_paramsarray((ggH_mww[j]/1000), popt)) for j in range(0, len(ggH_signal_wgt))]
+new_computed_ggH_INT = [-2*(ggH_signal_wgt[j] * new_computed_ggH_BKG[j])**(.5) for j in range(0, len(ggH_signal_wgt))]
+new_computed_ggH_BSI = [ggH_signal_wgt[j] + new_computed_ggH_BKG[j] + new_computed_ggH_INT[j] for j in range(0, len(ggH_signal_wgt))]
+
+ggH_BKG_zoomed, bins = np.histogram(ggH_mww, 200, (160,1000), weights=new_computed_ggH_BKG)
+ggH_INT_zoomed, bins = np.histogram(ggH_mww, 200, (160,1000), weights=new_computed_ggH_INT)
+ggH_BSI_zoomed, bins = np.histogram(ggH_mww, 200, (160,1000), weights=new_computed_ggH_BSI)
+ggH_SIG_zoomed, bins = np.histogram(ggH_mww, 200, (160,1000), weights=ggH_signal_wgt)
+
+xerr_bins = [(bins[1]-bins[0])/2 for i in range(0,len(bins))]
+
+fig, ax = plt.subplots() #plt.subplots(2, gridspec_kw={'height_ratios': [2, 1]})
+ax.errorbar(bins[:-1], ggH_SIG_zoomed, linestyle="",  xerr=xerr_bins[:-1], yerr=0, label="S")
+ax.errorbar(bins[:-1], ggH_BKG_zoomed, linestyle="", xerr=xerr_bins[:-1], yerr=0, label="B")
+ax.errorbar(bins[:-1], ggH_BSI_zoomed, linestyle="", xerr=xerr_bins[:-1], yerr=0, label="BSI")
+ax.set_title("$d\sigma/dE$ vs. $m_{WW}$\n " + str(popt),loc="left", fontsize=15, pad=20)
+ax.set_ylabel("$d\sigma/dE$ (a.u.)")
+ax.set_xlabel("$m_{WW}$")
+ax.set_yscale('log')
+ax.set_xlim([0,1000])
+ax.set_ylim([10**(-5),10**(3)])
+ax.legend(prop = {"size": 12 })
+for item in ([ax.title, ax.xaxis.label, ax.yaxis.label] + ax.get_xticklabels() + ax.get_yticklabels()):
+    item.set_fontsize(15)
+fig.set_size_inches(6,6)
+pdf_pages.savefig(fig, bbox_inches='tight', pad_inches=1)
+
+fig, ax = plt.subplots() #plt.subplots(2, gridspec_kw={'height_ratios': [2, 1]})
+ax.errorbar(bins[:-1], ggH_SIG_zoomed, linestyle="",  xerr=xerr_bins[:-1], yerr=0, label="S")
+ax.errorbar(bins[:-1], ggH_INT_zoomed, linestyle="", xerr=xerr_bins[:-1], yerr=0, label="I")
+ax.errorbar(bins[:-1], ggH_BKG_zoomed, linestyle="", xerr=xerr_bins[:-1], yerr=0, label="B")
+ax.errorbar(bins[:-1], ggH_BSI_zoomed, linestyle="", xerr=xerr_bins[:-1], yerr=0, label="BSI")
+ax.set_title("$d\sigma/dE$ vs. $m_{WW}$",loc="left", fontsize=15, pad=20)
+ax.set_ylabel("$d\sigma/dE$ (a.u.)")
+ax.set_xlabel("$m_{WW}$")
+#ax.set_yscale('log')
+ax.set_xlim([0,1000])
+#ax.set_ylim([,10**(3)])
+ax.legend(prop = {"size": 12 })
+for item in ([ax.title, ax.xaxis.label, ax.yaxis.label] + ax.get_xticklabels() + ax.get_yticklabels()):
+    item.set_fontsize(15)
+fig.set_size_inches(6,6)
+pdf_pages.savefig(fig, bbox_inches='tight', pad_inches=1)
+
+new_computed_ggH_BKG = [3.75*ggH_signal_wgt[j] * math.e**(poly_expo_paramsarray((ggH_mww[j]/1000), popt)) for j in range(0, len(ggH_signal_wgt))]
+new_computed_ggH_INT = [-2*(ggH_signal_wgt[j] * new_computed_ggH_BKG[j])**(.5) for j in range(0, len(ggH_signal_wgt))]
+new_computed_ggH_BSI = [ggH_signal_wgt[j] + new_computed_ggH_BKG[j] + new_computed_ggH_INT[j] for j in range(0, len(ggH_signal_wgt))]
+
+ggH_BKG_zoomed, bins = np.histogram(ggH_mww, 200, (160,1000), weights=new_computed_ggH_BKG)
+ggH_INT_zoomed, bins = np.histogram(ggH_mww, 200, (160,1000), weights=new_computed_ggH_INT)
+ggH_BSI_zoomed, bins = np.histogram(ggH_mww, 200, (160,1000), weights=new_computed_ggH_BSI)
+ggH_SIG_zoomed, bins = np.histogram(ggH_mww, 200, (160,1000), weights=ggH_signal_wgt)
+
+xerr_bins = [(bins[1]-bins[0])/2 for i in range(0,len(bins))]
+
+fig, ax = plt.subplots() #plt.subplots(2, gridspec_kw={'height_ratios': [2, 1]})
+ax.errorbar(bins[:-1], ggH_SIG_zoomed, linestyle="",  xerr=xerr_bins[:-1], yerr=0, label="S")
+ax.errorbar(bins[:-1], ggH_BKG_zoomed, linestyle="", xerr=xerr_bins[:-1], yerr=0, label="B")
+ax.errorbar(bins[:-1], ggH_BSI_zoomed, linestyle="", xerr=xerr_bins[:-1], yerr=0, label="BSI")
+ax.set_title("$d\sigma/dE$ vs. $m_{WW}$\n " + str(popt),loc="left", fontsize=15, pad=20)
+ax.set_ylabel("$d\sigma/dE$ (a.u.)")
+ax.set_xlabel("$m_{WW}$")
+ax.set_yscale('log')
+ax.set_xlim([0,1000])
+ax.set_ylim([10**(-5),10**(3)])
+ax.legend(prop = {"size": 12 })
+for item in ([ax.title, ax.xaxis.label, ax.yaxis.label] + ax.get_xticklabels() + ax.get_yticklabels()):
+    item.set_fontsize(15)
+fig.set_size_inches(6,6)
+pdf_pages.savefig(fig, bbox_inches='tight', pad_inches=1)
+
+fig, ax = plt.subplots() #plt.subplots(2, gridspec_kw={'height_ratios': [2, 1]})
+ax.errorbar(bins[:-1], ggH_SIG_zoomed, linestyle="",  xerr=xerr_bins[:-1], yerr=0, label="S")
+ax.errorbar(bins[:-1], ggH_BKG_zoomed, linestyle="", xerr=xerr_bins[:-1], yerr=0, label="B")
+ax.errorbar(bins[:-1], ggH_BSI_zoomed, linestyle="", xerr=xerr_bins[:-1], yerr=0, label="BSI")
+ax.set_title("$d\sigma/dE$ vs. $m_{WW}$ - SF 3.75",loc="left", fontsize=15, pad=20)
+ax.set_ylabel("$d\sigma/dE$ (a.u.)")
+ax.set_xlabel("$m_{WW}$")
+ax.set_yscale('log')
+ax.set_xlim([0,1000])
+#ax.set_ylim([,10**(3)])
+ax.legend(prop = {"size": 12 })
+for item in ([ax.title, ax.xaxis.label, ax.yaxis.label] + ax.get_xticklabels() + ax.get_yticklabels()):
+    item.set_fontsize(15)
+fig.set_size_inches(6,6)
+pdf_pages.savefig(fig, bbox_inches='tight', pad_inches=1)
+
 
 pdf_pages.close()
-
-
-
 

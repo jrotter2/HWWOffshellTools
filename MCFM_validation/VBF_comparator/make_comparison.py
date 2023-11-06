@@ -29,11 +29,14 @@ plots = ["mww", "mll", "ptll", "MET", "mw", "ele_eta", "ele_pt", "muon_eta", "mu
 
 #mcfm_file_name = "MCFM_validation_plots_specialSelection_shellSplit.root"
 mcfm_file_name = "MCFM_validation_plots_specialSelection_shellSplit_CONT_VBF.root"
+mcfm_file_name = "MCFM_validation_plots_specialSelection_shellSplit_SIG_100k_VBF.root"
 #ntuple_file_name = "hww_mcfm_validation_v2_SFonly_200.root"
 #ntuple_file_name = "hww_mcfm_validation_v2_SFonly_500.root"
 #ntuple_file_name = "hww_mcfm_validation_v2_SFonly_unscaled_500.root"
 #ntuple_file_name = "hww_mcfm_validationMay10_specialSelection_shellSplit_SIG_v2_noSF.root"
-ntuple_file_name = "hww_validationSept28_specialSelection_shellSplit_CONT.root"
+#ntuple_file_name = "hww_validationSept28_specialSelection_shellSplit_CONT.root"
+ntuple_file_name = "hww_validationSept28_specialSelection_shellSplit_SIG.root"
+
 #ntuple_file_name = "hww_mcfm_validationMay10_specialSelection_shellSplit_SIG_v2_1p6SF.root"
 #plots = ["mww"]
 
@@ -44,7 +47,7 @@ mcfm_file = uproot.open(mcfm_file_name)
 ntuple_file = uproot.open(ntuple_file_name)
 
 
-pdf_pages = PdfPages("./mcfm_comparions_specSelection_shellSplit_CONT_wMassbins_VBF.pdf")
+pdf_pages = PdfPages("./mcfm_comparions_specSelection_shellSplit_SIG_wMassbins_100k_VBF.pdf")
 
 
 def getRatioHist(num_binned, den_binned, num_binned_err, den_binned_err):

@@ -23,10 +23,13 @@ import random
 
 
 #INFILE_NAME = "/eos/user/j/jrotter/HWW_DNN_Ntuples/HWW_DNN_Ntuple_v3_six_cats_improvedGGH.root"
-INFILE_NAME = "/eos/user/j/jrotter/HWW_DNN_Ntuples/HWW_DNN_Ntuple_v3_six_cats_improvedGGH_improvedW.root"
+#INFILE_NAME = "/eos/user/j/jrotter/HWW_DNN_Ntuples/HWW_DNN_Ntuple_v3_six_cats_improvedGGH_improvedW.root"
+#INFILE_NAME = "/eos/user/j/jrotter/HWW_DNN_Ntuples/HWW_DNN_Ntuple_v3_six_cats_UL.root"
+INFILE_NAME = "/eos/user/j/jrotter/HWW_DNN_Ntuples/HWW_DNN_Ntuple_v4_six_cats_UL.root"
 # FILE VERSIONING:
 # v1 -> {"mll","dphill","detall","ptll","drll","pt1","pt2","mth","mjj","detajj","dphijj","PuppiMET_pt","dphillmet","mcollWW"}
 # v2 -> {"mll","dphill","detall","ptll","drll","Lepton_pt0","Lepton_pt1","mth","mjj","detajj","dphijj","PuppiMET_pt","dphillmet","mcollWW"}
+# v4 -> {"mll","dphill","detall","ptll","drll","Lepton_pt0","Lepton_pt1","mth","mjj","detajj","dphijj","PuppiMET_pt","dphillmet","mcollWW", "qgl0", "qgl1"}
 
 
 CATEGORIES = ["VBF_OFF", "VBF_ON", "ggH_OFF", "ggH_ON", "BKG"] #Titles for categories
@@ -35,7 +38,7 @@ ENCODING = {"VBF_2018v7_OFF" : [1,0,0,0,0],"VBF_2018v7_ON" : [0,1,0,0,0], "ggH_2
 
 CAT_CONFIG_IDS = ["VBF_2018v7_OFF","VBF_2018v7_ON", "ggH_2018v7_OFF","ggH_2018v7_ON", "top_2018v7", "WW_2018v7"]
 
-INPUT_VARS = ["mll","dphill","detall","ptll","drll","Lepton_pt0","Lepton_pt1","mth","mjj","detajj","dphijj","PuppiMET_pt","dphillmet","mcollWW"]
+INPUT_VARS = ["mll","dphill","detall","ptll","drll","Lepton_pt0","Lepton_pt1","mth","mjj","detajj","dphijj","PuppiMET_pt","dphillmet","mcollWW"] #,"qgl0","qgl1"]
 
 INPUT_VAR_INDEX = {}
 for i, var in enumerate(INPUT_VARS):
@@ -171,10 +174,10 @@ X_inputs, Y_inputs, W_inputs = loadVariables()
 X_train, Y_train, W_train, X_test, Y_test, W_test = randomize_test_train(X_inputs, Y_inputs, W_inputs)
 
 
-estimator = KerasClassifier(build_fn=baseline_model, epochs=50, batch_size=4096, validation_split=0.25, verbose=1, shuffle=True) #500
+estimator = KerasClassifier(build_fn=baseline_model, epochs=200, batch_size=4096, validation_split=0.25, verbose=1, shuffle=True) #500
 history = estimator.fit(np.array(X_train),np.array(Y_train), sample_weight=np.array(W_train), callbacks=[tf.keras.callbacks.EarlyStopping(monitor='val_loss',patience=30,verbose=1)])
 
-pdf_pages = PdfPages("./dnn_v2_history_five_cats_newMaxEvents_withPlots_improvedW_FinalOfSept14.pdf")
+pdf_pages = PdfPages("./dnn_v2_history_five_cats_newMaxEvents_withPlots_UL_Nov2_DiffCatWgts.pdf")
 fig, ax = plt.subplots(1)
 fig.suptitle("Model Accuracy")
 ax.plot(history.history['acc'])
@@ -217,7 +220,7 @@ fig3, ax3 = plt.subplots(1)
 ylabels = CATEGORIES
 xlabels = CATEGORIES
 
-ax3 = sns.heatmap(cm, cmap=sns.cubehelix_palette(start=.5, rot=-.5, as_cmap=True), xticklabels = xlabels, yticklabels=ylabels, linewidth=.25)
+ax3 = sns.heatmap(cm, cmap=sns.cubehelix_palette(start=.5, rot=-.5, as_cmap=True), xticklabels = xlabels, yticklabels=ylabels, linewidth=.25, annot=True)
 ax3.set_xticklabels(ax3.get_xticklabels(),rotation=90)
 ax3.set_title("Confusion Matrix")
 ax3.set_xlabel("Predicted")
@@ -229,8 +232,8 @@ pdf_pages.savefig(fig3)
 
 #print(estimator.__dict__)
 
-estimator.model.save('hww_offshell_dnn_five_cats_withPlots_improvedW_FinalOfSept14.keras')
-estimator.model.save_weights('hww_offshell_weights_five_cats_withPlots_improvedW_FinalOfSept14.h5')
+estimator.model.save('hww_offshell_dnn_five_cats_withPlots_improvedW_UL_Nov2_DiffCatWgts.keras')
+estimator.model.save_weights('hww_offshell_weights_five_cats_withPlots_improvedW_UL_Nov2_DiffCatWgts.h5')
 
 import json
 weights_list = np.array(estimator.model.get_weights())
@@ -249,7 +252,7 @@ for layer in range(0, int(len(weights_list)/2)):
         layer_data["Node_" + str(i)] = node_data
     output_data["Layer_" + str(layer)] = layer_data
 
-with open("hww_offshell_weights_five_cats_improvedW_FinalOfSept14.json", "w") as json_file:
+with open("hww_offshell_weights_five_cats_improvedW_UL_Nov2_DiffCatWgts.json", "w") as json_file:
     json_data = json.dumps(output_data, indent=4)
     json_file.write(json_data)
 

@@ -12,10 +12,10 @@ from ROOT import TLorentzVector
 
 
 MCFM_PATH = "/afs/cern.ch/user/t/tcarnaha/public/for_John/"
-SIG_FILE_NAME = "Signal_VBF10k.root"
+SIG_FILE_NAME = "VBF_Signal_100k.root"
 CONT_FILE_NAME = "Continuum_VBF10k.root"
 
-MCFM_SIG_FILE = uproot.open(MCFM_PATH + CONT_FILE_NAME)
+MCFM_SIG_FILE = uproot.open(MCFM_PATH + SIG_FILE_NAME)
 
 wgt_mcfm = MCFM_SIG_FILE["tree/evtWeight"].array()
 mww_mcfm = MCFM_SIG_FILE["tree/mww"].array()
@@ -185,7 +185,7 @@ for i in range(0, len(wgt_mcfm)):
         ele_pt_onshell.append(ele_c_pt)
         ele_eta_onshell.append(ele_vec.Eta())
 
-OUTFILE = uproot.recreate("./MCFM_validation_plots_specialSelection_shellSplit_CONT_VBF.root")
+OUTFILE = uproot.recreate("./MCFM_validation_plots_specialSelection_shellSplit_SIG_100k_VBF.root")
 
 print(len(m_ww))
 
