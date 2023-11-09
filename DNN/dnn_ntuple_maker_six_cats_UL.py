@@ -17,7 +17,7 @@ import random
 
 MAX_EVENTS_PER_CATEGORY = 1000000
 
-OUTFILE = uproot3.recreate("/eos/user/j/jrotter/HWW_DNN_Ntuples/HWW_DNN_Ntuple_v5_six_cats_UL.root")
+OUTFILE = uproot3.recreate("/eos/user/j/jrotter/HWW_DNN_Ntuples/HWW_DNN_Ntuple_v6_six_cats_UL.root")
 # FILE VERSIONING:
 # v1 -> {"mll","dphill","detall","ptll","drll","pt1","pt2","mth","mjj","detajj","dphijj","PuppiMET_pt","dphillmet","mcollWW"}
 
@@ -34,7 +34,7 @@ INPUT_VAR_INDEX = {}
 for i, var in enumerate(INPUT_VARS):
     INPUT_VAR_INDEX[var] = i
 
-CONFIG_FILE_PATH = "test_dnn_config.json"
+CONFIG_FILE_PATH = "test_dnn_config_v3.json"
 CONFIG_FILE = open(CONFIG_FILE_PATH, "r")
 CONFIG_FILE_CONTENTS = CONFIG_FILE.read()
 CONFIG = json.loads(CONFIG_FILE_CONTENTS)
@@ -135,7 +135,7 @@ def loadVariables():
                             input_vars.append(np.array(Jet_btag[np.indices(CleanJet_jetIdx.shape)[0], CleanJet_jetIdx]))
                         except:
                             print("CleanJet_jetIdx was out-of-bounds for Jet_qgl Collection...")
-                            Jet_btag = np.array([evt[CleanJet_jetIdx[evt_index]] if len(evt)>CleanJet_jetIdx[evt_index] else .5 for evt_index,evt in enumerate(rootFile["Events/Jet_btagDeepFlavB"].array()[:nEvents_for_file])])
+                            Jet_btag = np.array([evt[CleanJet_jetIdx[evt_index]] if len(evt)>CleanJet_jetIdx[evt_index] else -3 for evt_index,evt in enumerate(rootFile["Events/Jet_btagDeepFlavB"].array()[:nEvents_for_file])])
                             input_vars.append(Jet_btag)
                     elif("qgl" in var_name):
                         var = var_name[:-1]
@@ -151,7 +151,7 @@ def loadVariables():
                             input_vars.append(np.array(Jet_qgl[np.indices(CleanJet_jetIdx.shape)[0], CleanJet_jetIdx]))
                         except:
                             print("CleanJet_jetIdx was out-of-bounds for Jet_qgl Collection...")
-                            Jet_qgl = np.array([evt[CleanJet_jetIdx[evt_index]] if len(evt)>CleanJet_jetIdx[evt_index] else .5 for evt_index,evt in enumerate(rootFile["Events/Jet_qgl"].array()[:nEvents_for_file])])
+                            Jet_qgl = np.array([evt[CleanJet_jetIdx[evt_index]] if len(evt)>CleanJet_jetIdx[evt_index] else -3 for evt_index,evt in enumerate(rootFile["Events/Jet_qgl"].array()[:nEvents_for_file])])
                             input_vars.append(Jet_qgl)
                     elif(any(chr.isdigit() for chr in var_name)):
                         var = var_name[:-1]

@@ -41,7 +41,7 @@ output_data["UL_WW"] = WW_sample_data
 
 ##### top INFO ##### 
 top_SUBSAMPLES = ["ST_tW_top", "ST_tW_antitop", "TTTo2L2Nu", "ST_s-channel", "ST_t-channel_top", "ST_t-channel_antitop"]
-top_SUBSAMPLE_SEARCH = {"ST_tW_top" : ["*_ST_tW_top__*"], "ST_tW_antitop" :["*_ST_tW_antitop__*"], "TTTo2L2Nu" : ["*_TTTo2L2Nu__*"], "ST_s-channel" : ["*_ST_s-channel__"], "ST_t-channel_top" : ["*_ST_t-channel_top__*"], "ST_t-channel_antitop" : ["*_ST_t-channel_antitop__*"]}
+top_SUBSAMPLE_SEARCH = {"ST_tW_top" : ["*_ST_tW_top__*"], "ST_tW_antitop" :["*_ST_tW_antitop__*"], "TTTo2L2Nu" : ["*_TTTo2L2Nu__*"], "ST_s-channel" : ["*_ST_s-channel__*"], "ST_t-channel_top" : ["*_ST_t-channel_top__*"], "ST_t-channel_antitop" : ["*_ST_t-channel_antitop__*"]}
 top_SUBSAMPLE_WEIGHTS = [["XSWeight"], ["XSWeight"], ["XSWeight"], ["XSWeight"], ["XSWeight"], ["XSWeight"]]
 top_SUBSAMPLE_CUSTOMWEIGHTS = [["SFweight","PromptGenLepMatch2l","METFilter_MC"], ["SFweight","PromptGenLepMatch2l","METFilter_MC"], ["SFweight","PromptGenLepMatch2l","METFilter_MC"], ["SFweight","PromptGenLepMatch2l","METFilter_MC"], ["SFweight","PromptGenLepMatch2l","METFilter_MC"], ["SFweight","PromptGenLepMatch2l","METFilter_MC"]]
 
