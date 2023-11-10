@@ -171,7 +171,7 @@ def loadVariables():
 
                 CleanJet_pt =  np.array(rootFile["Events/" + "CleanJet_pt"].array()[:nEvents_for_file])
 
-                shell_mask = []
+                shell_mask = np.full(nEvents_for_file, True)
                 if("OFFSHELL_HIGGS" in custom_weights):
                     shell_mask = np.array(rootFile["Events/" + "LHECandMass"].array()[:nEvents_for_file]) >= 160
                 elif("ONSHELL_HIGGS" in custom_weights):
@@ -179,9 +179,13 @@ def loadVariables():
                 else:
                     shell_mask = np.array([True for i in range(0, nEvents_for_file)])
 
-
-
-                evt_mask = mll_mask & ptll_mask & ptl1_mask & ptl2_mask & ptmiss_mask & njet_mask & shell_mask
+                evt_mask = np.full(nEvents_for_file, True)
+                try:
+                    evt_mask = mll_mask & ptll_mask & ptl1_mask & ptl2_mask & ptmiss_mask & njet_mask & shell_mask
+                except:
+                    print(mll_mask[0], ptll_mask[0], ptl1_mask[0], ptl2_mask[0], ptmiss_mask[0], njet_mask[0], shell_mask[0])
+                    print(mll_mask[0] and ptll_mask[0] and ptl1_mask[0] and ptl2_mask[0] and ptmiss_mask[0] and njet_mask[0] and shell_mask[0])
+                    continue
 
                 x_evt = np.transpose(input_vars)
                 nEvents_added = 0
