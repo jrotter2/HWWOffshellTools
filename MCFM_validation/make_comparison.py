@@ -5,6 +5,8 @@ import mplhep as hep
 plt.style.use(hep.style.CMS)
 import numpy as np
 
+from scipy.stats import chi2
+
 from matplotlib.backends.backend_pdf import PdfPages
 
 MASS_BINS = [0,136.7,148.3,165,175,185,195,205,220,240,260,285,325,375,425,475,525,575,650,750,850,950]
@@ -41,7 +43,7 @@ mcfm_file = uproot.open(mcfm_file_name)
 ntuple_file = uproot.open(ntuple_file_name)
 
 
-pdf_pages = PdfPages("./mcfm_comparions_specSelection_shellSplit_SIG_wMassbins_v2_noSF.pdf")
+pdf_pages = PdfPages("./mcfm_comparions_specSelection_shellSplit_SIG_wMassbins_v2_noSF_Apr23_v2.pdf")
 
 
 def getRatioHist(num_binned, den_binned, num_binned_err, den_binned_err):
@@ -84,40 +86,44 @@ for i in range(0,len(plots)):
     #yerr_mcfm = mcfm_file["HWW/" + plots[i]].errors()
     yerr_ntuple = ntuple_file["HWW/" + plots[i]].errors()
 
-    ratio_binned, ratio_binned_err = getRatioHist(ntuple_values*ntuple_scale, mcfm_values * mcfm_scale, np.array(yerr_ntuple)*ntuple_scale, np.array(yerr_mcfm) * mcfm_scale)
+ 
+    chi_sq = 0
+    num_summed = 0
+    print("starting")
+    for j in range(0, len(mcfm_values)):
+        if(ntuple_values[j] != 0 and mcfm_values[j] != 0):
+            num_summed += 1
+            chi_sq += (mcfm_values[j] * mcfm_scale - ntuple_values[j]*ntuple_scale)**2/((yerr_ntuple[j]*ntuple_scale)**2 + (yerr_mcfm[j]*mcfm_scale)**2)
 
-    fig, ax = plt.subplots(2, gridspec_kw={'height_ratios': [2, 1]})
-    hep.cms.text("Preliminary Simulation", fontsize=15, ax=ax[0])
-    hep.cms.lumitext("13TeV", fontsize=15, ax=ax[0])
+    print(len(mcfm_values))
+    print(chi_sq)
+    print(axis_label[i] + " : " + str(chi2.sf(chi_sq/num_summed, 1))) #len(mcfm_values)-1)))
+
+    stats = [chi_sq/num_summed,chi2.sf(chi_sq/num_summed, 1)]
+
+    #ratio_binned, ratio_binned_err = getRatioHist(ntuple_values*ntuple_scale, mcfm_values * mcfm_scale, np.array(yerr_ntuple)*ntuple_scale, np.array(yerr_mcfm) * mcfm_scale)
+
+    fig, ax = plt.subplots() #2, gridspec_kw={'height_ratios': [})
+    hep.cms.text("Preliminary Simulation", fontsize=15, ax=ax)
+    hep.cms.lumitext("13TeV", fontsize=15, ax=ax)
 
 
-    ax[0].errorbar(bins[:-1], mcfm_values * mcfm_scale, linestyle="",  xerr=xerr_bins[:-1], yerr=np.array(yerr_mcfm) * mcfm_scale, label="MCFM")
-    ax[0].errorbar(bins[:-1], ntuple_values*ntuple_scale, linestyle="", xerr=xerr_bins[:-1], yerr=np.array(yerr_ntuple)*ntuple_scale, label="POWHEG+JHUGen(Merged)")
+    ax.errorbar(bins[:-1], mcfm_values * mcfm_scale, linestyle="",  xerr=xerr_bins[:-1], yerr=np.array(yerr_mcfm) * mcfm_scale, label="MCFM")
+    ax.errorbar(bins[:-1], ntuple_values*ntuple_scale, linestyle="", xerr=xerr_bins[:-1], yerr=np.array(yerr_ntuple)*ntuple_scale, label="POWHEG+JHUGen(Merged)")
+    ax.errorbar([0], [0], linestyle="",color="white", xerr=[0], yerr=[0], label="$\chi^2 / df$" + str(round(stats[0],2)) + " | p: " + str(round(stats[1],2)))
     #hep.histplot(mcfm_values, bins, xerr=True, yerr=yerr_mcfm, density=True, histtype="errorbar", label="MCFM")
     #hep.histplot(ntuple_values, bins, xerr=True, yerr=yerr_ntuple, density=True, histtype="errorbar", label="POWHEG+JHUGen Merged")
-    ax[0].set_title("$d\sigma/dE$ vs. " + axis_label[i],loc="left", fontsize=15, pad=20)
-    ax[0].set_ylabel("$d\sigma/dE$ (a.u.)")
-    #ax[0].set_xlabel(axis_label[i])
-    ax[0].set_yscale('log')
+    ax.set_title("$d\sigma/dE$ vs. " + axis_label[i],loc="left", fontsize=15, pad=20)
+    ax.set_ylabel("$d\sigma/dE$ (a.u.)")
+    ax.set_xlabel(axis_label[i])
+    ax.set_yscale('log')
     #ax[0].set_xscale('log')
-    ax[0].set_xlim([0,1000])
+    #ax.set_xlim([0,1000])
     if(axis_label[i] == "$m_{WW}$"):
         for j in range(0, len(MASS_BINS)):
-            ax[0].axvline(x=MASS_BINS[j], color='r', linewidth=.5, linestyle="--")
-    ax[0].legend(prop = {"size": 12 })
-    for item in ([ax[0].title, ax[0].xaxis.label, ax[0].yaxis.label] + ax[0].get_xticklabels() + ax[0].get_yticklabels()):
-        item.set_fontsize(15)
-
-    ax[1].errorbar(bins[:-1],ratio_binned,linestyle="", xerr=xerr_bins[:-1], yerr=ratio_binned_err, label="Merged/MCFM")
-    ax[1].set_ylabel("Ratio")
-    ax[1].set_xlabel(axis_label[i])
-    ax[1].axhline(y=1, color='r', linewidth=.5, linestyle='--')
-    ax[1].axhline(linewidth=.1)
-    ax[1].set_ylim([0,2])
-    ax[1].legend(prop = {"size": 12 })
-    #ax[1].set_xscale('log')
-    ax[1].set_xlim([0,1000])
-    for item in ([ax[1].title, ax[1].xaxis.label, ax[1].yaxis.label] + ax[1].get_xticklabels() + ax[1].get_yticklabels()):
+            ax.axvline(x=MASS_BINS[j], color='r', linewidth=.5, linestyle="--")
+    ax.legend(prop = {"size": 12 })
+    for item in ([ax.title, ax.xaxis.label, ax.yaxis.label] + ax.get_xticklabels() + ax.get_yticklabels()):
         item.set_fontsize(15)
 
     fig.set_size_inches(6,6)

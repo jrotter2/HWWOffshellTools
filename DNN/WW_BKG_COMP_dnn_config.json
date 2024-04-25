@@ -1,0 +1,638 @@
+{
+    "UL_VBF_OFF": {
+        "basepath": "/eos/cms/store/group/phys_higgs/cmshww/fernanpe/HWWNano/", 
+        "subpaths": [
+            {
+                "files": [
+                    "Summer20UL16_106x_nAODv9_HIPM_Full2016v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2016v9__MCCorr2016v9NoJERInHorn__l2tightOR2016v9/nanoLatino_VBFHToWWTo2L2Nu_M125__part0.root", 
+                    "Summer20UL16_106x_nAODv9_HIPM_Full2016v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2016v9__MCCorr2016v9NoJERInHorn__l2tightOR2016v9/nanoLatino_VBFHToWWTo2L2Nu_M125__part1.root", 
+                    "Summer20UL16_106x_nAODv9_noHIPM_Full2016v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2016v9__MCCorr2016v9NoJERInHorn__l2tightOR2016v9/nanoLatino_VBFHToWWTo2L2Nu_M125__part0.root", 
+                    "Summer20UL17_106x_nAODv9_Full2017v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2017v9__MCCorr2017v9NoJERInHorn__l2tightOR2017v9/nanoLatino_VBFHToWWTo2L2Nu_M125__part0.root", 
+                    "Summer20UL18_106x_nAODv9_Full2018v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2018v9__MCCorr2018v9NoJERInHorn__l2tightOR2018v9/nanoLatino_VBFHToWWTo2L2Nu_M125__part0.root"
+                ], 
+                "custom_weights": [
+                    "OFFSHELL_HIGGS"
+                ], 
+                "weights": [
+                    "XSWeight", 
+                    "p_Gen_JJEW_SIG_ghv1_1_MCFM", 
+                    "p_Gen_CPStoBWPropRewgt", 
+                    "HWWOffshell_combineWgt"
+                ], 
+                "name": "VBF_125"
+            }, 
+            {
+                "files": [
+                    "Summer20UL16_106x_nAODv9_HIPM_Full2016v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2016v9__MCCorr2016v9NoJERInHorn__l2tightOR2016v9/nanoLatino_VBFHToWWTo2L2Nu_M160__part0.root", 
+                    "Summer20UL16_106x_nAODv9_noHIPM_Full2016v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2016v9__MCCorr2016v9NoJERInHorn__l2tightOR2016v9/nanoLatino_VBFHToWWTo2L2Nu_M160__part0.root", 
+                    "Summer20UL17_106x_nAODv9_Full2017v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2017v9__MCCorr2017v9NoJERInHorn__l2tightOR2017v9/nanoLatino_VBFHToWWTo2L2Nu_M160__part0.root", 
+                    "Summer20UL18_106x_nAODv9_Full2018v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2018v9__MCCorr2018v9NoJERInHorn__l2tightOR2018v9/nanoLatino_VBFHToWWTo2L2Nu_M160__part0.root"
+                ], 
+                "custom_weights": [
+                    "OFFSHELL_HIGGS"
+                ], 
+                "weights": [
+                    "XSWeight", 
+                    "p_Gen_JJEW_SIG_ghv1_1_MCFM", 
+                    "p_Gen_CPStoBWPropRewgt", 
+                    "HWWOffshell_combineWgt"
+                ], 
+                "name": "VBF_160"
+            }, 
+            {
+                "files": [
+                    "Summer20UL16_106x_nAODv9_HIPM_Full2016v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2016v9__MCCorr2016v9NoJERInHorn__l2tightOR2016v9/nanoLatino_VBFHToWWTo2L2Nu_M170__part1.root", 
+                    "Summer20UL16_106x_nAODv9_noHIPM_Full2016v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2016v9__MCCorr2016v9NoJERInHorn__l2tightOR2016v9/nanoLatino_VBFHToWWTo2L2Nu_M170__part0.root", 
+                    "Summer20UL17_106x_nAODv9_Full2017v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2017v9__MCCorr2017v9NoJERInHorn__l2tightOR2017v9/nanoLatino_VBFHToWWTo2L2Nu_M170__part0.root", 
+                    "Summer20UL17_106x_nAODv9_Full2017v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2017v9__MCCorr2017v9NoJERInHorn__l2tightOR2017v9/nanoLatino_VBFHToWWTo2L2Nu_M170__part1.root", 
+                    "Summer20UL18_106x_nAODv9_Full2018v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2018v9__MCCorr2018v9NoJERInHorn__l2tightOR2018v9/nanoLatino_VBFHToWWTo2L2Nu_M170__part0.root", 
+                    "Summer20UL18_106x_nAODv9_Full2018v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2018v9__MCCorr2018v9NoJERInHorn__l2tightOR2018v9/nanoLatino_VBFHToWWTo2L2Nu_M170__part1.root"
+                ], 
+                "custom_weights": [
+                    "OFFSHELL_HIGGS"
+                ], 
+                "weights": [
+                    "XSWeight", 
+                    "p_Gen_JJEW_SIG_ghv1_1_MCFM", 
+                    "p_Gen_CPStoBWPropRewgt", 
+                    "HWWOffshell_combineWgt"
+                ], 
+                "name": "VBF_170"
+            }, 
+            {
+                "files": [
+                    "Summer20UL16_106x_nAODv9_HIPM_Full2016v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2016v9__MCCorr2016v9NoJERInHorn__l2tightOR2016v9/nanoLatino_VBFHToWWTo2L2Nu_M180__part0.root", 
+                    "Summer20UL16_106x_nAODv9_noHIPM_Full2016v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2016v9__MCCorr2016v9NoJERInHorn__l2tightOR2016v9/nanoLatino_VBFHToWWTo2L2Nu_M180__part0.root", 
+                    "Summer20UL17_106x_nAODv9_Full2017v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2017v9__MCCorr2017v9NoJERInHorn__l2tightOR2017v9/nanoLatino_VBFHToWWTo2L2Nu_M180__part1.root", 
+                    "Summer20UL18_106x_nAODv9_Full2018v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2018v9__MCCorr2018v9NoJERInHorn__l2tightOR2018v9/nanoLatino_VBFHToWWTo2L2Nu_M180__part0.root", 
+                    "Summer20UL18_106x_nAODv9_Full2018v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2018v9__MCCorr2018v9NoJERInHorn__l2tightOR2018v9/nanoLatino_VBFHToWWTo2L2Nu_M180__part1.root"
+                ], 
+                "custom_weights": [
+                    "OFFSHELL_HIGGS"
+                ], 
+                "weights": [
+                    "XSWeight", 
+                    "p_Gen_JJEW_SIG_ghv1_1_MCFM", 
+                    "p_Gen_CPStoBWPropRewgt", 
+                    "HWWOffshell_combineWgt"
+                ], 
+                "name": "VBF_180"
+            }, 
+            {
+                "files": [
+                    "Summer20UL16_106x_nAODv9_HIPM_Full2016v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2016v9__MCCorr2016v9NoJERInHorn__l2tightOR2016v9/nanoLatino_VBFHToWWTo2L2Nu_M190__part0.root", 
+                    "Summer20UL16_106x_nAODv9_noHIPM_Full2016v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2016v9__MCCorr2016v9NoJERInHorn__l2tightOR2016v9/nanoLatino_VBFHToWWTo2L2Nu_M190__part0.root", 
+                    "Summer20UL16_106x_nAODv9_noHIPM_Full2016v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2016v9__MCCorr2016v9NoJERInHorn__l2tightOR2016v9/nanoLatino_VBFHToWWTo2L2Nu_M190__part1.root", 
+                    "Summer20UL17_106x_nAODv9_Full2017v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2017v9__MCCorr2017v9NoJERInHorn__l2tightOR2017v9/nanoLatino_VBFHToWWTo2L2Nu_M190__part0.root", 
+                    "Summer20UL18_106x_nAODv9_Full2018v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2018v9__MCCorr2018v9NoJERInHorn__l2tightOR2018v9/nanoLatino_VBFHToWWTo2L2Nu_M190__part0.root"
+                ], 
+                "custom_weights": [
+                    "OFFSHELL_HIGGS"
+                ], 
+                "weights": [
+                    "XSWeight", 
+                    "p_Gen_JJEW_SIG_ghv1_1_MCFM", 
+                    "p_Gen_CPStoBWPropRewgt", 
+                    "HWWOffshell_combineWgt"
+                ], 
+                "name": "VBF_190"
+            }, 
+            {
+                "files": [
+                    "Summer20UL16_106x_nAODv9_HIPM_Full2016v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2016v9__MCCorr2016v9NoJERInHorn__l2tightOR2016v9/nanoLatino_VBFHToWWTo2L2Nu_M200__part0.root", 
+                    "Summer20UL16_106x_nAODv9_HIPM_Full2016v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2016v9__MCCorr2016v9NoJERInHorn__l2tightOR2016v9/nanoLatino_VBFHToWWTo2L2Nu_M200__part1.root", 
+                    "Summer20UL16_106x_nAODv9_noHIPM_Full2016v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2016v9__MCCorr2016v9NoJERInHorn__l2tightOR2016v9/nanoLatino_VBFHToWWTo2L2Nu_M200__part0.root", 
+                    "Summer20UL17_106x_nAODv9_Full2017v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2017v9__MCCorr2017v9NoJERInHorn__l2tightOR2017v9/nanoLatino_VBFHToWWTo2L2Nu_M200__part0.root", 
+                    "Summer20UL17_106x_nAODv9_Full2017v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2017v9__MCCorr2017v9NoJERInHorn__l2tightOR2017v9/nanoLatino_VBFHToWWTo2L2Nu_M200__part1.root", 
+                    "Summer20UL18_106x_nAODv9_Full2018v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2018v9__MCCorr2018v9NoJERInHorn__l2tightOR2018v9/nanoLatino_VBFHToWWTo2L2Nu_M200__part0.root"
+                ], 
+                "custom_weights": [
+                    "OFFSHELL_HIGGS"
+                ], 
+                "weights": [
+                    "XSWeight", 
+                    "p_Gen_JJEW_SIG_ghv1_1_MCFM", 
+                    "p_Gen_CPStoBWPropRewgt", 
+                    "HWWOffshell_combineWgt"
+                ], 
+                "name": "VBF_200"
+            }, 
+            {
+                "files": [
+                    "Summer20UL16_106x_nAODv9_HIPM_Full2016v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2016v9__MCCorr2016v9NoJERInHorn__l2tightOR2016v9/nanoLatino_VBFHToWWTo2L2Nu_M210__part0.root", 
+                    "Summer20UL16_106x_nAODv9_noHIPM_Full2016v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2016v9__MCCorr2016v9NoJERInHorn__l2tightOR2016v9/nanoLatino_VBFHToWWTo2L2Nu_M210__part0.root", 
+                    "Summer20UL17_106x_nAODv9_Full2017v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2017v9__MCCorr2017v9NoJERInHorn__l2tightOR2017v9/nanoLatino_VBFHToWWTo2L2Nu_M210__part0.root", 
+                    "Summer20UL17_106x_nAODv9_Full2017v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2017v9__MCCorr2017v9NoJERInHorn__l2tightOR2017v9/nanoLatino_VBFHToWWTo2L2Nu_M210__part1.root", 
+                    "Summer20UL18_106x_nAODv9_Full2018v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2018v9__MCCorr2018v9NoJERInHorn__l2tightOR2018v9/nanoLatino_VBFHToWWTo2L2Nu_M210__part0.root"
+                ], 
+                "custom_weights": [
+                    "OFFSHELL_HIGGS"
+                ], 
+                "weights": [
+                    "XSWeight", 
+                    "p_Gen_JJEW_SIG_ghv1_1_MCFM", 
+                    "p_Gen_CPStoBWPropRewgt", 
+                    "HWWOffshell_combineWgt"
+                ], 
+                "name": "VBF_210"
+            }, 
+            {
+                "files": [
+                    "Summer20UL16_106x_nAODv9_HIPM_Full2016v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2016v9__MCCorr2016v9NoJERInHorn__l2tightOR2016v9/nanoLatino_VBFHToWWTo2L2Nu_M230__part0.root", 
+                    "Summer20UL16_106x_nAODv9_noHIPM_Full2016v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2016v9__MCCorr2016v9NoJERInHorn__l2tightOR2016v9/nanoLatino_VBFHToWWTo2L2Nu_M230__part0.root", 
+                    "Summer20UL17_106x_nAODv9_Full2017v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2017v9__MCCorr2017v9NoJERInHorn__l2tightOR2017v9/nanoLatino_VBFHToWWTo2L2Nu_M230__part0.root", 
+                    "Summer20UL17_106x_nAODv9_Full2017v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2017v9__MCCorr2017v9NoJERInHorn__l2tightOR2017v9/nanoLatino_VBFHToWWTo2L2Nu_M230__part1.root", 
+                    "Summer20UL18_106x_nAODv9_Full2018v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2018v9__MCCorr2018v9NoJERInHorn__l2tightOR2018v9/nanoLatino_VBFHToWWTo2L2Nu_M230__part0.root"
+                ], 
+                "custom_weights": [
+                    "OFFSHELL_HIGGS"
+                ], 
+                "weights": [
+                    "XSWeight", 
+                    "p_Gen_JJEW_SIG_ghv1_1_MCFM", 
+                    "p_Gen_CPStoBWPropRewgt", 
+                    "HWWOffshell_combineWgt"
+                ], 
+                "name": "VBF_230"
+            }, 
+            {
+                "files": [
+                    "Summer20UL16_106x_nAODv9_HIPM_Full2016v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2016v9__MCCorr2016v9NoJERInHorn__l2tightOR2016v9/nanoLatino_VBFHToWWTo2L2Nu_M250__part0.root", 
+                    "Summer20UL16_106x_nAODv9_HIPM_Full2016v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2016v9__MCCorr2016v9NoJERInHorn__l2tightOR2016v9/nanoLatino_VBFHToWWTo2L2Nu_M250__part1.root", 
+                    "Summer20UL16_106x_nAODv9_noHIPM_Full2016v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2016v9__MCCorr2016v9NoJERInHorn__l2tightOR2016v9/nanoLatino_VBFHToWWTo2L2Nu_M250__part0.root", 
+                    "Summer20UL16_106x_nAODv9_noHIPM_Full2016v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2016v9__MCCorr2016v9NoJERInHorn__l2tightOR2016v9/nanoLatino_VBFHToWWTo2L2Nu_M250__part1.root", 
+                    "Summer20UL17_106x_nAODv9_Full2017v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2017v9__MCCorr2017v9NoJERInHorn__l2tightOR2017v9/nanoLatino_VBFHToWWTo2L2Nu_M250__part0.root", 
+                    "Summer20UL17_106x_nAODv9_Full2017v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2017v9__MCCorr2017v9NoJERInHorn__l2tightOR2017v9/nanoLatino_VBFHToWWTo2L2Nu_M250__part1.root", 
+                    "Summer20UL18_106x_nAODv9_Full2018v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2018v9__MCCorr2018v9NoJERInHorn__l2tightOR2018v9/nanoLatino_VBFHToWWTo2L2Nu_M250__part0.root"
+                ], 
+                "custom_weights": [
+                    "OFFSHELL_HIGGS"
+                ], 
+                "weights": [
+                    "XSWeight", 
+                    "p_Gen_JJEW_SIG_ghv1_1_MCFM", 
+                    "p_Gen_CPStoBWPropRewgt", 
+                    "HWWOffshell_combineWgt"
+                ], 
+                "name": "VBF_250"
+            }, 
+            {
+                "files": [
+                    "Summer20UL16_106x_nAODv9_HIPM_Full2016v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2016v9__MCCorr2016v9NoJERInHorn__l2tightOR2016v9/nanoLatino_VBFHToWWTo2L2Nu_M270__part0.root", 
+                    "Summer20UL16_106x_nAODv9_noHIPM_Full2016v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2016v9__MCCorr2016v9NoJERInHorn__l2tightOR2016v9/nanoLatino_VBFHToWWTo2L2Nu_M270__part0.root", 
+                    "Summer20UL17_106x_nAODv9_Full2017v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2017v9__MCCorr2017v9NoJERInHorn__l2tightOR2017v9/nanoLatino_VBFHToWWTo2L2Nu_M270__part0.root", 
+                    "Summer20UL17_106x_nAODv9_Full2017v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2017v9__MCCorr2017v9NoJERInHorn__l2tightOR2017v9/nanoLatino_VBFHToWWTo2L2Nu_M270__part1.root", 
+                    "Summer20UL18_106x_nAODv9_Full2018v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2018v9__MCCorr2018v9NoJERInHorn__l2tightOR2018v9/nanoLatino_VBFHToWWTo2L2Nu_M270__part0.root"
+                ], 
+                "custom_weights": [
+                    "OFFSHELL_HIGGS"
+                ], 
+                "weights": [
+                    "XSWeight", 
+                    "p_Gen_JJEW_SIG_ghv1_1_MCFM", 
+                    "p_Gen_CPStoBWPropRewgt", 
+                    "HWWOffshell_combineWgt"
+                ], 
+                "name": "VBF_270"
+            }, 
+            {
+                "files": [
+                    "Summer20UL16_106x_nAODv9_HIPM_Full2016v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2016v9__MCCorr2016v9NoJERInHorn__l2tightOR2016v9/nanoLatino_VBFHToWWTo2L2Nu_M300__part0.root", 
+                    "Summer20UL16_106x_nAODv9_noHIPM_Full2016v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2016v9__MCCorr2016v9NoJERInHorn__l2tightOR2016v9/nanoLatino_VBFHToWWTo2L2Nu_M300__part0.root", 
+                    "Summer20UL17_106x_nAODv9_Full2017v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2017v9__MCCorr2017v9NoJERInHorn__l2tightOR2017v9/nanoLatino_VBFHToWWTo2L2Nu_M300__part0.root", 
+                    "Summer20UL18_106x_nAODv9_Full2018v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2018v9__MCCorr2018v9NoJERInHorn__l2tightOR2018v9/nanoLatino_VBFHToWWTo2L2Nu_M300__part0.root", 
+                    "Summer20UL18_106x_nAODv9_Full2018v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2018v9__MCCorr2018v9NoJERInHorn__l2tightOR2018v9/nanoLatino_VBFHToWWTo2L2Nu_M300__part1.root"
+                ], 
+                "custom_weights": [
+                    "OFFSHELL_HIGGS"
+                ], 
+                "weights": [
+                    "XSWeight", 
+                    "p_Gen_JJEW_SIG_ghv1_1_MCFM", 
+                    "p_Gen_CPStoBWPropRewgt", 
+                    "HWWOffshell_combineWgt"
+                ], 
+                "name": "VBF_300"
+            }, 
+            {
+                "files": [
+                    "Summer20UL16_106x_nAODv9_HIPM_Full2016v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2016v9__MCCorr2016v9NoJERInHorn__l2tightOR2016v9/nanoLatino_VBFHToWWTo2L2Nu_M350__part0.root", 
+                    "Summer20UL16_106x_nAODv9_noHIPM_Full2016v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2016v9__MCCorr2016v9NoJERInHorn__l2tightOR2016v9/nanoLatino_VBFHToWWTo2L2Nu_M350__part0.root", 
+                    "Summer20UL16_106x_nAODv9_noHIPM_Full2016v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2016v9__MCCorr2016v9NoJERInHorn__l2tightOR2016v9/nanoLatino_VBFHToWWTo2L2Nu_M350__part1.root", 
+                    "Summer20UL17_106x_nAODv9_Full2017v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2017v9__MCCorr2017v9NoJERInHorn__l2tightOR2017v9/nanoLatino_VBFHToWWTo2L2Nu_M350__part0.root", 
+                    "Summer20UL18_106x_nAODv9_Full2018v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2018v9__MCCorr2018v9NoJERInHorn__l2tightOR2018v9/nanoLatino_VBFHToWWTo2L2Nu_M350__part0.root", 
+                    "Summer20UL18_106x_nAODv9_Full2018v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2018v9__MCCorr2018v9NoJERInHorn__l2tightOR2018v9/nanoLatino_VBFHToWWTo2L2Nu_M350__part1.root"
+                ], 
+                "custom_weights": [
+                    "OFFSHELL_HIGGS"
+                ], 
+                "weights": [
+                    "XSWeight", 
+                    "p_Gen_JJEW_SIG_ghv1_1_MCFM", 
+                    "p_Gen_CPStoBWPropRewgt", 
+                    "HWWOffshell_combineWgt"
+                ], 
+                "name": "VBF_350"
+            }, 
+            {
+                "files": [
+                    "Summer20UL16_106x_nAODv9_HIPM_Full2016v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2016v9__MCCorr2016v9NoJERInHorn__l2tightOR2016v9/nanoLatino_VBFHToWWTo2L2Nu_M400__part0.root", 
+                    "Summer20UL16_106x_nAODv9_noHIPM_Full2016v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2016v9__MCCorr2016v9NoJERInHorn__l2tightOR2016v9/nanoLatino_VBFHToWWTo2L2Nu_M400__part0.root", 
+                    "Summer20UL17_106x_nAODv9_Full2017v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2017v9__MCCorr2017v9NoJERInHorn__l2tightOR2017v9/nanoLatino_VBFHToWWTo2L2Nu_M400__part0.root", 
+                    "Summer20UL18_106x_nAODv9_Full2018v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2018v9__MCCorr2018v9NoJERInHorn__l2tightOR2018v9/nanoLatino_VBFHToWWTo2L2Nu_M400__part0.root"
+                ], 
+                "custom_weights": [
+                    "OFFSHELL_HIGGS"
+                ], 
+                "weights": [
+                    "XSWeight", 
+                    "p_Gen_JJEW_SIG_ghv1_1_MCFM", 
+                    "p_Gen_CPStoBWPropRewgt", 
+                    "HWWOffshell_combineWgt"
+                ], 
+                "name": "VBF_400"
+            }, 
+            {
+                "files": [
+                    "Summer20UL16_106x_nAODv9_HIPM_Full2016v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2016v9__MCCorr2016v9NoJERInHorn__l2tightOR2016v9/nanoLatino_VBFHToWWTo2L2Nu_M450__part0.root", 
+                    "Summer20UL16_106x_nAODv9_HIPM_Full2016v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2016v9__MCCorr2016v9NoJERInHorn__l2tightOR2016v9/nanoLatino_VBFHToWWTo2L2Nu_M450__part1.root", 
+                    "Summer20UL16_106x_nAODv9_noHIPM_Full2016v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2016v9__MCCorr2016v9NoJERInHorn__l2tightOR2016v9/nanoLatino_VBFHToWWTo2L2Nu_M450__part0.root", 
+                    "Summer20UL17_106x_nAODv9_Full2017v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2017v9__MCCorr2017v9NoJERInHorn__l2tightOR2017v9/nanoLatino_VBFHToWWTo2L2Nu_M450__part0.root", 
+                    "Summer20UL18_106x_nAODv9_Full2018v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2018v9__MCCorr2018v9NoJERInHorn__l2tightOR2018v9/nanoLatino_VBFHToWWTo2L2Nu_M450__part0.root"
+                ], 
+                "custom_weights": [
+                    "OFFSHELL_HIGGS"
+                ], 
+                "weights": [
+                    "XSWeight", 
+                    "p_Gen_JJEW_SIG_ghv1_1_MCFM", 
+                    "p_Gen_CPStoBWPropRewgt", 
+                    "HWWOffshell_combineWgt"
+                ], 
+                "name": "VBF_450"
+            }, 
+            {
+                "files": [
+                    "Summer20UL16_106x_nAODv9_HIPM_Full2016v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2016v9__MCCorr2016v9NoJERInHorn__l2tightOR2016v9/nanoLatino_VBFHToWWTo2L2Nu_M500__part0.root", 
+                    "Summer20UL16_106x_nAODv9_noHIPM_Full2016v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2016v9__MCCorr2016v9NoJERInHorn__l2tightOR2016v9/nanoLatino_VBFHToWWTo2L2Nu_M500__part0.root", 
+                    "Summer20UL17_106x_nAODv9_Full2017v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2017v9__MCCorr2017v9NoJERInHorn__l2tightOR2017v9/nanoLatino_VBFHToWWTo2L2Nu_M500__part0.root", 
+                    "Summer20UL18_106x_nAODv9_Full2018v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2018v9__MCCorr2018v9NoJERInHorn__l2tightOR2018v9/nanoLatino_VBFHToWWTo2L2Nu_M500__part0.root", 
+                    "Summer20UL18_106x_nAODv9_Full2018v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2018v9__MCCorr2018v9NoJERInHorn__l2tightOR2018v9/nanoLatino_VBFHToWWTo2L2Nu_M500__part1.root", 
+                    "Summer20UL18_106x_nAODv9_Full2018v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2018v9__MCCorr2018v9NoJERInHorn__l2tightOR2018v9/nanoLatino_VBFHToWWTo2L2Nu_M500__part2.root"
+                ], 
+                "custom_weights": [
+                    "OFFSHELL_HIGGS"
+                ], 
+                "weights": [
+                    "XSWeight", 
+                    "p_Gen_JJEW_SIG_ghv1_1_MCFM", 
+                    "p_Gen_CPStoBWPropRewgt", 
+                    "HWWOffshell_combineWgt"
+                ], 
+                "name": "VBF_500"
+            }, 
+            {
+                "files": [
+                    "Summer20UL16_106x_nAODv9_HIPM_Full2016v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2016v9__MCCorr2016v9NoJERInHorn__l2tightOR2016v9/nanoLatino_VBFHToWWTo2L2Nu_M550__part0.root", 
+                    "Summer20UL16_106x_nAODv9_noHIPM_Full2016v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2016v9__MCCorr2016v9NoJERInHorn__l2tightOR2016v9/nanoLatino_VBFHToWWTo2L2Nu_M550__part0.root", 
+                    "Summer20UL16_106x_nAODv9_noHIPM_Full2016v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2016v9__MCCorr2016v9NoJERInHorn__l2tightOR2016v9/nanoLatino_VBFHToWWTo2L2Nu_M550__part1.root", 
+                    "Summer20UL17_106x_nAODv9_Full2017v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2017v9__MCCorr2017v9NoJERInHorn__l2tightOR2017v9/nanoLatino_VBFHToWWTo2L2Nu_M550__part0.root", 
+                    "Summer20UL17_106x_nAODv9_Full2017v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2017v9__MCCorr2017v9NoJERInHorn__l2tightOR2017v9/nanoLatino_VBFHToWWTo2L2Nu_M550__part1.root", 
+                    "Summer20UL18_106x_nAODv9_Full2018v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2018v9__MCCorr2018v9NoJERInHorn__l2tightOR2018v9/nanoLatino_VBFHToWWTo2L2Nu_M550__part0.root"
+                ], 
+                "custom_weights": [
+                    "OFFSHELL_HIGGS"
+                ], 
+                "weights": [
+                    "XSWeight", 
+                    "p_Gen_JJEW_SIG_ghv1_1_MCFM", 
+                    "p_Gen_CPStoBWPropRewgt", 
+                    "HWWOffshell_combineWgt"
+                ], 
+                "name": "VBF_550"
+            }, 
+            {
+                "files": [
+                    "Summer20UL16_106x_nAODv9_HIPM_Full2016v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2016v9__MCCorr2016v9NoJERInHorn__l2tightOR2016v9/nanoLatino_VBFHToWWTo2L2Nu_M600__part0.root", 
+                    "Summer20UL16_106x_nAODv9_noHIPM_Full2016v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2016v9__MCCorr2016v9NoJERInHorn__l2tightOR2016v9/nanoLatino_VBFHToWWTo2L2Nu_M600__part0.root", 
+                    "Summer20UL17_106x_nAODv9_Full2017v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2017v9__MCCorr2017v9NoJERInHorn__l2tightOR2017v9/nanoLatino_VBFHToWWTo2L2Nu_M600__part0.root", 
+                    "Summer20UL18_106x_nAODv9_Full2018v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2018v9__MCCorr2018v9NoJERInHorn__l2tightOR2018v9/nanoLatino_VBFHToWWTo2L2Nu_M600__part0.root"
+                ], 
+                "custom_weights": [
+                    "OFFSHELL_HIGGS"
+                ], 
+                "weights": [
+                    "XSWeight", 
+                    "p_Gen_JJEW_SIG_ghv1_1_MCFM", 
+                    "p_Gen_CPStoBWPropRewgt", 
+                    "HWWOffshell_combineWgt"
+                ], 
+                "name": "VBF_600"
+            }, 
+            {
+                "files": [
+                    "Summer20UL16_106x_nAODv9_HIPM_Full2016v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2016v9__MCCorr2016v9NoJERInHorn__l2tightOR2016v9/nanoLatino_VBFHToWWTo2L2Nu_M700__part0.root", 
+                    "Summer20UL16_106x_nAODv9_HIPM_Full2016v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2016v9__MCCorr2016v9NoJERInHorn__l2tightOR2016v9/nanoLatino_VBFHToWWTo2L2Nu_M700__part1.root", 
+                    "Summer20UL16_106x_nAODv9_noHIPM_Full2016v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2016v9__MCCorr2016v9NoJERInHorn__l2tightOR2016v9/nanoLatino_VBFHToWWTo2L2Nu_M700__part0.root", 
+                    "Summer20UL17_106x_nAODv9_Full2017v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2017v9__MCCorr2017v9NoJERInHorn__l2tightOR2017v9/nanoLatino_VBFHToWWTo2L2Nu_M700__part0.root", 
+                    "Summer20UL17_106x_nAODv9_Full2017v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2017v9__MCCorr2017v9NoJERInHorn__l2tightOR2017v9/nanoLatino_VBFHToWWTo2L2Nu_M700__part1.root", 
+                    "Summer20UL18_106x_nAODv9_Full2018v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2018v9__MCCorr2018v9NoJERInHorn__l2tightOR2018v9/nanoLatino_VBFHToWWTo2L2Nu_M700__part0.root", 
+                    "Summer20UL18_106x_nAODv9_Full2018v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2018v9__MCCorr2018v9NoJERInHorn__l2tightOR2018v9/nanoLatino_VBFHToWWTo2L2Nu_M700__part1.root"
+                ], 
+                "custom_weights": [
+                    "OFFSHELL_HIGGS"
+                ], 
+                "weights": [
+                    "XSWeight", 
+                    "p_Gen_JJEW_SIG_ghv1_1_MCFM", 
+                    "p_Gen_CPStoBWPropRewgt", 
+                    "HWWOffshell_combineWgt"
+                ], 
+                "name": "VBF_700"
+            }, 
+            {
+                "files": [
+                    "Summer20UL16_106x_nAODv9_HIPM_Full2016v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2016v9__MCCorr2016v9NoJERInHorn__l2tightOR2016v9/nanoLatino_VBFHToWWTo2L2Nu_M800__part0.root", 
+                    "Summer20UL16_106x_nAODv9_HIPM_Full2016v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2016v9__MCCorr2016v9NoJERInHorn__l2tightOR2016v9/nanoLatino_VBFHToWWTo2L2Nu_M800__part1.root", 
+                    "Summer20UL16_106x_nAODv9_noHIPM_Full2016v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2016v9__MCCorr2016v9NoJERInHorn__l2tightOR2016v9/nanoLatino_VBFHToWWTo2L2Nu_M800__part0.root", 
+                    "Summer20UL17_106x_nAODv9_Full2017v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2017v9__MCCorr2017v9NoJERInHorn__l2tightOR2017v9/nanoLatino_VBFHToWWTo2L2Nu_M800__part0.root", 
+                    "Summer20UL17_106x_nAODv9_Full2017v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2017v9__MCCorr2017v9NoJERInHorn__l2tightOR2017v9/nanoLatino_VBFHToWWTo2L2Nu_M800__part1.root", 
+                    "Summer20UL18_106x_nAODv9_Full2018v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2018v9__MCCorr2018v9NoJERInHorn__l2tightOR2018v9/nanoLatino_VBFHToWWTo2L2Nu_M800__part0.root"
+                ], 
+                "custom_weights": [
+                    "OFFSHELL_HIGGS"
+                ], 
+                "weights": [
+                    "XSWeight", 
+                    "p_Gen_JJEW_SIG_ghv1_1_MCFM", 
+                    "p_Gen_CPStoBWPropRewgt", 
+                    "HWWOffshell_combineWgt"
+                ], 
+                "name": "VBF_800"
+            }, 
+            {
+                "files": [
+                    "Summer20UL16_106x_nAODv9_HIPM_Full2016v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2016v9__MCCorr2016v9NoJERInHorn__l2tightOR2016v9/nanoLatino_VBFHToWWTo2L2Nu_M900__part0.root", 
+                    "Summer20UL16_106x_nAODv9_noHIPM_Full2016v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2016v9__MCCorr2016v9NoJERInHorn__l2tightOR2016v9/nanoLatino_VBFHToWWTo2L2Nu_M900__part0.root", 
+                    "Summer20UL17_106x_nAODv9_Full2017v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2017v9__MCCorr2017v9NoJERInHorn__l2tightOR2017v9/nanoLatino_VBFHToWWTo2L2Nu_M900__part0.root", 
+                    "Summer20UL18_106x_nAODv9_Full2018v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2018v9__MCCorr2018v9NoJERInHorn__l2tightOR2018v9/nanoLatino_VBFHToWWTo2L2Nu_M900__part0.root"
+                ], 
+                "custom_weights": [
+                    "OFFSHELL_HIGGS"
+                ], 
+                "weights": [
+                    "XSWeight", 
+                    "p_Gen_JJEW_SIG_ghv1_1_MCFM", 
+                    "p_Gen_CPStoBWPropRewgt", 
+                    "HWWOffshell_combineWgt"
+                ], 
+                "name": "VBF_900"
+            }, 
+            {
+                "files": [
+                    "Summer20UL16_106x_nAODv9_HIPM_Full2016v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2016v9__MCCorr2016v9NoJERInHorn__l2tightOR2016v9/nanoLatino_VBFHToWWTo2L2Nu_M1000__part0.root", 
+                    "Summer20UL16_106x_nAODv9_HIPM_Full2016v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2016v9__MCCorr2016v9NoJERInHorn__l2tightOR2016v9/nanoLatino_VBFHToWWTo2L2Nu_M1000__part1.root", 
+                    "Summer20UL16_106x_nAODv9_noHIPM_Full2016v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2016v9__MCCorr2016v9NoJERInHorn__l2tightOR2016v9/nanoLatino_VBFHToWWTo2L2Nu_M1000__part0.root", 
+                    "Summer20UL17_106x_nAODv9_Full2017v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2017v9__MCCorr2017v9NoJERInHorn__l2tightOR2017v9/nanoLatino_VBFHToWWTo2L2Nu_M1000__part0.root", 
+                    "Summer20UL17_106x_nAODv9_Full2017v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2017v9__MCCorr2017v9NoJERInHorn__l2tightOR2017v9/nanoLatino_VBFHToWWTo2L2Nu_M1000__part1.root", 
+                    "Summer20UL18_106x_nAODv9_Full2018v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2018v9__MCCorr2018v9NoJERInHorn__l2tightOR2018v9/nanoLatino_VBFHToWWTo2L2Nu_M1000__part0.root"
+                ], 
+                "custom_weights": [
+                    "OFFSHELL_HIGGS"
+                ], 
+                "weights": [
+                    "XSWeight", 
+                    "p_Gen_JJEW_SIG_ghv1_1_MCFM", 
+                    "p_Gen_CPStoBWPropRewgt", 
+                    "HWWOffshell_combineWgt"
+                ], 
+                "name": "VBF_1000"
+            }, 
+            {
+                "files": [
+                    "Summer20UL16_106x_nAODv9_HIPM_Full2016v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2016v9__MCCorr2016v9NoJERInHorn__l2tightOR2016v9/nanoLatino_VBFHToWWTo2L2Nu_M1500__part0.root", 
+                    "Summer20UL16_106x_nAODv9_HIPM_Full2016v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2016v9__MCCorr2016v9NoJERInHorn__l2tightOR2016v9/nanoLatino_VBFHToWWTo2L2Nu_M1500__part1.root", 
+                    "Summer20UL16_106x_nAODv9_noHIPM_Full2016v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2016v9__MCCorr2016v9NoJERInHorn__l2tightOR2016v9/nanoLatino_VBFHToWWTo2L2Nu_M1500__part0.root", 
+                    "Summer20UL17_106x_nAODv9_Full2017v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2017v9__MCCorr2017v9NoJERInHorn__l2tightOR2017v9/nanoLatino_VBFHToWWTo2L2Nu_M1500__part0.root", 
+                    "Summer20UL18_106x_nAODv9_Full2018v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2018v9__MCCorr2018v9NoJERInHorn__l2tightOR2018v9/nanoLatino_VBFHToWWTo2L2Nu_M1500__part0.root"
+                ], 
+                "custom_weights": [
+                    "OFFSHELL_HIGGS"
+                ], 
+                "weights": [
+                    "XSWeight", 
+                    "p_Gen_JJEW_SIG_ghv1_1_MCFM", 
+                    "p_Gen_CPStoBWPropRewgt", 
+                    "HWWOffshell_combineWgt"
+                ], 
+                "name": "VBF_1500"
+            }, 
+            {
+                "files": [
+                    "Summer20UL16_106x_nAODv9_HIPM_Full2016v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2016v9__MCCorr2016v9NoJERInHorn__l2tightOR2016v9/nanoLatino_VBFHToWWTo2L2Nu_M2000__part0.root", 
+                    "Summer20UL16_106x_nAODv9_noHIPM_Full2016v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2016v9__MCCorr2016v9NoJERInHorn__l2tightOR2016v9/nanoLatino_VBFHToWWTo2L2Nu_M2000__part0.root", 
+                    "Summer20UL17_106x_nAODv9_Full2017v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2017v9__MCCorr2017v9NoJERInHorn__l2tightOR2017v9/nanoLatino_VBFHToWWTo2L2Nu_M2000__part0.root", 
+                    "Summer20UL18_106x_nAODv9_Full2018v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2018v9__MCCorr2018v9NoJERInHorn__l2tightOR2018v9/nanoLatino_VBFHToWWTo2L2Nu_M2000__part0.root"
+                ], 
+                "custom_weights": [
+                    "OFFSHELL_HIGGS"
+                ], 
+                "weights": [
+                    "XSWeight", 
+                    "p_Gen_JJEW_SIG_ghv1_1_MCFM", 
+                    "p_Gen_CPStoBWPropRewgt", 
+                    "HWWOffshell_combineWgt"
+                ], 
+                "name": "VBF_2000"
+            }, 
+            {
+                "files": [
+                    "Summer20UL16_106x_nAODv9_HIPM_Full2016v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2016v9__MCCorr2016v9NoJERInHorn__l2tightOR2016v9/nanoLatino_VBFHToWWTo2L2Nu_M2500__part0.root", 
+                    "Summer20UL16_106x_nAODv9_noHIPM_Full2016v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2016v9__MCCorr2016v9NoJERInHorn__l2tightOR2016v9/nanoLatino_VBFHToWWTo2L2Nu_M2500__part0.root", 
+                    "Summer20UL17_106x_nAODv9_Full2017v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2017v9__MCCorr2017v9NoJERInHorn__l2tightOR2017v9/nanoLatino_VBFHToWWTo2L2Nu_M2500__part0.root", 
+                    "Summer20UL18_106x_nAODv9_Full2018v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2018v9__MCCorr2018v9NoJERInHorn__l2tightOR2018v9/nanoLatino_VBFHToWWTo2L2Nu_M2500__part0.root", 
+                    "Summer20UL18_106x_nAODv9_Full2018v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2018v9__MCCorr2018v9NoJERInHorn__l2tightOR2018v9/nanoLatino_VBFHToWWTo2L2Nu_M2500__part1.root"
+                ], 
+                "custom_weights": [
+                    "OFFSHELL_HIGGS"
+                ], 
+                "weights": [
+                    "XSWeight", 
+                    "p_Gen_JJEW_SIG_ghv1_1_MCFM", 
+                    "p_Gen_CPStoBWPropRewgt", 
+                    "HWWOffshell_combineWgt"
+                ], 
+                "name": "VBF_2500"
+            }, 
+            {
+                "files": [
+                    "Summer20UL16_106x_nAODv9_HIPM_Full2016v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2016v9__MCCorr2016v9NoJERInHorn__l2tightOR2016v9/nanoLatino_VBFHToWWTo2L2Nu_M3000__part0.root", 
+                    "Summer20UL16_106x_nAODv9_noHIPM_Full2016v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2016v9__MCCorr2016v9NoJERInHorn__l2tightOR2016v9/nanoLatino_VBFHToWWTo2L2Nu_M3000__part0.root", 
+                    "Summer20UL17_106x_nAODv9_Full2017v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2017v9__MCCorr2017v9NoJERInHorn__l2tightOR2017v9/nanoLatino_VBFHToWWTo2L2Nu_M3000__part0.root", 
+                    "Summer20UL18_106x_nAODv9_Full2018v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2018v9__MCCorr2018v9NoJERInHorn__l2tightOR2018v9/nanoLatino_VBFHToWWTo2L2Nu_M3000__part0.root", 
+                    "Summer20UL18_106x_nAODv9_Full2018v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2018v9__MCCorr2018v9NoJERInHorn__l2tightOR2018v9/nanoLatino_VBFHToWWTo2L2Nu_M3000__part1.root"
+                ], 
+                "custom_weights": [
+                    "OFFSHELL_HIGGS"
+                ], 
+                "weights": [
+                    "XSWeight", 
+                    "p_Gen_JJEW_SIG_ghv1_1_MCFM", 
+                    "p_Gen_CPStoBWPropRewgt", 
+                    "HWWOffshell_combineWgt"
+                ], 
+                "name": "VBF_3000"
+            }
+        ]
+    }, 
+    "UL_WW": {
+        "basepath": "/eos/cms/store/group/phys_higgs/cmshww/amassiro/HWWNano/", 
+        "subpaths": [
+            {
+                "files": [], 
+                "custom_weights": [
+                    "SFweight", 
+                    "PromptGenLepMatch2l", 
+                    "METFilter_MC", 
+                    "nllW", 
+                    "ewknloW"
+                ], 
+                "weights": [
+                    "XSWeight"
+                ], 
+                "name": "WW"
+            }, 
+            {
+                "files": [
+                    "Summer20UL16_106x_nAODv9_HIPM_Full2016v9/MCl1loose2016v9__MCCorr2016v9NoJERInHorn__l2tightOR2016v9/nanoLatino_WpWmJJ_EWK_noTop__part0.root", 
+                    "Summer20UL16_106x_nAODv9_HIPM_Full2016v9/MCl1loose2016v9__MCCorr2016v9NoJERInHorn__l2tightOR2016v9/nanoLatino_WpWmJJ_EWK_noTop__part1.root", 
+                    "Summer20UL16_106x_nAODv9_HIPM_Full2016v9/MCl1loose2016v9__MCCorr2016v9NoJERInHorn__l2tightOR2016v9/nanoLatino_WpWmJJ_EWK_noTop__part2.root", 
+                    "Summer20UL16_106x_nAODv9_HIPM_Full2016v9/MCl1loose2016v9__MCCorr2016v9NoJERInHorn__l2tightOR2016v9/nanoLatino_WpWmJJ_EWK_noTop__part3.root", 
+                    "Summer20UL16_106x_nAODv9_HIPM_Full2016v9/MCl1loose2016v9__MCCorr2016v9NoJERInHorn__l2tightOR2016v9/nanoLatino_WpWmJJ_EWK_noTop__part4.root", 
+                    "Summer20UL16_106x_nAODv9_HIPM_Full2016v9/MCl1loose2016v9__MCCorr2016v9NoJERInHorn__l2tightOR2016v9/nanoLatino_WpWmJJ_EWK_noTop__part5.root", 
+                    "Summer20UL16_106x_nAODv9_HIPM_Full2016v9/MCl1loose2016v9__MCCorr2016v9NoJERInHorn__l2tightOR2016v9/nanoLatino_WpWmJJ_EWK_noTop__part6.root", 
+                    "Summer20UL16_106x_nAODv9_noHIPM_Full2016v9/MCl1loose2016v9__MCCorr2016v9NoJERInHorn__l2tightOR2016v9/nanoLatino_WpWmJJ_EWK_noTop__part0.root", 
+                    "Summer20UL16_106x_nAODv9_noHIPM_Full2016v9/MCl1loose2016v9__MCCorr2016v9NoJERInHorn__l2tightOR2016v9/nanoLatino_WpWmJJ_EWK_noTop__part1.root", 
+                    "Summer20UL16_106x_nAODv9_noHIPM_Full2016v9/MCl1loose2016v9__MCCorr2016v9NoJERInHorn__l2tightOR2016v9/nanoLatino_WpWmJJ_EWK_noTop__part2.root", 
+                    "Summer20UL16_106x_nAODv9_noHIPM_Full2016v9/MCl1loose2016v9__MCCorr2016v9NoJERInHorn__l2tightOR2016v9/nanoLatino_WpWmJJ_EWK_noTop__part3.root", 
+                    "Summer20UL16_106x_nAODv9_noHIPM_Full2016v9/MCl1loose2016v9__MCCorr2016v9NoJERInHorn__l2tightOR2016v9/nanoLatino_WpWmJJ_EWK_noTop__part4.root", 
+                    "Summer20UL17_106x_nAODv9_Full2017v9/MCl1loose2017v9__MCCorr2017v9NoJERInHorn__l2tightOR2017v9/nanoLatino_WpWmJJ_EWK_noTop__part0.root", 
+                    "Summer20UL17_106x_nAODv9_Full2017v9/MCl1loose2017v9__MCCorr2017v9NoJERInHorn__l2tightOR2017v9/nanoLatino_WpWmJJ_EWK_noTop__part1.root", 
+                    "Summer20UL17_106x_nAODv9_Full2017v9/MCl1loose2017v9__MCCorr2017v9NoJERInHorn__l2tightOR2017v9/nanoLatino_WpWmJJ_EWK_noTop__part2.root", 
+                    "Summer20UL17_106x_nAODv9_Full2017v9/MCl1loose2017v9__MCCorr2017v9NoJERInHorn__l2tightOR2017v9/nanoLatino_WpWmJJ_EWK_noTop__part3.root", 
+                    "Summer20UL18_106x_nAODv9_Full2018v9/MCl1loose2018v9__MCCorr2018v9NoJERInHorn__l2tightOR2018v9/nanoLatino_WpWmJJ_EWK_noTop__part0.root", 
+                    "Summer20UL18_106x_nAODv9_Full2018v9/MCl1loose2018v9__MCCorr2018v9NoJERInHorn__l2tightOR2018v9/nanoLatino_WpWmJJ_EWK_noTop__part1.root", 
+                    "Summer20UL18_106x_nAODv9_Full2018v9/MCl1loose2018v9__MCCorr2018v9NoJERInHorn__l2tightOR2018v9/nanoLatino_WpWmJJ_EWK_noTop__part2.root", 
+                    "Summer20UL18_106x_nAODv9_Full2018v9/MCl1loose2018v9__MCCorr2018v9NoJERInHorn__l2tightOR2018v9/nanoLatino_WpWmJJ_EWK_noTop__part3.root", 
+                    "Summer20UL18_106x_nAODv9_Full2018v9/MCl1loose2018v9__MCCorr2018v9NoJERInHorn__l2tightOR2018v9/nanoLatino_WpWmJJ_EWK_noTop__part4.root", 
+                    "Summer20UL18_106x_nAODv9_Full2018v9/MCl1loose2018v9__MCCorr2018v9NoJERInHorn__l2tightOR2018v9/nanoLatino_WpWmJJ_EWK_noTop__part5.root"
+                ], 
+                "custom_weights": [
+                    "NOT_TOP", 
+                    "NOT_HIGGS", 
+                    "SFweight", 
+                    "PromptGenLepMatch2l", 
+                    "METFilter_MC"
+                ], 
+                "weights": [
+                    "XSWeight"
+                ], 
+                "name": "WWewk"
+            }, 
+            {
+                "files": [], 
+                "custom_weights": [
+                    "k_factor_1p53over1p4", 
+                    "SFweight", 
+                    "PromptGenLepMatch2l", 
+                    "METFilter_MC"
+                ], 
+                "weights": [
+                    "XSWeight"
+                ], 
+                "name": "ggWW"
+            }
+        ]
+    }, 
+    "UL_VBF_ON": {
+        "basepath": "/eos/cms/store/group/phys_higgs/cmshww/fernanpe/HWWNano/", 
+        "subpaths": [
+            {
+                "files": [
+                    "Summer20UL16_106x_nAODv9_HIPM_Full2016v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2016v9__MCCorr2016v9NoJERInHorn__l2tightOR2016v9/nanoLatino_VBFHToWWTo2L2Nu_M125__part0.root", 
+                    "Summer20UL16_106x_nAODv9_HIPM_Full2016v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2016v9__MCCorr2016v9NoJERInHorn__l2tightOR2016v9/nanoLatino_VBFHToWWTo2L2Nu_M125__part1.root", 
+                    "Summer20UL16_106x_nAODv9_noHIPM_Full2016v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2016v9__MCCorr2016v9NoJERInHorn__l2tightOR2016v9/nanoLatino_VBFHToWWTo2L2Nu_M125__part0.root", 
+                    "Summer20UL17_106x_nAODv9_Full2017v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2017v9__MCCorr2017v9NoJERInHorn__l2tightOR2017v9/nanoLatino_VBFHToWWTo2L2Nu_M125__part0.root", 
+                    "Summer20UL18_106x_nAODv9_Full2018v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2018v9__MCCorr2018v9NoJERInHorn__l2tightOR2018v9/nanoLatino_VBFHToWWTo2L2Nu_M125__part0.root"
+                ], 
+                "custom_weights": [
+                    "ONSHELL_HIGGS"
+                ], 
+                "weights": [
+                    "XSWeight", 
+                    "p_Gen_JJEW_SIG_ghv1_1_MCFM", 
+                    "p_Gen_CPStoBWPropRewgt", 
+                    "HWWOffshell_combineWgt"
+                ], 
+                "name": "VBF_125"
+            }, 
+            {
+                "files": [
+                    "Summer20UL16_106x_nAODv9_HIPM_Full2016v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2016v9__MCCorr2016v9NoJERInHorn__l2tightOR2016v9/nanoLatino_VBFHToWWTo2L2Nu_M160__part0.root", 
+                    "Summer20UL16_106x_nAODv9_noHIPM_Full2016v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2016v9__MCCorr2016v9NoJERInHorn__l2tightOR2016v9/nanoLatino_VBFHToWWTo2L2Nu_M160__part0.root", 
+                    "Summer20UL17_106x_nAODv9_Full2017v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2017v9__MCCorr2017v9NoJERInHorn__l2tightOR2017v9/nanoLatino_VBFHToWWTo2L2Nu_M160__part0.root", 
+                    "Summer20UL18_106x_nAODv9_Full2018v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2018v9__MCCorr2018v9NoJERInHorn__l2tightOR2018v9/nanoLatino_VBFHToWWTo2L2Nu_M160__part0.root"
+                ], 
+                "custom_weights": [
+                    "ONSHELL_HIGGS"
+                ], 
+                "weights": [
+                    "XSWeight", 
+                    "p_Gen_JJEW_SIG_ghv1_1_MCFM", 
+                    "p_Gen_CPStoBWPropRewgt", 
+                    "HWWOffshell_combineWgt"
+                ], 
+                "name": "VBF_160"
+            }, 
+            {
+                "files": [
+                    "Summer20UL16_106x_nAODv9_HIPM_Full2016v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2016v9__MCCorr2016v9NoJERInHorn__l2tightOR2016v9/nanoLatino_VBFHToWWTo2L2Nu_M170__part1.root", 
+                    "Summer20UL16_106x_nAODv9_noHIPM_Full2016v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2016v9__MCCorr2016v9NoJERInHorn__l2tightOR2016v9/nanoLatino_VBFHToWWTo2L2Nu_M170__part0.root", 
+                    "Summer20UL17_106x_nAODv9_Full2017v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2017v9__MCCorr2017v9NoJERInHorn__l2tightOR2017v9/nanoLatino_VBFHToWWTo2L2Nu_M170__part0.root", 
+                    "Summer20UL17_106x_nAODv9_Full2017v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2017v9__MCCorr2017v9NoJERInHorn__l2tightOR2017v9/nanoLatino_VBFHToWWTo2L2Nu_M170__part1.root", 
+                    "Summer20UL18_106x_nAODv9_Full2018v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2018v9__MCCorr2018v9NoJERInHorn__l2tightOR2018v9/nanoLatino_VBFHToWWTo2L2Nu_M170__part0.root", 
+                    "Summer20UL18_106x_nAODv9_Full2018v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2018v9__MCCorr2018v9NoJERInHorn__l2tightOR2018v9/nanoLatino_VBFHToWWTo2L2Nu_M170__part1.root"
+                ], 
+                "custom_weights": [
+                    "ONSHELL_HIGGS"
+                ], 
+                "weights": [
+                    "XSWeight", 
+                    "p_Gen_JJEW_SIG_ghv1_1_MCFM", 
+                    "p_Gen_CPStoBWPropRewgt", 
+                    "HWWOffshell_combineWgt"
+                ], 
+                "name": "VBF_170"
+            }, 
+            {
+                "files": [
+                    "Summer20UL16_106x_nAODv9_HIPM_Full2016v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2016v9__MCCorr2016v9NoJERInHorn__l2tightOR2016v9/nanoLatino_VBFHToWWTo2L2Nu_M180__part0.root", 
+                    "Summer20UL16_106x_nAODv9_noHIPM_Full2016v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2016v9__MCCorr2016v9NoJERInHorn__l2tightOR2016v9/nanoLatino_VBFHToWWTo2L2Nu_M180__part0.root", 
+                    "Summer20UL17_106x_nAODv9_Full2017v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2017v9__MCCorr2017v9NoJERInHorn__l2tightOR2017v9/nanoLatino_VBFHToWWTo2L2Nu_M180__part1.root", 
+                    "Summer20UL18_106x_nAODv9_Full2018v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2018v9__MCCorr2018v9NoJERInHorn__l2tightOR2018v9/nanoLatino_VBFHToWWTo2L2Nu_M180__part0.root", 
+                    "Summer20UL18_106x_nAODv9_Full2018v9/AddLHE_MEs__AddMC_baseW__AddHWW_Offshell_Wgts__MCl1loose2018v9__MCCorr2018v9NoJERInHorn__l2tightOR2018v9/nanoLatino_VBFHToWWTo2L2Nu_M180__part1.root"
+                ], 
+                "custom_weights": [
+                    "ONSHELL_HIGGS"
+                ], 
+                "weights": [
+                    "XSWeight", 
+                    "p_Gen_JJEW_SIG_ghv1_1_MCFM", 
+                    "p_Gen_CPStoBWPropRewgt", 
+                    "HWWOffshell_combineWgt"
+                ], 
+                "name": "VBF_180"
+            }
+        ]
+    }
+}

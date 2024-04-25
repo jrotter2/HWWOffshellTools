@@ -2,7 +2,7 @@ import json
 import uproot
 import glob
 
-output_json_name = "test_dnn_config_v3.json"
+output_json_name = "WW_BKG_COMP_dnn_config.json"
 output_data = {}
 
 
@@ -38,7 +38,6 @@ WW_sample_data = {"basepath" : "/eos/cms/store/group/phys_higgs/cmshww/amassiro/
 
 output_data["UL_WW"] = WW_sample_data
 ######################
-
 ##### top INFO ##### 
 top_SUBSAMPLES = ["ST_tW_top", "ST_tW_antitop", "TTTo2L2Nu", "ST_s-channel", "ST_t-channel_top", "ST_t-channel_antitop"]
 top_SUBSAMPLE_SEARCH = {"ST_tW_top" : ["*_ST_tW_top__*"], "ST_tW_antitop" :["*_ST_tW_antitop__*"], "TTTo2L2Nu" : ["*_TTTo2L2Nu__*"], "ST_s-channel" : ["*_ST_s-channel__*"], "ST_t-channel_top" : ["*_ST_t-channel_top__*"], "ST_t-channel_antitop" : ["*_ST_t-channel_antitop__*"]}
@@ -64,7 +63,6 @@ top_sample_data = {"basepath" : "/eos/cms/store/group/phys_higgs/cmshww/amassiro
 
 output_data["UL_top"] = top_sample_data
 ######################
-
 ##### VBF INFO ##### 
 mass_poles = [125,160,170,180,190,200,210,230,250,270,300,350,400,450,500,550,600,700,800,900,1000,1500,2000,2500,3000]
 VBF_SUBSAMPLES = ["VBF_"+str(mass) for mass in mass_poles]
@@ -100,7 +98,6 @@ VBF_ON_sample_data = {"basepath" : CUSTOM_PATH,
 output_data["UL_VBF_OFF"] = VBF_OFF_sample_data
 output_data["UL_VBF_ON"] = VBF_ON_sample_data
 ######################
-
 ##### ggH INFO #######
 mass_poles = [125,160,170,180,190,200,210,230,250,270,300,350,400,450,500,550,600,700,800,900,1000,1500,2000,2500,3000]
 ggH_SUBSAMPLES = ["ggH_"+str(mass) for mass in mass_poles]
@@ -135,7 +132,6 @@ ggH_ON_sample_data = {"basepath" : CUSTOM_PATH,
 output_data["UL_ggH_OFF"] = ggH_OFF_sample_data
 output_data["UL_ggH_ON"] = ggH_ON_sample_data
 ######################
-
 
 
 output_json = json.dumps(output_data, indent=4)

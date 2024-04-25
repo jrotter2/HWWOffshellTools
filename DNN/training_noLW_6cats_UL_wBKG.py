@@ -23,12 +23,14 @@ from matplotlib.backends.backend_pdf import PdfPages
 import random
 
 
-TAG = "six_cats_newMaxEvents_withPlots_UL_Dec01_NO_QGL_GOOD_DISTS"
+TAG = "six_cats_newMaxEvents_withPlots_UL_Dec07_NO_QGL_GOOD_DISTS_wBKG"
 
 #INFILE_NAME = "/eos/user/j/jrotter/HWW_DNN_Ntuples/HWW_DNN_Ntuple_v3_six_cats_improvedGGH.root"
 #INFILE_NAME = "/eos/user/j/jrotter/HWW_DNN_Ntuples/HWW_DNN_Ntuple_v3_six_cats_improvedGGH_improvedW.root"
 #INFILE_NAME = "/eos/user/j/jrotter/HWW_DNN_Ntuples/HWW_DNN_Ntuple_v3_six_cats_UL.root"
-INFILE_NAME = "/eos/user/j/jrotter/HWW_DNN_Ntuples/HWW_DNN_Ntuple_v7_six_cats_UL.root"
+#INFILE_NAME = "/eos/user/j/jrotter/HWW_DNN_Ntuples/HWW_DNN_Ntuple_v7_six_cats_UL.root"
+#INFILE_NAME = "/eos/user/j/jrotter/HWW_DNN_Ntuples/HWW_DNN_Ntuple_v7_six_cats_UL_wBKG.root"
+INFILE_NAME = "/eos/user/j/jrotter/HWW_DNN_Ntuples/HWW_DNN_Ntuple_v8_six_cats_UL_wBKG.root"
 # FILE VERSIONING:
 # v1 -> {"mll","dphill","detall","ptll","drll","pt1","pt2","mth","mjj","detajj","dphijj","PuppiMET_pt","dphillmet","mcollWW"}
 # v2 -> {"mll","dphill","detall","ptll","drll","Lepton_pt0","Lepton_pt1","mth","mjj","detajj","dphijj","PuppiMET_pt","dphillmet","mcollWW"}
@@ -142,6 +144,33 @@ def loadVariables():
     W_top = W[Y_float == 4]
     W_WW = W[Y_float == 5]
 
+    X_WW_fromVBF = X_WW[:len(X_VBF_OFF)]
+    W_WW_fromVBF = W_WW[:len(W_VBF_OFF)]
+    Y_WW_fromVBF = Y_WW[:len(Y_VBF_OFF)]
+
+    X_WW_fromWW = X_WW[len(X_VBF_OFF):]
+    W_WW_fromWW = W_WW[len(W_VBF_OFF):]
+    Y_WW_fromWW = Y_WW[len(Y_VBF_OFF):]
+
+    r_test = random.Random(555)
+    r_test.shuffle(X_WW_fromVBF)
+    r_test = random.Random(555)
+    r_test.shuffle(W_WW_fromVBF)
+    r_test = random.Random(555)
+    r_test.shuffle(Y_WW_fromVBF)
+
+    n_from_VBF = (len(X_VBF_OFF)/2)
+    X_WW = np.concatenate((X_WW_fromVBF[:n_from_VBF], X_WW_fromWW), axis=0)
+    Y_WW = np.concatenate((Y_WW_fromVBF[:n_from_VBF], Y_WW_fromWW), axis=0)
+    W_WW = np.concatenate((W_WW_fromVBF[:n_from_VBF], W_WW_fromWW), axis=0)
+
+    r_test = random.Random(1555)
+    r_test.shuffle(X_WW)
+    r_test = random.Random(1555)
+    r_test.shuffle(W_WW)
+    r_test = random.Random(1555)
+    r_test.shuffle(Y_WW)
+
     SF_VBF_OFF = tot/np.sum(W_VBF_OFF)
     SF_VBF_ON = tot/np.sum(W_VBF_ON)
     SF_ggH_OFF = tot/np.sum(W_ggH_OFF)
@@ -162,7 +191,7 @@ def loadVariables():
     W_ggH_OFF = W_ggH_OFF * SF_ggH_OFF * 60
     W_ggH_ON = W_ggH_ON * SF_ggH_ON * 50
     W_top = W_top * SF_top * 40
-    W_WW = W_WW * SF_WW * 80
+    W_WW = W_WW * SF_WW * 70
 
     print("VBF_OFF:"  + str(len(W_VBF_OFF)) + ", wgt'd:"+ str(np.sum(W_VBF_OFF)) + ", SF:" + str(tot/(len(W_VBF_OFF))))
     print("VBF_ON:"  + str(len(W_VBF_ON)) + ", wgt'd:"+ str(np.sum(W_VBF_ON)) + ", SF:"  + str(tot/(len(W_VBF_ON))))

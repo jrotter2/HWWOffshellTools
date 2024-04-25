@@ -1,0 +1,10 @@
+executable = /afs/cern.ch/user/j/jrotter/public/H2XXAnalysis/CMSSW_10_6_19_patch2/src/HWWOffshellTools/qqWW_Validation/condor_submit.sh
+universe = vanilla
+output = /afs/cern.ch/user/j/jrotter/public/H2XXAnalysis/CMSSW_10_6_19_patch2/src/HWWOffshellTools/qqWW_Validation/out/log_1.out
+error = /afs/cern.ch/user/j/jrotter/public/H2XXAnalysis/CMSSW_10_6_19_patch2/src/HWWOffshellTools/qqWW_Validation/err/log_1.err
+log = /afs/cern.ch/user/j/jrotter/public/H2XXAnalysis/CMSSW_10_6_19_patch2/src/HWWOffshellTools/qqWW_Validation/log/log_1.log
+RequestCpus = 1
+requirements = (OpSysAndVer =?= "CentOS7")
++JobFlavour = "workday"
+queue
+

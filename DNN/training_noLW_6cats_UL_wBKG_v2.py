@@ -23,12 +23,14 @@ from matplotlib.backends.backend_pdf import PdfPages
 import random
 
 
-TAG = "six_cats_newMaxEvents_withPlots_UL_Dec01_NO_QGL_GOOD_DISTS"
+TAG = "six_cats_newMaxEvents_withPlots_UL_Dec07_NO_QGL_GOOD_DISTS_wBKG_v2"
 
 #INFILE_NAME = "/eos/user/j/jrotter/HWW_DNN_Ntuples/HWW_DNN_Ntuple_v3_six_cats_improvedGGH.root"
 #INFILE_NAME = "/eos/user/j/jrotter/HWW_DNN_Ntuples/HWW_DNN_Ntuple_v3_six_cats_improvedGGH_improvedW.root"
 #INFILE_NAME = "/eos/user/j/jrotter/HWW_DNN_Ntuples/HWW_DNN_Ntuple_v3_six_cats_UL.root"
-INFILE_NAME = "/eos/user/j/jrotter/HWW_DNN_Ntuples/HWW_DNN_Ntuple_v7_six_cats_UL.root"
+#INFILE_NAME = "/eos/user/j/jrotter/HWW_DNN_Ntuples/HWW_DNN_Ntuple_v7_six_cats_UL.root"
+#INFILE_NAME = "/eos/user/j/jrotter/HWW_DNN_Ntuples/HWW_DNN_Ntuple_v7_six_cats_UL_wBKG.root"
+INFILE_NAME = "/eos/user/j/jrotter/HWW_DNN_Ntuples/HWW_DNN_Ntuple_v8_six_cats_UL_wBKG.root"
 # FILE VERSIONING:
 # v1 -> {"mll","dphill","detall","ptll","drll","pt1","pt2","mth","mjj","detajj","dphijj","PuppiMET_pt","dphillmet","mcollWW"}
 # v2 -> {"mll","dphill","detall","ptll","drll","Lepton_pt0","Lepton_pt1","mth","mjj","detajj","dphijj","PuppiMET_pt","dphillmet","mcollWW"}
@@ -37,12 +39,12 @@ INFILE_NAME = "/eos/user/j/jrotter/HWW_DNN_Ntuples/HWW_DNN_Ntuple_v7_six_cats_UL
 # v7 -> BETTER INPUT DISTS
 
 CATEGORIES = ["VBF_OFF", "VBF_ON", "ggH_OFF", "ggH_ON", "top", "WW"] #Titles for categories
-ENCODING_float = [[1,0,0,0,0,0], [0,1,0,0,0,0], [0,0,1,0,0,0],[0,0,0,1,0,0],[0,0,0,0,1,0], [0,0,0,0,0,1]]
+ENCODING_float = [[1,0,0,0,0,0], [0,1,0,0,0,0], [0,0,1,0,0,0],[0,0,0,1,0,0],[0,0,0,0,1,0], [0,0,0,0,0,1], [0,0,0,0,0,1]]
 ENCODING = {"VBF_2018v7_OFF" : [1,0,0,0,0,0],"VBF_2018v7_ON" : [0,1,0,0,0,0], "ggH_2018v7_OFF" : [0,0,1,0,0,0],"ggH_2018v7_ON" : [0,0,0,1,0,0], "top_2018v7": [0,0,0,0,1,0], "WW_2018v7":[0,0,0,0,0,1]}
 
 CAT_CONFIG_IDS = ["VBF_2018v7_OFF","VBF_2018v7_ON", "ggH_2018v7_OFF","ggH_2018v7_ON", "top_2018v7", "WW_2018v7"]
 
-INPUT_VARS = ["mll","dphill","detall","ptll","drll","Lepton_pt0","Lepton_pt1","mth","mjj","detajj","dphijj","PuppiMET_pt","dphillmet","mcollWW","btag0", "btag1"]#"qgl0","qgl1","btag0", "btag1"]
+INPUT_VARS = ["mll","Lepton_phi0","Lepton_phi1","Lepton_eta0","Lepton_eta1","ptll","drll","Lepton_pt0","mth","mjj","jet_eta0","jet_eta1","dphijj","PuppiMET_pt","dphillmet","mcollWW","btag0", "btag1"] #Lepton_pt1 
 
 INPUT_VAR_INDEX = {}
 for i, var in enumerate(INPUT_VARS):
@@ -125,6 +127,7 @@ def loadVariables():
     X_ggH_ON = X[Y_float == 3]
     X_top = X[Y_float == 4]
     X_WW = X[Y_float == 5]
+    X_VBF_BKG = X[Y_float == 6]
 
     Y_VBF_OFF = [ENCODING_float[int(y)] for y in Y_float[Y_float==0]] #Y_onehot[Y_float == 0]
     Y_VBF_ON = [ENCODING_float[int(y)] for y in Y_float[Y_float==1]]#Y_onehot[Y_float == 1]
@@ -132,7 +135,7 @@ def loadVariables():
     Y_ggH_ON = [ENCODING_float[int(y)] for y in Y_float[Y_float==3]]#Y_onehot[Y_float == 3]
     Y_top = [ENCODING_float[int(y)] for y in Y_float[Y_float==4]]#Y_onehot[Y_float == 4]
     Y_WW = [ENCODING_float[int(y)] for y in Y_float[Y_float==5]]#Y_onehot[Y_float == 5]
-
+    Y_VBF_BKG = [ENCODING_float[5] for y in Y_float[Y_float==6]]#Y_onehot[Y_float == 5]
 
     tot = float(np.sum(W))
     W_VBF_OFF = W[Y_float == 0]
@@ -141,6 +144,26 @@ def loadVariables():
     W_ggH_ON = W[Y_float == 3]
     W_top = W[Y_float == 4]
     W_WW = W[Y_float == 5]
+    W_VBF_BKG = W[Y_float == 6]
+
+    r_test = random.Random(555)
+    r_test.shuffle(X_VBF_BKG)
+    r_test = random.Random(555)
+    r_test.shuffle(Y_VBF_BKG)
+    r_test = random.Random(555)
+    r_test.shuffle(W_VBF_BKG)
+
+    n_from_VBF = (len(X_VBF_BKG))
+    X_WW = np.concatenate((X_WW, X_VBF_BKG[:n_from_VBF]), axis=0)
+    Y_WW = np.concatenate((Y_WW, Y_VBF_BKG[:n_from_VBF]), axis=0)
+    W_WW = np.concatenate((W_WW, W_VBF_BKG[:n_from_VBF]), axis=0)
+
+    r_test = random.Random(1555)
+    r_test.shuffle(X_WW)
+    r_test = random.Random(1555)
+    r_test.shuffle(W_WW)
+    r_test = random.Random(1555)
+    r_test.shuffle(Y_WW)
 
     SF_VBF_OFF = tot/np.sum(W_VBF_OFF)
     SF_VBF_ON = tot/np.sum(W_VBF_ON)
@@ -159,10 +182,10 @@ def loadVariables():
 
     W_VBF_OFF = W_VBF_OFF * SF_VBF_OFF * 35
     W_VBF_ON = W_VBF_ON * SF_VBF_ON * 40
-    W_ggH_OFF = W_ggH_OFF * SF_ggH_OFF * 60
-    W_ggH_ON = W_ggH_ON * SF_ggH_ON * 50
+    W_ggH_OFF = W_ggH_OFF * SF_ggH_OFF * 50
+    W_ggH_ON = W_ggH_ON * SF_ggH_ON * 40
     W_top = W_top * SF_top * 40
-    W_WW = W_WW * SF_WW * 80
+    W_WW = W_WW * SF_WW * 95
 
     print("VBF_OFF:"  + str(len(W_VBF_OFF)) + ", wgt'd:"+ str(np.sum(W_VBF_OFF)) + ", SF:" + str(tot/(len(W_VBF_OFF))))
     print("VBF_ON:"  + str(len(W_VBF_ON)) + ", wgt'd:"+ str(np.sum(W_VBF_ON)) + ", SF:"  + str(tot/(len(W_VBF_ON))))

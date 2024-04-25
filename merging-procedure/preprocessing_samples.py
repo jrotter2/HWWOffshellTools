@@ -48,9 +48,9 @@ SAMPLE_PREFIX = ["HM_ggH", "HM_VBF_new_"]
 SAMPLE_TYPES = ["ggH", "VBF"]
 
 # Output file names - may be useful to include an option to change these using ArgParser
-OUTFILE_NAME = "output_preprocessing_" + PRODUCTION + "_" + SAMPLE_TYPE + ".root"
-OUTPDF_NAME = "output_preprocessing_" + PRODUCTION + "_" + SAMPLE_TYPE + ".pdf"
-OUTJSON_NAME = "output_preprocessing_" + PRODUCTION + "_" + SAMPLE_TYPE + ".json"
+OUTFILE_NAME = "output_preprocessing_" + PRODUCTION + "_" + SAMPLE_TYPE + "_newDec3.root"
+OUTPDF_NAME = "output_preprocessing_" + PRODUCTION + "_" + SAMPLE_TYPE + "_newDec3.pdf"
+OUTJSON_NAME = "output_preprocessing_" + PRODUCTION + "_" + SAMPLE_TYPE + "_newDec3.json"
 OUTFILE = uproot.recreate("./" + OUTFILE_NAME)
 
 
@@ -135,8 +135,8 @@ def remove_large_wgts(SIG_wgts, CONT_wgts, SIGplusCONT_wgts, LHE_wgts, sum_mass_
     # VBF quantile fractions 
     if(sample_type == "VBF"):
         quantile_fraction_SIG = .005 #.005
-        quantile_fraction_CONT = .001 #.001
-        quantile_fraction_SIGplusCONT = .001 #.001
+        quantile_fraction_CONT = .05 #.001
+        quantile_fraction_SIGplusCONT = .05 #.001
 
     # Looping over all mass windows
     for i in range(0, len(SIG_wgts)):
@@ -148,8 +148,8 @@ def remove_large_wgts(SIG_wgts, CONT_wgts, SIGplusCONT_wgts, LHE_wgts, sum_mass_
             continue
         # Calculating cutoff as 5*quantile
         quantile_cutoff_SIG.append(5*np.quantile(np.absolute(SIG_wgts[i]), 1-quantile_fraction_SIG, axis=0))
-        quantile_cutoff_CONT.append(5*np.quantile(np.absolute(CONT_wgts[i]), 1-quantile_fraction_CONT, axis=0))
-        quantile_cutoff_SIGplusCONT.append(5*np.quantile(np.absolute(SIGplusCONT_wgts[i]), 1-quantile_fraction_SIGplusCONT, axis=0))
+        quantile_cutoff_CONT.append(3*np.quantile(np.absolute(CONT_wgts[i]), 1-quantile_fraction_CONT, axis=0))
+        quantile_cutoff_SIGplusCONT.append(3*np.quantile(np.absolute(SIGplusCONT_wgts[i]), 1-quantile_fraction_SIGplusCONT, axis=0))
     # Looping over all mass windows
     for i in range(0, len(SIG_wgts)):
         # Masking large weights
@@ -527,7 +527,11 @@ write_to_file("SIG_wgts_combined", makeFullCombinedHistogram(m_ww_by_sample, SIG
 write_to_file("CONT_wgts_combined", makeFullCombinedHistogram(m_ww_by_sample, CONT_wgts_by_sample, combine_wgts_SIG, running_scale_factor_SIG))
 write_to_file("SIGplusCONT_wgts_combined", makeFullCombinedHistogram(m_ww_by_sample, SIGplusCONT_wgts_by_sample, combine_wgts_SIG, running_scale_factor_SIG))
 
-write_to_file("SIG_wgts_combined_finebins", makeFullCombinedHistogram_finebin(m_ww_by_sample, SIG_wgts_by_sample, combine_wgts_SIG, running_scale_factor_SIG))
+write_to_file("SIG_wgts_combined_contComb", makeFullCombinedHistogram(m_ww_by_sample, SIG_wgts_by_sample, combine_wgts_CONT, running_scale_factor_CONT))
+write_to_file("CONT_wgts_combined_contComb", makeFullCombinedHistogram(m_ww_by_sample, CONT_wgts_by_sample, combine_wgts_CONT, running_scale_factor_CONT))
+write_to_file("SIGplusCONT_wgts_combined_contComb", makeFullCombinedHistogram(m_ww_by_sample, SIGplusCONT_wgts_by_sample, combine_wgts_CONT, running_scale_factor_CONT))
+
+#write_to_file("SIG_wgts_combined_finebins", makeFullCombinedHistogram_finebin(m_ww_by_sample, SIG_wgts_by_sample, combine_wgts_SIG, running_scale_factor_SIG))
 
 # Writing output JSON
 print("Writing output JSON...")

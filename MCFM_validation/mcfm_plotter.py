@@ -11,12 +11,12 @@ import copy
 from ROOT import TLorentzVector
 
 
-MCFM_PATH = "/afs/cern.ch/user/t/tcarnaha/public/MCFM_SampleGen/JHUGen_ggH/MCFM-JHUGen/LHEreader/LatinoTreesLHE/HWW_LHE_ggH_rootfiles/"
-SIG_FILE_NAME = "HWW_tb_lord_NNPDF30_125_nproc123_H.root"
+MCFM_PATH = "/afs/cern.ch/user/t/tcarnaha/public/for_John/" #/afs/cern.ch/user/t/tcarnaha/public/MCFM_SampleGen/JHUGen_ggH/MCFM-JHUGen/LHEreader/LatinoTreesLHE/HWW_LHE_ggH_rootfiles/"
+SIG_FILE_NAME = "ggH_123_H.root" #"HWW_tb_lord_NNPDF30_125_nproc123_H.root"
 CONT_FILE_NAME = "ggWWbx_lord_NNPDF30_125_nproc127_C.root"
 SIGplusCONT_FILE_NAME = "ggWW4l_lord_NNPDF30__125_nproc126__H+C.root"
 
-MCFM_SIG_FILE = uproot.open(MCFM_PATH + CONT_FILE_NAME)
+MCFM_SIG_FILE = uproot.open(MCFM_PATH + SIG_FILE_NAME)
 
 wgt_mcfm = MCFM_SIG_FILE["tree/evtWeight"].array()
 mww_mcfm = MCFM_SIG_FILE["tree/mww"].array()
@@ -125,11 +125,13 @@ for i in range(0, len(wgt_mcfm)):
         muon_nu_vec.SetPtEtaPhiM(pt_v1[i], eta_v1[i], phi_v1[i], m_v1[i])
     else:
         continue
+
     if(abs(ele_vec.Eta()) > 2.5 or abs(muon_vec.Eta()) > 2.4):
         continue
 
     if(ele_vec.Pt() < 20 or  muon_vec.Pt() < 20):
         continue
+
 
     ll_vec = ele_vec + muon_vec
     WW_vec = W1_vec + W2_vec
@@ -179,7 +181,7 @@ for i in range(0, len(wgt_mcfm)):
         ele_pt_onshell.append(ele_c_pt)
         ele_eta_onshell.append(ele_vec.Eta())
 
-OUTFILE = uproot.recreate("./MCFM_validation_plots_specialSelection_shellSplit_CONT.root")
+OUTFILE = uproot.recreate("./MCFM_validation_plots_specialSelection_shellSplit_SIG.root")
 
 mww_hist = np.histogram(m_ww, 100, (0,1000),  weights=wgts)
 mll_hist = np.histogram(mll, 100, (0,1000),  weights=wgts)

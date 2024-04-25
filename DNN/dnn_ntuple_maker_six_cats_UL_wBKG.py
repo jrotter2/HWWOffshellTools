@@ -17,18 +17,18 @@ import random
 
 MAX_EVENTS_PER_CATEGORY = 1000000
 
-OUTFILE = uproot3.recreate("/eos/user/j/jrotter/HWW_DNN_Ntuples/HWW_DNN_Ntuple_v7_six_cats_UL.root")
+OUTFILE = uproot3.recreate("/eos/user/j/jrotter/HWW_DNN_Ntuples/HWW_DNN_Ntuple_v8_six_cats_UL_wBKG.root")
 # FILE VERSIONING:
 # v1 -> {"mll","dphill","detall","ptll","drll","pt1","pt2","mth","mjj","detajj","dphijj","PuppiMET_pt","dphillmet","mcollWW"}
 
 
 CATEGORIES = ["VBF", "ggH", "top", "WW"] #Titles for categories
-ENCODING = {"UL_VBF_OFF" : [1,0,0,0,0,0], "UL_VBF_ON" : [0,1,0,0,0,0], "UL_ggH_OFF" : [0,0,1,0,0,0], "UL_ggH_ON" : [0,0,0,1,0,0], "UL_top": [0,0,0,0,1,0], "UL_WW":[0,0,0,0,0,1]}
+ENCODING = {"UL_VBF_OFF" : [1,0,0,0,0,0,0], "UL_VBF_ON" : [0,1,0,0,0,0,0], "UL_ggH_OFF" : [0,0,1,0,0,0,0], "UL_ggH_ON" : [0,0,0,1,0,0,0], "UL_top": [0,0,0,0,1,0,0], "UL_WW":[0,0,0,0,0,1,0], "UL_VBF_BKG":[0,0,0,0,0,0,1]}
 
-CAT_CONFIG_IDS = ["UL_VBF_OFF", "UL_VBF_ON", "UL_ggH_OFF", "UL_ggH_ON", "UL_top", "UL_WW"]
+CAT_CONFIG_IDS = ["UL_VBF_OFF", "UL_VBF_ON", "UL_ggH_OFF", "UL_ggH_ON", "UL_top", "UL_WW", "UL_VBF_BKG"]
 
 
-INPUT_VARS = ["mll","dphill","detall","ptll","drll","Lepton_pt0","Lepton_pt1","mth","mjj","detajj","dphijj","PuppiMET_pt","dphillmet","mcollWW", "qgl0", "qgl1","btag0", "btag1"]
+INPUT_VARS = ["mll","dphill","detall","ptll","drll","Lepton_pt0","Lepton_pt1","Lepton_eta0","Lepton_eta1","Lepton_phi0","Lepton_phi1","mth","mjj","detajj","dphijj","PuppiMET_pt","dphillmet","mcollWW", "qgl0", "qgl1","btag0", "btag1","jet_eta0", "jet_eta1"]
 
 INPUT_VAR_INDEX = {}
 for i, var in enumerate(INPUT_VARS):
@@ -89,10 +89,15 @@ def loadVariables():
     print("Started Loading Variables...")
     X = {}
     W = {}
+
     for category in CAT_CONFIG_IDS:
-        print("Category: " + category + " with " + str(len(CONFIG[category]["subpaths"])) + " Subcategories...")
         X[category] = []
         W[category] = []
+
+    for category in CAT_CONFIG_IDS:
+        if(category is "UL_VBF_BKG"):
+            continue
+        print("Category: " + category + " with " + str(len(CONFIG[category]["subpaths"])) + " Subcategories...")
         basepath = CONFIG[category]["basepath"]
 
         max_events_per_subcategory = MAX_EVENTS_PER_CATEGORY / len(CONFIG[category]["subpaths"])
@@ -113,11 +118,17 @@ def loadVariables():
                 nEvents_for_file = min(nEvents, max_events_per_subcategory - current_nEvents_per_subcategory)           
 
                 full_wgts = np.ones(nEvents_for_file)
+                full_wgts_v2 = np.ones(nEvents_for_file)
                 
                 for wgt in weights:
                    # if(wgt == "XSWeight"): ## REMOVING SO ALL CATEGORIES ARE EQUALLY TRAINED
                    #     continue
                     full_wgts = np.multiply(rootFile["Events/" + wgt].array()[:nEvents_for_file], full_wgts)
+                    if("UL_VBF" in category):
+                        if("p_Gen_JJEW_SIG_ghv1_1_MCFM" in wgt):
+                            full_wgts_v2 = np.multiply(rootFile["Events/p_Gen_JJEW_BKG_MCFM"].array()[:nEvents_for_file], full_wgts)
+                        else:
+                            full_wgts_v2 = np.multiply(rootFile["Events/" + wgt].array()[:nEvents_for_file], full_wgts)
 
                 input_vars = []
                 for i, var_name in enumerate(INPUT_VARS):
@@ -153,6 +164,22 @@ def loadVariables():
                             print("CleanJet_jetIdx was out-of-bounds for Jet_qgl Collection...")
                             Jet_qgl = np.array([evt[CleanJet_jetIdx[evt_index]] if len(evt)>CleanJet_jetIdx[evt_index] else -3 for evt_index,evt in enumerate(rootFile["Events/Jet_qgl"].array()[:nEvents_for_file])])
                             input_vars.append(Jet_qgl)
+                    elif("jet_eta" in var_name):
+                        var = var_name[:-1]
+                        var_index =int(var_name[-1:])
+                        CleanJet_jetIdx = np.zeros(nEvents_for_file)
+                        try:
+                            CleanJet_jetIdx = np.array(rootFile["Events/" + "CleanJet_jetIdx"].array()[:nEvents_for_file, var_index])
+                        except:
+                            CleanJet_jetIdx = np.array([evt[var_index] if len(evt)>var_index else 0 for evt in rootFile["Events/" + "CleanJet_jetIdx"].array()[:nEvents_for_file]])
+
+                        try:
+                            Jet_eta = rootFile["Events/Jet_eta"].array()[:nEvents_for_file]
+                            input_vars.append(np.array(Jet_eta[np.indices(CleanJet_jetIdx.shape)[0], CleanJet_jetIdx]))
+                        except:
+                            print("CleanJet_jetIdx was out-of-bounds for Jet_qgl Collection...")
+                            Jet_eta = np.array([evt[CleanJet_jetIdx[evt_index]] if len(evt)>CleanJet_jetIdx[evt_index] else -3 for evt_index,evt in enumerate(rootFile["Events/Jet_eta"].array()[:nEvents_for_file])])
+                            input_vars.append(Jet_eta)
                     elif(any(chr.isdigit() for chr in var_name)):
                         var = var_name[:-1]
                         var_index =int(var_name[-1:])
@@ -197,6 +224,18 @@ def loadVariables():
                     if(evt_mask[i]):
                         if(CleanJet_pt[i][0] > 30 and CleanJet_pt[i][1] > 30):
                             W[category].append(wgt)
+
+
+                if("UL_VBF" in category):
+                    for i, arr in enumerate(x_evt):
+                        if(evt_mask[i]):
+                            if(CleanJet_pt[i][0] > 30 and CleanJet_pt[i][1] > 30):
+                                X["UL_VBF_BKG"].append(arr)
+                    for i, wgt in enumerate(full_wgts_v2):
+                        if(evt_mask[i]):
+                            if(CleanJet_pt[i][0] > 30 and CleanJet_pt[i][1] > 30):
+                                W["UL_VBF_BKG"].append(wgt)
+
                 current_nEvents_per_subcategory = current_nEvents_per_subcategory + nEvents_added # nEvents_for_file
     return X, W
 
